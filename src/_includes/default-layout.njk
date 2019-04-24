@@ -32,13 +32,13 @@
 <body class="{{title}}">
 
     <header class="header">
-        <a href="/">
+        <a href="/" aria-label="Home Page">
             <img class="logo" src="/assets/vermont-code-camp-logo-light.svg" alt="logo" />
         </a>
         <ul class="nav-buttons">
-            <li><a href="/speak" class='code {{ "active" if "/speak/" in page.url }}'>Speak();</a></li>
-            <li><a href="/sponsor" class='code {{ "active" if "/sponsor/" in page.url }}'>Sponsor();</a></li>
-            <li><a href="https://www.vtcodecamp.org/" class="code" >Archives();</a></li>
+            <li><a href="/speak" class='code {{ "active" if "/speak/" in page.url }}'>Speak<span class="hide-xs">();</span></a></li>
+            <li><a href="/sponsor" class='code {{ "active" if "/sponsor/" in page.url }}'>Sponsor<span class="hide-xs">();</span></a></li>
+            <li><a href="https://www.vtcodecamp.org/" class="code" >Archives<span class="hide-xs">();</span></a></li>
         </ul>
     </header>
 
@@ -52,9 +52,9 @@
 
     <footer class="footer">
         <div>
-            <span class="copywrite">&copy; Vermont Code Camp 2019 </span>
-            <a href="https://twitter.com/VTCodeCamp" ><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/vtcodecamp/2019.vtcodecamp.org" ><i class="fab fa-github"></i></a>
+            <span class="copyright">&copy; Vermont Code Camp 2019 </span>
+            <a href="https://twitter.com/VTCodeCamp" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/vtcodecamp/2019.vtcodecamp.org" aria-label="Github Respository"><i class="fab fa-github"></i></a>
         </div>
         <ul class="nav-links">
             <li><a href="/conduct" class='{{ "active" if "/conduct/" in page.url }}'>Conduct</a></li>

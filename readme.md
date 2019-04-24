@@ -62,3 +62,4 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [nunjucks - inline if expression](https://mozilla.github.io/nunjucks/templating.html#if-expression)
 * [a11y - language codes](https://www.w3schools.com/tags/ref_language_codes.asp)
 * [a11y - link names](https://dequeuniversity.com/rules/axe/3.2/link-name)
+* [a11y - semantic vs decorative icons](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
