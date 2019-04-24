@@ -96,3 +96,24 @@ ul.nav-buttons a:focus {
 .footer .fab {
     margin: 0px 5px;
 }
+.no-break {
+    white-space: nowrap;
+}
+
+@media (max-width: 435px) {
+    ul.nav-buttons a {
+        margin: 0px 3px;
+    }
+    .nav-links li {
+        margin: 0px 10px;
+    }
+    
+}
+@media (max-width: 400px) {
+    .hide-xs {
+        display: none;
+    }
+    .nav-links li {
+        margin: 0px 5px;
+    }
+}
