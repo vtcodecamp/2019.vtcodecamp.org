@@ -1,10 +1,37 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ef1b18a7-e5fd-4cb6-aa6e-f37a9a87369b/deploy-status)](https://app.netlify.com/sites/vt-code/deploys)
-
 # VT Code Camp 2019 Website
 
-Built with the [11ty/Eleventy](https://www.11ty.io) & [netlify](https://app.netlify.com/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef1b18a7-e5fd-4cb6-aa6e-f37a9a87369b/deploy-status)](https://app.netlify.com/sites/vt-code/deploys)
 
-## Dev Environment Setup
+Currently deployed to https://vt-code.netlify.com/
+
+
+## Built With
+
+* [11ty/Eleventy](https://www.11ty.io) - static site generation
+* [nunjucks](https://mozilla.github.io/nunjucks/) - templating
+* [netlify](https://app.netlify.com/) - building / hosting
+
+## File Structure
+
+```bash
+2019.vtcodecamp
+├── node_modules/         # created by npm install
+├── _site/                # built site output
+├── package.json          # lists npm modules, package, and scripts
+├── .eleventy.js          # config information for 11ty
+├── .gitignore
+├── readme.md
+└── src
+    ├── _data             # data directory for 11ty (json + js)
+    ├── _includes         # template directory for 11ty
+    ├── assets            # static assests to build into site
+    │   ├── images.jpg
+    │   └── styles.css
+    ├── pages.md          # any pages will be built into html
+    └── index.md
+```
+
+## Project Setup
 
 * Install Node.js & NPM
 * Run `npm install` in the project directory to install local dependencies
@@ -14,24 +41,16 @@ Built with the [11ty/Eleventy](https://www.11ty.io) & [netlify](https://app.netl
 
 ## NPM Scripts
 
-Explanation of the available npm scripts for this project
 
-### build
+```bash
+$ npm run build   # runs `npx eleventy` to build the site
+$ npm run serve   # builds site + serves `_site` dirrectory
+```
 
-`npm run build`
 
-This runs the command `npx eleventy` to build the site into the docs 
-directory.  The docs directory is used for deployment to github pages.
-
-### serve
-
-`npm run serve`
-
-This runs the command `npx eleventy --serve` which builds the site, then 
-continues to watch and rebuild the site when file changes are detected. 
-It also runs a local webserver and makes the site available at 
-[localhost:8080](http://localhost:8080)
-
-### Resources
+## Resources
 
 * [11ty - Config Input Directory](https://www.11ty.io/docs/config/#input-directory)
+* [11ty - YAML Front Matter](https://www.11ty.io/docs/data-frontmatter/)
+* [netlify - TOML](https://www.netlify.com/docs/netlify-toml-reference/)
+* [vs code - Workspace recommended extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions)
