@@ -9,7 +9,7 @@ WCAX visited during the day. Co-organizer, Rob Hale, was interviewed about the e
 
 While we keep our budget trim, we can’t pull off VT Code Camp without the financial support of our sponsors. Sponsorship opportunities typically include:
 
-* Feed us: sponsor breakfast, lunch or afternoon snacks
+* **Feed us**: sponsor breakfast, lunch or afternoon snacks
 * Fund us: enable us to cover our expenses for printing and other materials
 * Educate us: send books, mags, training to raffle
 * Simplify our lives: send your great software to raffle
