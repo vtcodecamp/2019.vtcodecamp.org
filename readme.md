@@ -49,6 +49,7 @@ npm run serve   # builds site + serves `_site` dirrectory
 ## Resources
 
 * [11ty - Config Input Directory](https://www.11ty.io/docs/config/#input-directory)
+* [11ty - addPassthroughCopy](https://www.11ty.io/docs/copy/)
 * [11ty - YAML Front Matter](https://www.11ty.io/docs/data-frontmatter/)
 * [11ty - available data values](https://www.11ty.io/docs/data/)
 * [11ty - permalinks](https://www.11ty.io/docs/permalinks/)
