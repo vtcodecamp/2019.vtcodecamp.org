@@ -64,10 +64,14 @@ ul.nav li a {
     border-radius: 4px;
     text-decoration: none;
     color: white;
+    background: hsl(198, 80%, 50%);
     transition: background .5s ease, color .5s ease;
 }
 ul.nav li a:hover {
     background: hsla(198, 80%, 41%, 1);
+}
+ul.nav a.active {
+    background: hsla(198, 80%, 42%, 1);
 }
 ul.nav li a:focus {
     border-color: hsla(198, 80%, 92%, 1);

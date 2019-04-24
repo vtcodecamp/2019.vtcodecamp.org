@@ -50,5 +50,8 @@ npm run serve   # builds site + serves `_site` dirrectory
 
 * [11ty - Config Input Directory](https://www.11ty.io/docs/config/#input-directory)
 * [11ty - YAML Front Matter](https://www.11ty.io/docs/data-frontmatter/)
+* [11ty - available data values](https://www.11ty.io/docs/data/)
 * [netlify - TOML](https://www.netlify.com/docs/netlify-toml-reference/)
 * [vs code - Workspace recommended extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions)
+* [nunjucks - check if variable in string](https://github.com/mozilla/nunjucks/issues/676)
+* [nunjucks - inline if expression](https://mozilla.github.io/nunjucks/templating.html#if-expression)

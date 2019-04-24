@@ -35,16 +35,14 @@
             <img class="logo" src="/assets/vermont-code-camp-logo-light.svg" />
         </a>
         <ul class="nav">
-            <li><a href="/speak">Speak</a></li>
-            <li><a href="/sponsor">Sponsor</a></li>
-            {# <li><a href="/sessions">Sessions</a></li> #}
+            <li><a href="/speak" class='{{ "active" if "/speak/" in page.url }}'>Speak</a></li>
+            <li><a href="/sponsor" class='{{ "active" if "/sponsor/" in page.url }}'>Sponsor</a></li>
             <li><a href="https://www.vtcodecamp.org/">Past Years</a></li>
         </ul>
     </header>
 
     <main class="content">
         <h1>{{title}}</h1>
-
 
         {{ content | safe }}
 
@@ -54,9 +52,9 @@
     <footer class="footer">
         &copy; Vermont Code Camp
         <ul class="nav">
-            <li><a href="/conduct">Conduct</a></li>
-            <li><a href="/diversity">Diversity</a></li>
-            <li><a href="/parking">Parking</a></li>
+            <li><a href="/conduct" class='{{ "active" if "/conduct/" in page.url }}'>Conduct</a></li>
+            <li><a href="/diversity" class='{{ "active" if "/diversity/" in page.url }}'>Diversity</a></li>
+            <li><a href="/parking" class='{{ "active" if "/parking/" in page.url }}'>Parking</a></li>
         </ul>
     </footer>
 </body>
