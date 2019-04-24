@@ -24,7 +24,8 @@
     <meta property="twitter:description" content="Vermont Code Camp is a full day event that brings together technology community members, students and professionals from around Vermont and beyond.">
     <meta property="twitter:image" content="/assets/event-sign.jpg">
 
-
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/assets/styles.css">
 </head>
 
@@ -34,10 +35,10 @@
         <a href="/">
             <img class="logo" src="/assets/vermont-code-camp-logo-light.svg" alt="logo" />
         </a>
-        <ul class="nav">
-            <li><a href="/speak" class='{{ "active" if "/speak/" in page.url }}'>Speak</a></li>
-            <li><a href="/sponsor" class='{{ "active" if "/sponsor/" in page.url }}'>Sponsor</a></li>
-            <li><a href="https://www.vtcodecamp.org/">Past Years</a></li>
+        <ul class="nav-buttons">
+            <li><a href="/speak" class='code {{ "active" if "/speak/" in page.url }}'>Speak();</a></li>
+            <li><a href="/sponsor" class='code {{ "active" if "/sponsor/" in page.url }}'>Sponsor();</a></li>
+            <li><a href="https://www.vtcodecamp.org/" class="code" >Archives();</a></li>
         </ul>
     </header>
 
@@ -50,13 +51,15 @@
     </main>
 
     <footer class="footer">
-        &copy; Vermont Code Camp 2019
-        <ul class="nav">
+        <div>
+            <span class="copywrite">&copy; Vermont Code Camp 2019 </span>
+            <a href="https://twitter.com/VTCodeCamp" ><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/vtcodecamp/2019.vtcodecamp.org" ><i class="fab fa-github"></i></a>
+        </div>
+        <ul class="nav-links">
             <li><a href="/conduct" class='{{ "active" if "/conduct/" in page.url }}'>Conduct</a></li>
             <li><a href="/diversity" class='{{ "active" if "/diversity/" in page.url }}'>Diversity</a></li>
             <li><a href="/parking" class='{{ "active" if "/parking/" in page.url }}'>Parking</a></li>
-            <li><a href="https://twitter.com/VTCodeCamp" >@VTCodeCamp</a></li>
-            <li><a href="https://github.com/vtcodecamp/2019.vtcodecamp.org" >Github</a></li>
         </ul>
     </footer>
 </body>
