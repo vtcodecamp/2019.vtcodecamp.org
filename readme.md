@@ -1,8 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef1b18a7-e5fd-4cb6-aa6e-f37a9a87369b/deploy-status)](https://app.netlify.com/sites/vt-code/deploys)
 
 # VT Code Camp 2019 Website
 
-Built with the [11ty/Eleventy](https://www.11ty.io).
-
+Built with the [11ty/Eleventy](https://www.11ty.io) & [netlify](https://app.netlify.com/)
 
 ## Dev Environment Setup
 
@@ -32,3 +32,6 @@ continues to watch and rebuild the site when file changes are detected.
 It also runs a local webserver and makes the site available at 
 [localhost:8080](http://localhost:8080)
 
+### Resources
+
+* [11ty - Config Input Directory](https://www.11ty.io/docs/config/#input-directory)
