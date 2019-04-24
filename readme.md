@@ -4,7 +4,6 @@
 
 Currently deployed to https://vt-code.netlify.com/
 
-
 ## Built With
 
 * [11ty/Eleventy](https://www.11ty.io) - static site generation
@@ -16,19 +15,21 @@ Currently deployed to https://vt-code.netlify.com/
 ```bash
 2019.vtcodecamp
 ├── node_modules/         # created by npm install
+├── .vscode/              # vs code editor configs
 ├── _site/                # built site output
+├── src
+│   ├── _data             # data directory for 11ty (json + js)
+│   ├── _includes         # template directory for 11ty
+│   ├── assets            # static assests to build into site
+│   │   ├── images.jpg
+│   │   └── styles.css
+│   ├── pages.md          # any pages will be built into html
+│   └── index.md
 ├── package.json          # lists npm modules, package, and scripts
 ├── .eleventy.js          # config information for 11ty
-├── .gitignore
-├── readme.md
-└── src
-    ├── _data             # data directory for 11ty (json + js)
-    ├── _includes         # template directory for 11ty
-    ├── assets            # static assests to build into site
-    │   ├── images.jpg
-    │   └── styles.css
-    ├── pages.md          # any pages will be built into html
-    └── index.md
+├── .gitignore            # ignored files in git
+├── netlify.toml          # deploy settings for netlify
+└── readme.md
 ```
 
 ## Project Setup
@@ -38,15 +39,12 @@ Currently deployed to https://vt-code.netlify.com/
 * Run `npm run serve` to run a local dev environment
 * Access dev copy of the site at [localhost:8080](http://localhost:8080)
 
-
 ## NPM Scripts
 
-
 ```bash
-$ npm run build   # runs `npx eleventy` to build the site
-$ npm run serve   # builds site + serves `_site` dirrectory
+npm run build   # runs `npx eleventy` to build the site
+npm run serve   # builds site + serves `_site` dirrectory
 ```
-
 
 ## Resources
 
