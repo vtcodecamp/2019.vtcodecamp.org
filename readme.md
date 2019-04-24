@@ -9,6 +9,8 @@ Currently deployed to https://vt-code.netlify.com/
 * [11ty/Eleventy](https://www.11ty.io) - static site generation
 * [nunjucks](https://mozilla.github.io/nunjucks/) - templating
 * [netlify](https://app.netlify.com/) - building / hosting
+* [google fonts](https://fonts.google.com/?category=Monospace&selection.family=Inconsolata|PT+Sans|Ubuntu+Mono)
+* [fontawesome icons](https://fontawesome.com/icons)
 
 ## File Structure
 
@@ -63,3 +65,4 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [a11y - language codes](https://www.w3schools.com/tags/ref_language_codes.asp)
 * [a11y - link names](https://dequeuniversity.com/rules/axe/3.2/link-name)
 * [a11y - semantic vs decorative icons](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
+* [compatability - box-shadow](https://caniuse.com/#feat=css-boxshadow)

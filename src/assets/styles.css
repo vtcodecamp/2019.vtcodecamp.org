@@ -40,6 +40,7 @@ main {
     padding-top: 1rem;
     max-width: 700px;
     font-size: 1.1em;
+    line-height: 1.5em;
     background: white;
 }
 
@@ -94,6 +95,20 @@ ul.nav-buttons a:focus {
     display: inline-block;
     margin: 0px 15px;
 }
+
+.content a {
+    border-bottom: 3px solid hsl(198, 80%, 86%);
+    box-shadow: inset 0 -4px 0 hsl(198, 80%, 86%);
+    text-decoration: none;
+    transition: background .25s ease;
+    color: black
+}
+.content a:hover {
+   color: black;
+   background: hsl(198, 80%, 86%);
+}
+
+
 
 .code {
     font-family: 'Inconsolata', monospace;
