@@ -7,7 +7,7 @@ html, body {
 body {
     min-height: 100%;
     font-family: sans-serif;
-
+    background: hsl(198, 21%, 96%);
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 100%;
@@ -22,26 +22,26 @@ h2, h3 {
 }
 
 header.header {
-    background: hsl(198, 80%, 50%);
+    background: hsl(198, 80%, 36%);
     text-align: center;
     font-size: 1.2em;
     padding: 0.5em;
-    box-shadow: 0px 1px 1px 0px hsla(198, 64%, 13%, 1);
+    border-bottom: 2px solid hsl(198, 64%, 13%);
 }
 
 main {
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 2rem;
-    margin-top: 0;
     padding-top: 1rem;
     max-width: 700px;
     font-size: 1.1em;
+    background: white;
 }
 
 
 
 footer.footer {
-    background: hsla(198, 70%, 14%, 1);
+    background: hsl(198, 65%, 12%);
     color: white;
     text-align: center;
     padding: 1em;
@@ -67,19 +67,19 @@ ul.nav a {
     transition: background .5s ease;
 }
 .footer ul.nav a {
-    background: hsla(198, 70%, 14%, 1);
+    background: hsl(198, 70%, 14%);
 }
 ul.nav a {
-    background: hsl(198, 80%, 50%);
+    background: hsl(198, 80%, 36%);
 }
 ul.nav a:hover {
-    background: hsla(198, 80%, 41%, 1);
+    background: hsl(198, 80%, 33%);
 }
 ul.nav a.active {
-    background: hsla(198, 80%, 42%, 1);
+    background: hsl(198, 80%, 28%);
 }
 ul.nav a:focus {
-    border-color: hsla(198, 80%, 92%, 1);
-    background: hsla(198, 80%, 56%, 1);
+    border-color: hsl(198, 100%, 60%);
+    background: hsl(198, 80%, 28%);
     outline: none;
 }

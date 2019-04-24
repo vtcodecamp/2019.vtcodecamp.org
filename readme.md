@@ -58,3 +58,5 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [vs code - Workspace recommended extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions)
 * [nunjucks - check if variable in string](https://github.com/mozilla/nunjucks/issues/676)
 * [nunjucks - inline if expression](https://mozilla.github.io/nunjucks/templating.html#if-expression)
+* [a11y - language codes](https://www.w3schools.com/tags/ref_language_codes.asp)
+* [a11y - link names](https://dequeuniversity.com/rules/axe/3.2/link-name)
