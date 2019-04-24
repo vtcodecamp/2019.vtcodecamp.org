@@ -56,7 +56,7 @@ ul.nav li {
     display: inline-block;
 }
 
-ul.nav li a {
+ul.nav a {
     display: inline-block;
     padding: 5px 10px;
     margin: 0px 10px;
@@ -64,16 +64,21 @@ ul.nav li a {
     border-radius: 4px;
     text-decoration: none;
     color: white;
-    background: hsl(198, 80%, 50%);
-    transition: background .5s ease, color .5s ease;
+    transition: background .5s ease;
 }
-ul.nav li a:hover {
+.footer ul.nav a {
+    background: hsla(198, 70%, 14%, 1);
+}
+ul.nav a {
+    background: hsl(198, 80%, 50%);
+}
+ul.nav a:hover {
     background: hsla(198, 80%, 41%, 1);
 }
 ul.nav a.active {
     background: hsla(198, 80%, 42%, 1);
 }
-ul.nav li a:focus {
+ul.nav a:focus {
     border-color: hsla(198, 80%, 92%, 1);
     background: hsla(198, 80%, 56%, 1);
     outline: none;
