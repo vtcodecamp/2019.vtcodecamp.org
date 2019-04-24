@@ -20,6 +20,7 @@ h2, h3 {
 
 .logo {
     max-width: 500px;
+    margin-top: 1em;
 }
 
 header.header {
@@ -28,6 +29,9 @@ header.header {
     font-size: 1.2em;
     padding: 0.5em;
     border-bottom: 2px solid hsl(198, 64%, 13%);
+
+    position: sticky;
+    top: -115px;
 }
 
 main {
@@ -53,6 +57,7 @@ ul.nav-buttons,
 ul.nav-links {
     list-style: none;
     padding: 0;
+    margin: 1em;
 }
 
 ul.nav-buttons li {
