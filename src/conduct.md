@@ -1,4 +1,8 @@
-# Code of Conduct
+---
+layout: default-layout.njk
+title:  "Code of Conduct"
+---
+
 
 ## 1. Purpose
 

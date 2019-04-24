@@ -17,21 +17,28 @@ h2, h3 {
     margin-top: 4rem;
 }
 
-nav {
-
-}
-
-main {
-    margin: 2rem auto;
-    padding: 2rem;
-    max-width: 700px;
+.logo {
+    max-width: 500px;
 }
 
 header.header {
     background: hsl(198, 80%, 50%);
     text-align: center;
     font-size: 1.2em;
+    padding: 0.5em;
+    box-shadow: 0px 1px 1px 0px hsla(198, 64%, 13%, 1);
 }
+
+main {
+    margin: 2rem auto;
+    padding: 2rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    max-width: 700px;
+    font-size: 1.1em;
+}
+
+
 
 footer.footer {
     background: hsla(198, 70%, 14%, 1);
@@ -60,9 +67,10 @@ ul.nav li a {
     transition: background .5s ease, color .5s ease;
 }
 ul.nav li a:hover {
-    background: hsl(198, 80%, 50%);
-    color: white;
+    background: hsla(198, 80%, 41%, 1);
 }
 ul.nav li a:focus {
-    border-color: hsl(198, 80%, 50%);
+    border-color: hsla(198, 80%, 92%, 1);
+    background: hsla(198, 80%, 56%, 1);
+    outline: none;
 }

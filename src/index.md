@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title:  "Home"
+title:  "About the Event"
 ---
 
 

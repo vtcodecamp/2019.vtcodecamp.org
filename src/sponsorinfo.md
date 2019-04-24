@@ -1,3 +1,8 @@
+---
+layout: default-layout.njk
+title:  "Sponsor Info"
+---
+
 ![VTCC Logo](https://github.com/vtcodecamp/documents/blob/master/logos/vermont-code-camp-logo-dark.svg)
 
 # Vermont Code Camp 2018<br/>Sponsor Information  

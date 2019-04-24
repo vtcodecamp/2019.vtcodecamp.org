@@ -31,7 +31,9 @@
 <body class="{{title}}">
 
     <header class="header">
-        
+        <a href="/">
+            <img class="logo" src="/assets/vermont-code-camp-logo-light.svg" />
+        </a>
         <ul class="nav">
             <li><a href="/speak">Speak</a></li>
             <li><a href="/sponsor">Sponsor</a></li>
@@ -46,16 +48,15 @@
 
         {{ content | safe }}
 
-        
+
     </main>
 
     <footer class="footer">
         &copy; Vermont Code Camp
         <ul class="nav">
-            <li><a href="/speak">Speak</a></li>
-            <li><a href="/sponsor">Sponsor</a></li>
-            {# <li><a href="/sessions">Sessions</a></li> #}
-            <li><a href="https://www.vtcodecamp.org/">Past Years</a></li>
+            <li><a href="/conduct">Conduct</a></li>
+            <li><a href="/diversity">Diversity</a></li>
+            <li><a href="/parking">Parking</a></li>
         </ul>
     </footer>
 </body>
