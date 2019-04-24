@@ -11,4 +11,4 @@ For speakers or sponsors who may need to load or unload equipment, you are welco
 
 The Vermont Code Camp registration and welcome will take place in the Champlain Room located on the 3rd floor of the CCM Building.
 
-![alt text](./cc_parking_map_20180719.png "Champlain College Campus Map")
+![Champlain College Campus Map](/assets/cc_parking_map_20180719.png)

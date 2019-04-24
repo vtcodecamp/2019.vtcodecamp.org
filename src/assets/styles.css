@@ -38,7 +38,9 @@ main {
     background: white;
 }
 
-
+main img {
+    max-width: 100%;
+}
 
 footer.footer {
     background: hsl(198, 65%, 12%);
