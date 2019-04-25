@@ -56,6 +56,7 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [11ty - available data values](https://www.11ty.io/docs/data/)
 * [11ty - permalinks](https://www.11ty.io/docs/permalinks/)
 * [11ty - inline css](https://www.11ty.io/docs/quicktips/inline-css/)
+* [11ty - 404 page](https://www.11ty.io/docs/quicktips/not-found/)
 * [netlify - TOML](https://www.netlify.com/docs/netlify-toml-reference/)
 * [netlify - Build](https://www.netlify.com/products/build/)
 * [netlify - Dev](https://www.netlify.com/products/dev/)
