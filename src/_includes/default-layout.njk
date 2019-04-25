@@ -46,12 +46,20 @@
     </header>
 
     <main class="content">
-        <h1>{{title}}</h1>
+        <div class="main" >
+            <h1>{{title}}</h1>
 
-        {{ content | safe }}
-
-
+            {{ content | safe }}
+        </div>
+        <aside class="twitter">
+            <a class="twitter-timeline" href="https://twitter.com/VTCodeCamp?ref_src=twsrc%5Etfw"
+               data-dnt="true" data-link-color="#2B7BB9">Tweets by VTCodeCamp</a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
     </main>
+
+
+
 
     <footer class="footer">
         <div class="copy-line">
