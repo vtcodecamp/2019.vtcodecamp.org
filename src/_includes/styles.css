@@ -112,7 +112,7 @@ footer a svg {
 }
 
 footer a {
-    color: hsl(198, 82%, 40%);
+    color: hsl(198, 82%, 32%);
     text-decoration: none;
 }
 footer a:hover {
@@ -126,6 +126,7 @@ footer a svg {
 .nav-links li {
     display: inline-block;
     margin: 0px 15px;
+    font-size: 1.1em;
 }
 
 .content a {

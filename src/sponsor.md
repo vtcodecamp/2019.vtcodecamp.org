@@ -5,7 +5,8 @@ title:  "Sponsor VT Code Camp 2019"
 
 <div class="landing-image">
     <svg xmlns="http://www.w3.org/2000/svg"  
-            xmlns:xlink="http://www.w3.org/1999/xlink">
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         aria-label="Woman expressing big thanks">
         <use xlink:href="/assets/undraw-sprites.svg#super-thank-you"></use>
     </svg>
 </div>
