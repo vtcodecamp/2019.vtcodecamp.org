@@ -3,9 +3,12 @@ layout: default-layout.njk
 title:  "Sponsor VT Code Camp 2019"
 ---
 
-<div class="img-md"></div>
-
-![sponsor](/assets/undraw_super_thank_you_obwk.png)
+<div class="landing-image">
+    <svg xmlns="http://www.w3.org/2000/svg"  
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="/assets/undraw-sprites.svg#super-thank-you"></use>
+    </svg>
+</div>
 
 Vermont Code Camp is free event for attendees and organized entirely by community volunteers, with the help of our sponsors. Our 2017 event drew 250 attendees. We had 7 session slots throughout the day with 5 sessions running at any one time. You can see last year’s schedule here.
 

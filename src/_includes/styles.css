@@ -57,11 +57,10 @@ main {
 main img {
     max-width: 100%;
 }
-.img-md + p img {
-    max-width: 50%;
-}
-.img-md + p {
-    text-align: center;
+
+.landing-image svg {
+    width: 100%;
+    height: 225px;
 }
 
 footer.footer {
@@ -183,6 +182,7 @@ footer a svg {
     .nav-links li {
         margin: 0px 5px;
     }
+
     
 }
 
