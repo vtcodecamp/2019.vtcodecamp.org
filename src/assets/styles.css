@@ -141,20 +141,15 @@ footer a .fab {
     white-space: nowrap;
 }
 
-@media (max-width: 435px) {
+@media (max-width: 500px) {
     ul.nav-buttons a {
         margin: 0px 3px;
     }
-    .nav-links li {
-        margin: 0px 10px;
-    }
-    
-}
-@media (max-width: 400px) {
     .hide-xs {
         display: none;
     }
     .nav-links li {
         margin: 0px 5px;
     }
+    
 }
