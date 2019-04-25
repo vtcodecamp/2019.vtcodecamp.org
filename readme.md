@@ -9,8 +9,9 @@ Currently deployed to https://vt-code.netlify.com/
 * [11ty/Eleventy](https://www.11ty.io) - static site generation
 * [nunjucks](https://mozilla.github.io/nunjucks/) - templating
 * [netlify](https://app.netlify.com/) - building / hosting
-* [google fonts](https://fonts.google.com/?category=Monospace&selection.family=Inconsolata|PT+Sans|Ubuntu+Mono)
-* [fontawesome icons](https://fontawesome.com/icons)
+* [google fonts](https://fonts.google.com/?category=Monospace&selection.family=Inconsolata|PT+Sans|Ubuntu+Mono) - fonts
+* [fontawesome icons](https://fontawesome.com/icons) - svg icons
+* [unDraw](https://undraw.co/illustrations) -- illustrations
 
 ## File Structure
 
@@ -50,7 +51,7 @@ npm run serve   # builds site + serves `_site` dirrectory
 
 ## Resources
 
-* [11ty - Config Input Directory](https://www.11ty.io/docs/config/#input-directory)
+* [11ty - config input directory](https://www.11ty.io/docs/config/#input-directory)
 * [11ty - addPassthroughCopy](https://www.11ty.io/docs/copy/)
 * [11ty - YAML Front Matter](https://www.11ty.io/docs/data-frontmatter/)
 * [11ty - available data values](https://www.11ty.io/docs/data/)
@@ -67,6 +68,7 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [a11y - language codes](https://www.w3schools.com/tags/ref_language_codes.asp)
 * [a11y - link names](https://dequeuniversity.com/rules/axe/3.2/link-name)
 * [a11y - semantic vs decorative icons](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
+* [html - metatags](https://metatags.io/)
 * [compatability - box-shadow](https://caniuse.com/#feat=css-boxshadow)
 * [fa - download](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
 * [fa - sprites](https://fontawesome.com/how-to-use/on-the-web/advanced/svg-sprites)
