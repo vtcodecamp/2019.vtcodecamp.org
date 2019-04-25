@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: 'PT Sans', sans-serif;
+    color: hsl(198, 3%, 8%);
 }
 
 body {
@@ -91,6 +92,18 @@ ul.nav-buttons a:focus {
     outline: none;
 }
 
+footer a {
+    color: hsl(198, 82%, 40%);
+    text-decoration: none;
+}
+footer a:hover {
+    color: hsl(198, 82%, 55%);
+    text-decoration: underline;
+}
+footer a .fab {
+    color: hsl(198, 3%, 8%);
+}
+
 .nav-links li {
     display: inline-block;
     margin: 0px 15px;
@@ -113,9 +126,17 @@ ul.nav-buttons a:focus {
 .code {
     font-family: 'Inconsolata', monospace;
 }
+
 .footer .fab {
     margin: 0px 5px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: background .5s ease;
 }
+.footer .fab:hover {
+    background: hsla(198, 57%, 78%, 1);
+}
+
 .no-break {
     white-space: nowrap;
 }
