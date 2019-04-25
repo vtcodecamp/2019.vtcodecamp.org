@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "VT Code Camp 2019 website",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "clean-css": "^4.2.1"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.2"
   },

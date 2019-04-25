@@ -26,7 +26,11 @@
 
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% set css %}{% include "styles.css" %}{% endset %}
+    <!-- feed it through our cssmin filter to minify -->
+    <style type="text/css">{{ css | cssmin | safe }}</style>
 </head>
 
 <body class="{{title}}">
