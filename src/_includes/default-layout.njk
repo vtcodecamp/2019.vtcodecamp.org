@@ -25,7 +25,6 @@
     <meta property="twitter:image" content="/assets/event-sign.jpg">
 
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Inconsolata" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous">
 
     <!-- capture the CSS content as a Nunjucks variable -->
     {% set css %}{% include "styles.css" %}{% endset %}
@@ -55,11 +54,19 @@
     </main>
 
     <footer class="footer">
-        <div>
+        <div class="copy-line">
             <span class="copyright">&copy; Vermont Code Camp 2019 </span>
-            <span class="no-break">
-                <a href="https://twitter.com/VTCodeCamp" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/vtcodecamp/2019.vtcodecamp.org" aria-label="Github Respository"><i class="fab fa-github"></i></a>
+            <span class="d-flex">
+                <a href="https://twitter.com/VTCodeCamp" aria-label="Follow us on Twitter">
+                    <svg>
+                        <use xlink:href="/assets/fa-sprites.svg#twitter"></use>
+                    </svg>
+                </a>
+                <a href="https://github.com/vtcodecamp/2019.vtcodecamp.org" aria-label="Github Respository">
+                    <svg>
+                        <use xlink:href="/assets/fa-sprites.svg#github"></use>
+                    </svg>
+                </a>
             </span>
         </div>
         <ul class="nav-links">

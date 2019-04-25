@@ -68,3 +68,5 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [a11y - link names](https://dequeuniversity.com/rules/axe/3.2/link-name)
 * [a11y - semantic vs decorative icons](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
 * [compatability - box-shadow](https://caniuse.com/#feat=css-boxshadow)
+* [fa - download](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
+* [fa - sprites](https://fontawesome.com/how-to-use/on-the-web/advanced/svg-sprites)
