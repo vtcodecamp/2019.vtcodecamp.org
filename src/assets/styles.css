@@ -142,6 +142,10 @@ footer a .fab {
 }
 
 @media (max-width: 500px) {
+    header.header {
+        top: 0;
+        position: relative;
+    }
     ul.nav-buttons a {
         margin: 0px 3px;
     }
@@ -152,4 +156,10 @@ footer a .fab {
         margin: 0px 5px;
     }
     
+}
+
+.text-large {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: hsl(198, 80%, 49%);
 }
