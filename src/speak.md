@@ -3,6 +3,7 @@ layout: default-layout.njk
 title:  "Speak at VT Code Camp 2019"
 ---
 
+<div class="img-md"></div>
 
 ![speaker](/assets/undraw_candidate_ubwv.png)
 

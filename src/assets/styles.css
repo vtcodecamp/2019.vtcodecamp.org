@@ -15,6 +15,11 @@ body {
     grid-template-columns: 100%;
 }
 
+h1 {
+    border-bottom: 4px solid #d7d700;
+    display: inline-block;
+}
+
 h2, h3 {
     margin-top: 4rem;
 }
@@ -47,6 +52,12 @@ main {
 
 main img {
     max-width: 100%;
+}
+.img-md + p img {
+    max-width: 50%;
+}
+.img-md + p {
+    text-align: center;
 }
 
 footer.footer {
