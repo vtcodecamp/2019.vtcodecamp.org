@@ -67,6 +67,7 @@ footer.footer {
     background: hsl(198, 15%, 91%);
     text-align: center;
     padding: 1em;
+    font-size: 1.1em;
 }
 
 ul.nav-buttons,
@@ -106,6 +107,45 @@ ul.nav-buttons a:focus {
     outline: none;
 }
 
+.content > .main > a {
+    border-bottom: 3px solid hsl(198, 80%, 86%);
+    box-shadow: inset 0 -4px 0 hsl(198, 80%, 86%);
+    text-decoration: none;
+    transition: background .25s ease;
+    color: black
+}
+.content a:hover {
+   color: black;
+   background: hsl(198, 80%, 86%);
+}
+.twitter-timeline {
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    color: hsl(198, 82%, 25%);
+    text-align: center;
+}
+
+.content a.cta {
+    display: inline-block;
+    box-shadow: none;
+    border: 1px solid #d4d400;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    background: hsl(198, 80%, 36%);
+    color: white;
+}
+.content a.cta:hover {
+    background: hsl(198, 80%, 33%);
+}
+.content a.cta.active {
+    background: hsl(198, 80%, 28%);
+}
+
+
 footer a svg {
     height: 22px;
     width: 22px;
@@ -126,20 +166,39 @@ footer a svg {
 .nav-links li {
     display: inline-block;
     margin: 0px 15px;
-    font-size: 1.1em;
 }
 
-.content a {
-    border-bottom: 3px solid hsl(198, 80%, 86%);
-    box-shadow: inset 0 -4px 0 hsl(198, 80%, 86%);
-    text-decoration: none;
-    transition: background .25s ease;
-    color: black
+
+.content {
+    display: flex;
+    
 }
-.content a:hover {
-   color: black;
-   background: hsl(198, 80%, 86%);
+.twitter {
+    width: 160px;
 }
+.twitter iframe {
+    height: 100% !important;
+}
+
+
+
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column;
+        
+    }
+    .twitter {
+        width: 100%;
+        max-height: 500px
+    }
+    .twitter iframe {
+        width: 100%;
+        max-height: 500px !important;
+    }
+}
+
+
+
 
 .copy-line {
     display: flex;

@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" > 
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
     <!-- Primary Meta Tags -->
     <title>Vermont Code Camp | {{title}}</title>
@@ -46,12 +46,20 @@
     </header>
 
     <main class="content">
-        <h1>{{title}}</h1>
+        <div class="main" >
+            <h1>{{title}}</h1>
 
-        {{ content | safe }}
-
-
+            {{ content | safe }}
+        </div>
+        <aside class="twitter">
+            <a class="twitter-timeline" href="https://twitter.com/VTCodeCamp?ref_src=twsrc%5Etfw"
+               data-dnt="true" data-link-color="#2B7BB9">Tweets by @VTCodeCamp</a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
     </main>
+
+
+
 
     <footer class="footer">
         <div class="copy-line">
