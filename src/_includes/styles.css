@@ -2,6 +2,13 @@
     --primary-color: #1595D3;
 }
 
+
+/*  A better box sizing default so we don't lose our sanity */
+/*  https://css-tricks.com/box-sizing/#article-header-id-3 */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 html, body {
     width: 100%;
     margin: 0;
