@@ -25,6 +25,13 @@ body {
     grid-template-columns: 100%;
 }
 
+/*  Restrict content containers to 100% viewport width and hide overflow
+    so content that is accidentally too wide won't cause horizontal scrolling of the whole page. */
+header, main, footer {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h1 {
     border-bottom: 4px solid #d7d700;
     display: inline-block;
@@ -54,7 +61,7 @@ main {
     margin: 0 auto;
     padding: 2rem;
     padding-top: 1rem;
-    max-width: 700px;
+    width: 700px;
     font-size: 1.1em;
     line-height: 1.5em;
     background: white;
