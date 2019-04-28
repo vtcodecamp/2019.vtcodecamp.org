@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title:  "About the Event"
+title:  "Vermont Code Camp 11"
 homepage: true
 ---
 
@@ -10,9 +10,14 @@ homepage: true
 # {{title}}
 
 <div class="text-large">
-    On Saturday, September 28, 2019 <br/>
-    at Champlain College, Burlington, VT
+    Saturday, Sept. 28, 2019 <br/>
+    Champlain College, Burlington, VT
 </div>
+<figure class="landing-image">
+    <!-- <img src="/assets/event-sign.jpg" alt="A sign reading 'Vermont Code Campe' with a building in the background"/> -->
+    <img src="/assets/vtcc10-welcome.jpg" alt="The three organizers welcoming attendees to Vermont Code Camp 10"/>
+    <figcaption> Photo credit: Kyle Mitofsky </figcaption>
+</figure>
 
 The upcoming 11th annual Vermont Code Camp will be held on Saturday, September 28, 2019 in Burlington, Vermont.
 
