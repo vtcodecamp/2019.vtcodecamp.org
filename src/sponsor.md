@@ -3,6 +3,10 @@ layout: default-layout.njk
 title:  "Sponsor VT Code Camp 2019"
 ---
 
+<section class="main" >
+
+# {{title}}
+
 <div class="landing-image">
     <svg xmlns="http://www.w3.org/2000/svg"  
          xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -27,3 +31,5 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 * **Simplify our lives**: send your great software to raffle
 * **Promote us**: give us advertising space
 * **Entertain us**: sponsor the after party for speakers and volunteers
+
+</section>

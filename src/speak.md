@@ -4,6 +4,10 @@ title:  "Speak at VT Code Camp 2019"
 ---
 
 
+<section class="main" >
+
+# {{title}}
+
 <div class="landing-image">
     <svg xmlns="http://www.w3.org/2000/svg"  
          xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,3 +29,4 @@ Possible topics include .NET, PHP, Ruby, Python, Java&hellip;really, anything re
 
 Sessions are typically 30 minutes to 1 hour in duration, including time for questions. Feel free to submit one or several session proposals.
 
+</section>

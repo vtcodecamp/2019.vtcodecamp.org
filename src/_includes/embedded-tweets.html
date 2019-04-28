@@ -1,0 +1,38 @@
+
+<div id="tweet-container" class="embedded-tweets"></div>
+
+<script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+    let tweets = [
+        '1101986121041498113', //VTCodeCamp
+        '1041026386377486336', //MalinaKirn
+        '1057626199239868416', //bhoblin
+        '1101265245056716800', //VTCodeCamp
+        '1053587150757945344', //VTCodeCamp
+        
+        '1041030382228004865', //davekopec
+        '1045101432234487808', //VTCodeCamp
+        '1041336710192418817', //FlorenceFong8
+        '1041146235229560832', //tchen
+        '1042379420974178305', //VTCodeCamp
+        
+    ];
+    let tweetContainer = document.getElementById('tweet-container');
+    tweets.forEach( function (tweetId) {
+        twttr.widgets.createTweet(tweetId, tweetContainer, {
+            cards: 'hidden',
+            width: '520',
+            align: 'center',
+        }).then( function (tweet) {
+                let style = tweet.shadowRoot.firstElementChild;
+                let css = document.createTextNode(`
+                    .EmbeddedTweet .CallToAction {display: none;}
+                    .SandboxRoot .EmbeddedTweet {
+                        box-shadow: 0 0 20px rgba(225, 232, 237, 0.8);
+                    } 
+                `);
+                style.appendChild(css);
+            });
+    });
+</script>
+
