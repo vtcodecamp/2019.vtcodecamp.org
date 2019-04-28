@@ -4,6 +4,7 @@ title:  "Diversity Statement"
 ---
 
 <section class="main" >
+<div class="section-content">
 
 # {{title}}
 
@@ -26,4 +27,5 @@ We value diversity in the communities we bring together, and we welcome your con
 
 The above Conference Diversity statement is licensed by O'Reilly Media, Inc. under the Creative Commons Attribution 3.0 United States License: [Creative Commons 3.0](http://creativecommons.org/licenses/by/3.0/us/). Based on the [UX Burlington](http://uxburlington.com/) [Diversity Statement](http://uxburlington.com/diversity/).
 
+</div>
 </section>

@@ -4,6 +4,7 @@ title:  "Code of Conduct"
 ---
 
 <section class="main" >
+<div class="section-content">
 
 # {{title}}
 
@@ -91,4 +92,5 @@ This Code of Conduct is distributed under a [Creative Commons Attribution-ShareA
 
 Based on the [UX Burlington](http://uxburlington.com/) [Code of Conduct](http://uxburlington.com/conduct/), which was adapted from the [Citizen Code of Conduct](http://citizencodeofconduct.org/), [Pycon Attendee Procedure for incident handling](https://github.com/python/pycon-code-of-conduct/blob/master/Attendee%20Procedure%20for%20incident%20handling.md) and [Pycon Staff Procedure for incident handling](https://github.com/python/pycon-code-of-conduct/blob/master/Staff%20Procedure%20for%20incident%20handling.md) on 16 February 2014.
 
+</div>
 </section>

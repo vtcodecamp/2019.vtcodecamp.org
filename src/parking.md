@@ -4,6 +4,7 @@ title:  "Champlain College Parking Information"
 ---
 
 <section class="main" >
+<div class="section-content">
 
 # {{title}}
 
@@ -17,4 +18,5 @@ The Vermont Code Camp registration and welcome will take place in the Champlain 
 
 ![Champlain College Campus Map](/assets/cc_parking_map_20180719.png)
 
+</div>
 </section>
