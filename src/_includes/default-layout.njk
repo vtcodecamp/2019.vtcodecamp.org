@@ -39,26 +39,17 @@
             <img class="logo" src="/assets/vermont-code-camp-logo-light.svg" alt="logo" />
         </a>
         <ul class="nav-buttons">
+            <li><a href="/" class='code {{ "active" if homepage }}'>Attend<span class="hide-xs">();</span></a></li>
             <li><a href="/speak" class='code {{ "active" if "/speak/" in page.url }}'>Speak<span class="hide-xs">();</span></a></li>
             <li><a href="/sponsor" class='code {{ "active" if "/sponsor/" in page.url }}'>Sponsor<span class="hide-xs">();</span></a></li>
-            <li><a href="https://www.vtcodecamp.org/" class="code" ><span class="hide-xs">Get</span>History<span class="hide-xs">();</span></a></li>
-        </ul>
+           
     </header>
 
     <main class="content">
-        <div class="main" >
-            <h1>{{title}}</h1>
-
-            {{ content | safe }}
-        </div>
-        <aside class="twitter">
-            <a class="twitter-timeline" href="https://twitter.com/VTCodeCamp?ref_src=twsrc%5Etfw"
-               data-dnt="true" data-link-color="#2B7BB9">Tweets by @VTCodeCamp</a> 
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </aside>
+        
+        {{ content | safe }}
+    
     </main>
-
-
 
 
     <footer class="footer">

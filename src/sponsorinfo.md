@@ -3,6 +3,9 @@ layout: default-layout.njk
 title:  "Sponsor Info"
 ---
 
+<section class="main">
+<div class="section-content">
+
 ![VTCC Logo](https://github.com/vtcodecamp/documents/blob/master/logos/vermont-code-camp-logo-dark.svg)
 
 # Vermont Code Camp 2018<br/>Sponsor Information  
@@ -47,3 +50,7 @@ With respect to swag, we can arrange someone to relay it the week of the event o
 Thank you for your interest and support.
 
  Rob Hale and Julie Lerman on behalf of the Vermont Code Camp team
+
+<div>
+</section>
+
