@@ -35,11 +35,11 @@
 <body class="{{title}}">
 
     <header class="header">
-        <a href="/" aria-label="Home Page">
-            <img class="logo" src="/assets/vermont-code-camp-logo-light.svg" alt="logo" />
+        <a href="/" aria-label="Home Page" class="logo img-wrap" style="--aspect-ratio:440/80;">
+            <img src="/assets/vermont-code-camp-logo-light.svg" alt="Vermont Code Camp" />
         </a>
         <ul class="nav-buttons">
-            <li><a href="/" class='code {{ "active" if homepage }}'>Attend<span class="hide-xs">();</span></a></li>
+            <li><a href="/" class='code {{ "active" if "/" == page.url }}'>Attend<span class="hide-xs">();</span></a></li>
             <li><a href="/speak" class='code {{ "active" if "/speak/" in page.url }}'>Speak<span class="hide-xs">();</span></a></li>
             <li><a href="/sponsor" class='code {{ "active" if "/sponsor/" in page.url }}'>Sponsor<span class="hide-xs">();</span></a></li>
            
