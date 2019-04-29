@@ -20,7 +20,7 @@ title:  "Speak at VT Code Camp 2019"
 Vermont Code Camp 2019 will need you! Please consider submitting a speaker session proposal. You don't have to be from Vermont to attend or speak. 
 
 <a href="https://sessionize.com/VTCodeCamp/" class="code cta">
-    Sessionize.Submit();
+    Sessionize.Submit<span class="text-muted" aria-hidden="true">();</span>
 </a>
 
 

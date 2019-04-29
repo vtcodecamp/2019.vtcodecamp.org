@@ -310,6 +310,10 @@ footer a svg {
 .code {
     font-family: 'Inconsolata', monospace;
 }
+.text-muted {
+    opacity: 0.6;
+}
+
 
 .footer a svg {
     margin-left: 10px;

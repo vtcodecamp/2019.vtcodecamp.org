@@ -19,7 +19,7 @@ title:  "Sponsor VT Code Camp 2019"
 Vermont Code Camp is free event for attendees and organized entirely by community volunteers, with the help of our sponsors. Our 2017 event drew 250 attendees. We had 7 session slots throughout the day with 5 sessions running at any one time. You can see last year’s schedule here.
 
 <a href="mailto:team@vtcodecamp.org" class="code cta">
-    Coordinators.Contact();
+    Contact Coordinators
 </a>
 
 WCAX visited during the day. Co-organizer, Rob Hale, was interviewed about the event.
