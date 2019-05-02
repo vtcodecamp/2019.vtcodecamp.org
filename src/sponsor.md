@@ -81,7 +81,7 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 * Placement of materials (e.g. job listings, brochures, etc) on brochure table at event  
 * For Platinum and Premier sponsors, placement of free-standing banner or logo or availability of a sponsor table at the event
 * Mention of all sponsors during opening remarks
-* Tweets mentioning designated sponsor twitter account with thanks for sponsorship from the [@VTCodeCamp](twitter.com/vtcodecamp) account (900+ followers) and event organizers (total over 25,000 technical followers)  
+* Tweets mentioning designated sponsor twitter account with thanks for sponsorship from the [@VTCodeCamp](https://twitter.com/vtcodecamp) account (900+ followers) and event organizers (total over 25,000 technical followers)  
 
 With respect to swag, we can arrange someone to relay it the week of the event or you just bring it to the event.
 
