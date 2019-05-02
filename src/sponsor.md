@@ -40,6 +40,25 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 * **Promote us**: give us advertising space
 * **Entertain us**: sponsor the after party for speakers and volunteers
 
+<svg>
+    <use xlink:href="/assets/fa/solid.svg#pizza"></use>
+</svg>
+<svg>
+    <use xlink:href="/assets/fa/solid.svg#donate"></use>
+</svg>
+<svg>
+    <use xlink:href="/assets/fa/solid.svg#books"></use>
+</svg>
+<svg>
+    <use xlink:href="/assets/fa/solid.svg#leaf-heart"></use>
+</svg>
+<svg>
+    <use xlink:href="/assets/fa/solid.svg#retweet"></use>
+</svg>
+<svg>
+    <use xlink:href="/assets/fa/solid.svg#glass-cheers"></use>
+</svg>
+
 
 ## Sponsorship Levels
 
@@ -55,22 +74,31 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 
 
 * Vermont Code Camp is an annual event – its inaugural year was 2009
-* Attendance and participation is strong:
-  * [2017](https://archive.vtcodecamp.org/2017): 250 attendees, 34 sessions, 34 speakers
-  * [2016](https://archive.vtcodecamp.org/2016): 194 attendees, 37 sessions, 35 speakers
-  * [2015](https://archive.vtcodecamp.org/2015): 165 attendees, 32 sessions, 34 speakers
-  * [2014](https://archive.vtcodecamp.org/2014): 165 attendees, 29 sessions, 29 speakers
-  * [2013](https://archive.vtcodecamp.org/2013): 161 attendees, 27 sessions, 27 speakers
-  * [2012](https://archive.vtcodecamp.org/2012): 171 attendees, 29 sessions, 28 speakers
-  * [2011](https://archive.vtcodecamp.org/2011): 158 attendees, 26 sessions, 24 speakers
-  * [2010](https://archive.vtcodecamp.org/2010): 125 attendees, 25 sessions, 23 speakers
-  * 2009: 85 attendees, 19 sessions
 * Covers a wide variety of technology topics including .NET, PHP, Ruby, Python, and Java
 * Entirely community organized, with the help of sponsors
 * Organized primarily by the Vermont.NET User Group with help from other groups including the Burlington, Vermont PHP Users Group
 * Facility in 2017 provided by the Center for Communication and Creative Media at Champlain College;  Facility previously provided by The University of Vermont Grossman School of Business
 * Sponsors have included MyWebGrocer, Green Mountain Coffee Roasters, Microsoft, and Dealer.com
 * Registration is free
+
+####  Attendance and participation is strong:
+
+
+| Year                                        | Attendees | Sessions | Speakers |
+|---------------------------------------------|:---------:|:--------:|:--------:|
+| [2018](https://archive.vtcodecamp.org)      | 230       | 35       | 34       |
+| [2017](https://archive.vtcodecamp.org/2017) | 250       | 34       | 34       |
+| [2016](https://archive.vtcodecamp.org/2016) | 194       | 37       | 35       |
+| [2015](https://archive.vtcodecamp.org/2015) | 165       | 32       | 34       |
+| [2014](https://archive.vtcodecamp.org/2014) | 165       | 29       | 29       |
+| [2013](https://archive.vtcodecamp.org/2013) | 161       | 27       | 27       |
+| [2012](https://archive.vtcodecamp.org/2012) | 171       | 29       | 28       |
+| [2011](https://archive.vtcodecamp.org/2011) | 158       | 26       | 24       |
+| [2010](https://archive.vtcodecamp.org/2010) | 125       | 25       | 23       |
+| 2009                                        | 85        | 19       | -        |
+
+
+<br>
 
 ## Our commitment to sponsors
 
