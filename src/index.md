@@ -40,15 +40,15 @@ The entire day is **free**, including morning coffee & pastries, lunch and after
 
 ## Past Years
 
-* [2018](https://www.vtcodecamp.org)
-* [2017](https://www.vtcodecamp.org/2017)
-* [2016](https://www.vtcodecamp.org/2016)
-* [2015](https://www.vtcodecamp.org/2015)
-* [2014](https://www.vtcodecamp.org/2014)
-* [2013](https://www.vtcodecamp.org/2013)
-* [2012](https://www.vtcodecamp.org/2012)
-* [2011](https://www.vtcodecamp.org/2011)
-* [2010](https://www.vtcodecamp.org/2010)
+* [2018](https://archive.vtcodecamp.org)
+* [2017](https://archive.vtcodecamp.org/2017)
+* [2016](https://archive.vtcodecamp.org/2016)
+* [2015](https://archive.vtcodecamp.org/2015)
+* [2014](https://archive.vtcodecamp.org/2014)
+* [2013](https://archive.vtcodecamp.org/2013)
+* [2012](https://archive.vtcodecamp.org/2012)
+* [2011](https://archive.vtcodecamp.org/2011)
+* [2010](https://archive.vtcodecamp.org/2010)
 
 
 </div>
