@@ -241,7 +241,14 @@ ul.nav-buttons a:focus {
     outline: none;
 }
 
-
+.main table {
+    border-collapse: collapse;
+}
+.main table th,
+.main table td {
+    border:  1px solid grey;
+    padding: 1px 13px;
+}
 
 .content a {
     border-bottom: 2px solid hsl(198, 80%, 86%);

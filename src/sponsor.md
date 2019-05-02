@@ -40,25 +40,6 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 * **Promote us**: give us advertising space
 * **Entertain us**: sponsor the after party for speakers and volunteers
 
-<svg>
-    <use xlink:href="/assets/fa/solid.svg#pizza"></use>
-</svg>
-<svg>
-    <use xlink:href="/assets/fa/solid.svg#donate"></use>
-</svg>
-<svg>
-    <use xlink:href="/assets/fa/solid.svg#books"></use>
-</svg>
-<svg>
-    <use xlink:href="/assets/fa/solid.svg#leaf-heart"></use>
-</svg>
-<svg>
-    <use xlink:href="/assets/fa/solid.svg#retweet"></use>
-</svg>
-<svg>
-    <use xlink:href="/assets/fa/solid.svg#glass-cheers"></use>
-</svg>
-
 
 ## Sponsorship Levels
 
