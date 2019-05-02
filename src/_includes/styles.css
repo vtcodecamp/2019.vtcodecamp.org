@@ -365,3 +365,30 @@ footer a svg {
     font-weight: bold;
     color: hsl(198, 80%, 47%);
 }
+ul.list-icons {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-icons li {
+    display: flex;
+    align-items: center;
+}
+
+.list-icons li > span {
+    padding: 5px 5px
+}
+ul.list-icons li svg {
+    width: 20px;
+    height: 20px;
+}
+
+.list-icons li .title {
+    font-weight: bold;
+    padding-left: 10px
+}
+
+.list-icons li .description {
+    color: #737373;
+    padding-left: 0px;
+}
