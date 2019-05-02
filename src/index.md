@@ -24,7 +24,7 @@ homepage: true
 
 The upcoming 11th annual Vermont Code Camp will be held on Saturday, September 28, 2019 in Burlington, Vermont.
 
-<a href="https://www.meetup.com/VTCode/events/250412515/" class="code cta">
+<a href="https://www.meetup.com/VTCode/events/261093250/" class="code cta">
     Meetup.SignUp<span class="text-muted" aria-hidden="true">();</span>
 </a>
 
