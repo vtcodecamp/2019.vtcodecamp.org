@@ -106,14 +106,17 @@ nav.header {
     border-bottom: 2px solid hsl(198, 64%, 13%);
     display: block;
     z-index: 100;
-    position: sticky;
     position: -webkit-sticky;  /* because Safari is a laggard - 4/2019 */
+    position: sticky;
     top: 0;
     padding: 0.5rem;
+    margin-top: -1px; /* fix sunbeam through the blinds flicker */
+    padding-top: calc(0.5rem + 1px); 
 }
 @media (min-width: 500px) {
     nav.header {
         padding: 0.8rem;
+        padding-top: calc(0.8rem + 1px); /* fix sunbeam through the blinds flicker */
     }
 }
 ul.nav-buttons {
