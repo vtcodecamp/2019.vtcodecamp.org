@@ -367,11 +367,11 @@ footer a svg {
 }
 ul.list-icons {
     list-style: none;
-    padding-left: 0;
 }
 
 .list-icons li {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -381,6 +381,7 @@ ul.list-icons {
 ul.list-icons li svg {
     width: 20px;
     height: 20px;
+    margin-left: -30px;
 }
 
 .list-icons li .title {
@@ -391,4 +392,13 @@ ul.list-icons li svg {
 .list-icons li .description {
     color: #737373;
     padding-left: 0px;
+}
+
+@media (max-width: 700px) {
+    .list-icons li .description {
+        flex: 1 0 100%;
+    }
+    .list-icons li .description {
+        margin-top: -10px;
+    }
 }
