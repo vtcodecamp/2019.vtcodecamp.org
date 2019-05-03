@@ -121,8 +121,7 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 ## Our commitment to sponsors
 
 * Your logo and link on VTCodeCamp.org website under the relevant Sponsorship Section
-* Your logo and link on meetup.com/vtcode website
-* Mention of your sponsorship in multiple emails to meetup’s 2200+ members
+* Mention of your sponsorship in multiple emails to meetup’s 2600+ members
 * Listing in printed materials provided to event attendees
 * Placement of materials (e.g. job listings, brochures, etc) on brochure table at event  
 * For Platinum and Premier sponsors, placement of free-standing banner or logo or availability of a sponsor table at the event
