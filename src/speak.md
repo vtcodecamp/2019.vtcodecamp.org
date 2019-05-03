@@ -19,9 +19,9 @@ title:  "Speak at Vermont Code Camp 11"
 
 Vermont Code Camp 2019 needs you! Please consider submitting a speaker session proposal. You don't have to be from Vermont to attend or speak. 
 
-<a href="https://sessionize.com/vermont-code-camp-2019/" class="code cta">
+<!-- <a href="https://sessionize.com/vermont-code-camp-2019/" class="code cta">
     Sessionize.Submit<span class="text-muted" aria-hidden="true">();</span>
-</a>
+</a> -->
 
 Possible topics include:
 
