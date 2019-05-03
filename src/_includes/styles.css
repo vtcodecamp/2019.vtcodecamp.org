@@ -330,7 +330,9 @@ footer a svg {
 .text-muted {
     opacity: 0.6;
 }
-
+.no-wrap {
+    white-space: pre;
+}
 
 .footer a svg {
     margin-left: 10px;

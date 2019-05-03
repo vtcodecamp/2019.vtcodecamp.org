@@ -16,7 +16,7 @@ title:  "Be a Sponsor for VT Code Camp 2019"
     </svg>
 </div>
 
-### The 11th annual Vermont Code Camp will be held on September 28, 2019 in Burlington, Vermont.  
+### The 11th annual Vermont Code Camp will be held on <span class="no-wrap">September 28, 2019</span> in Burlington, Vermont.  
 
 This full day event will bring together technology community members, students and professionals from around Vermont and beyond. A wide variety of software technologies will be represented. Session topics typically range from software development (e.g. languages, tools, practices, databases, web development, etc.) to the business of software and technology (e.g. entrepreneurship, consulting, team dynamics, etc.).
 
