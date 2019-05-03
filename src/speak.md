@@ -23,7 +23,21 @@ Vermont Code Camp 2019 needs you! Please consider submitting a speaker session p
     Sessionize.Submit<span class="text-muted" aria-hidden="true">();</span>
 </a>
 
-Possible topics include .NET, PHP, Ruby, Python, Java&hellip; really, anything related to development.
+Possible topics include:
+
+* .NET
+* PHP
+* Ruby
+* Python
+* Java
+* Data
+* Security
+* Patterns & Practices
+* DevOps
+* Professional Skills
+* Community Development
+* &hellip; really, anything related to development.
+
 
 Sessions are either 30 or 60 minutes in duration, including time for questions. Feel free to submit one or several session proposals.
 
