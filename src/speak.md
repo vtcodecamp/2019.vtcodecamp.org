@@ -9,12 +9,8 @@ title:  "Speak at Vermont Code Camp 11"
 
 # {{title}}
 
-<div class="landing-image">
-    <svg xmlns="http://www.w3.org/2000/svg"  
-         xmlns:xlink="http://www.w3.org/1999/xlink"
-         aria-label="Woman at a podium">
-        <use xlink:href="/assets/undraw-sprites.svg#candidate"></use>
-    </svg>
+<div class="landing-image" aria-label="Woman at a podium" >
+    {% include assets/undraw/undraw_candidate.svg %}
 </div>
 
 Vermont Code Camp 2019 needs you! Please consider submitting a speaker session proposal. You don't have to be from Vermont to attend or speak. 

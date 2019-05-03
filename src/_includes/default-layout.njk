@@ -39,7 +39,8 @@
 
     <header class="header">
         <a href="/" aria-label="Home Page" class="logo img-wrap" style="--aspect-ratio:440/80;">
-            <img src="/assets/vermont-code-camp-logo-light.svg" alt="Vermont Code Camp" />
+            {% include "assets/logo/vermont-code-camp-logo-light.svg" %}
+            {# <img src="/assets/vermont-code-camp-logo-light.svg" alt="Vermont Code Camp" /> #}
         </a>
     </header>
     <nav class="header">
@@ -62,14 +63,10 @@
             <span class="copyright">&copy; Vermont Code Camp 2019 </span>
             <span class="d-flex">
                 <a href="https://twitter.com/VTCodeCamp" aria-label="Follow us on Twitter">
-                    <svg>
-                        <use xlink:href="/assets/fa-sprites.svg#twitter"></use>
-                    </svg>
+                    {% include "assets/fa/twitter.svg" %}
                 </a>
                 <a href="https://github.com/vtcodecamp/2019.vtcodecamp.org" aria-label="Github Respository">
-                    <svg>
-                        <use xlink:href="/assets/fa-sprites.svg#github"></use>
-                    </svg>
+                    {% include "assets/fa/github.svg" %}
                 </a>
             </span>
         </div>
