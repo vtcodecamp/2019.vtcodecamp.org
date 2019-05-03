@@ -15,12 +15,10 @@ homepage: true
 </div>
 
 <figure class="landing-image">
-    <!-- <img src="/assets/event-sign.jpg" alt="A sign reading 'Vermont Code Campe' with a building in the background"/> -->
-    <div class="img-wrap img-wrap-bg" style="--aspect-ratio:1185/590;">
-        <img src="/assets/vtcc-event.jpeg" width="1185"
+    <div class="img-wrap img-wrap-bg" style="--aspect-ratio:1200/649;">
+        <img src="/assets/vtcc-event-1200px-optim.jpg" width="1200"
              alt="Opening Session talk given at Vermont Code Camp 10"/>
     </div>
-    <figcaption> Photo credit: Kyle Mitofsky </figcaption>
 </figure>
 
 The upcoming 11th annual Vermont Code Camp will be held on Saturday, September 28, 2019 in Burlington, Vermont.
