@@ -9,7 +9,7 @@ title:  "Be a Sponsor for Vermont Code Camp 11"
 # {{title}}
 
 <div class="landing-image" aria-label="Woman expressing big thanks" >
-    {% include assets/undraw/undraw_super_thank_you.svg %}
+    {% include assets/undraw/undraw_super_thank_you_optim.svg %}
 </div>
 
 
