@@ -1,6 +1,7 @@
 ---
 layout: default-layout.njk
 title:  "Sponsor Vermont Code Camp 11"
+meta_description: We can’t pull off VT Code Camp without the financial support of our sponsors.
 ---
 
 <section class="main" >

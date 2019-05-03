@@ -1,7 +1,7 @@
 ---
 layout: default-layout.njk
 title:  "Attend Vermont Code Camp 11"
-homepage: true
+meta_description: Vermont Code Camp is a full day event that brings together technology community members, students and professionals from around Vermont and beyond.
 ---
 
 <section class="main">

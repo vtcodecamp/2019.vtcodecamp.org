@@ -1,6 +1,7 @@
 ---
 layout: default-layout.njk
 title:  "Code of Conduct"
+meta_description: This code of conduct outlines our expectations for all those who participate in our event, as well as the consequences for unacceptable behavior.
 ---
 
 <section class="main" >
