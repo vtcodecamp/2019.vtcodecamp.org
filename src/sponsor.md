@@ -8,13 +8,10 @@ title:  "Be a Sponsor for Vermont Code Camp 11"
 
 # {{title}}
 
-<div class="landing-image">
-    <svg xmlns="http://www.w3.org/2000/svg"  
-         xmlns:xlink="http://www.w3.org/1999/xlink"
-         aria-label="Woman expressing big thanks">
-        <use xlink:href="/assets/undraw-sprites.svg#super-thank-you"></use>
-    </svg>
+<div class="landing-image" aria-label="Woman expressing big thanks" >
+    {% include assets/undraw/undraw_super_thank_you_optim.svg %}
 </div>
+
 
 ### The 11th annual Vermont Code Camp will be held on <span class="no-wrap">September 28, 2019</span> in Burlington, Vermont.  
 
@@ -34,44 +31,32 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 
 <ul class="list-icons">
   <li>
-    <svg>
-      <use xlink:href="/assets/fa/solid.svg#pizza-slice"></use>
-    </svg>
+    {% include assets/fa/pizza-slice.svg %}
     <span class="title">Feed us</span>
     <span class="description">sponsor breakfast, lunch or afternoon snacks</span>
   </li>
   <li>
-    <svg>
-      <use xlink:href="/assets/fa/solid.svg#donate"></use>
-    </svg>
+    {% include assets/fa/donate.svg %}
     <span class="title">Fund us</span>
     <span class="description">enable us to cover our expenses for printing and other materials</span>
   </li>
   <li>
-    <svg>
-      <use xlink:href="/assets/fa/solid.svg#books"></use>
-    </svg>
+    {% include assets/fa/books.svg %}
     <span class="title">Educate us</span>
     <span class="description">send books, mags, training to raffle</span>
   </li>
   <li>
-    <svg>
-      <use xlink:href="/assets/fa/solid.svg#leaf-heart"></use>
-    </svg>
+     {% include assets/fa/leaf-heart.svg %}
     <span class="title">Simplify us</span>
     <span class="description">send your great software to raffle</span>
   </li>
   <li>
-    <svg>
-      <use xlink:href="/assets/fa/solid.svg#retweet"></use>
-    </svg>
+    {% include assets/fa/retweet.svg %}
     <span class="title">Promote us</span>
     <span class="description">give us advertising space</span>
   </li>
   <li>
-    <svg>
-      <use xlink:href="/assets/fa/solid.svg#glass-cheers"></use>
-    </svg>
+    {% include assets/fa/glass-cheers.svg %}
     <span class="title">Entertain us</span>
     <span class="description">sponsor the after party for speakers and volunteers</span>
   <li>

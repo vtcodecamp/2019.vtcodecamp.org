@@ -39,14 +39,15 @@
 
     <header class="header">
         <a href="/" aria-label="Home Page" class="logo img-wrap" style="--aspect-ratio:440/80;">
-            <img src="/assets/vermont-code-camp-logo-light.svg" alt="Vermont Code Camp" />
+            {% include "assets/logo/vermont-code-camp-logo-light.svg" %}
+            {# <img src="/assets/vermont-code-camp-logo-light.svg" alt="Vermont Code Camp" /> #}
         </a>
     </header>
     <nav class="header">
         <ul class="nav-buttons">
             <li><a href="/" class='code {{ "active" if "/" == page.url }}'>Attend<span class="hide-xs text-muted" aria-hidden="true">();</span></a></li>
-            <li><a href="/speak" class='code {{ "active" if "/speak/" in page.url }}'>Speak<span class="hide-xs text-muted" aria-hidden="true">();</span></a></li>
-            <li><a href="/sponsor" class='code {{ "active" if "/sponsor/" in page.url }}'>Sponsor<span class="hide-xs text-muted" aria-hidden="true">();</span></a></li>
+            <li><a href="/speak/" class='code {{ "active" if "/speak/" in page.url }}'>Speak<span class="hide-xs text-muted" aria-hidden="true">();</span></a></li>
+            <li><a href="/sponsor/" class='code {{ "active" if "/sponsor/" in page.url }}'>Sponsor<span class="hide-xs text-muted" aria-hidden="true">();</span></a></li>
         </ul>
     </nav>
 
@@ -62,21 +63,17 @@
             <span class="copyright">&copy; Vermont Code Camp 2019 </span>
             <span class="d-flex">
                 <a href="https://twitter.com/VTCodeCamp" aria-label="Follow us on Twitter">
-                    <svg>
-                        <use xlink:href="/assets/fa-sprites.svg#twitter"></use>
-                    </svg>
+                    {% include "assets/fa/twitter.svg" %}
                 </a>
                 <a href="https://github.com/vtcodecamp/2019.vtcodecamp.org" aria-label="Github Respository">
-                    <svg>
-                        <use xlink:href="/assets/fa-sprites.svg#github"></use>
-                    </svg>
+                    {% include "assets/fa/github.svg" %}
                 </a>
             </span>
         </div>
         <ul class="nav-links">
-            <li><a href="/conduct" class='{{ "active" if "/conduct/" in page.url }}'>Conduct</a></li>
-            <li><a href="/diversity" class='{{ "active" if "/diversity/" in page.url }}'>Diversity</a></li>
-            <li><a href="/parking" class='{{ "active" if "/parking/" in page.url }}'>Parking</a></li>
+            <li><a href="/conduct/" class='{{ "active" if "/conduct/" in page.url }}'>Conduct</a></li>
+            <li><a href="/diversity/" class='{{ "active" if "/diversity/" in page.url }}'>Diversity</a></li>
+            <li><a href="/parking/" class='{{ "active" if "/parking/" in page.url }}'>Parking</a></li>
         </ul>
     </footer>
 </body>

@@ -74,3 +74,6 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [compatability - box-shadow](https://caniuse.com/#feat=css-boxshadow)
 * [fa - download](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
 * [fa - sprites](https://fontawesome.com/how-to-use/on-the-web/advanced/svg-sprites)
+* [svg omg - svg optimizer](https://jakearchibald.github.io/svgomg/)
+* [squoosh - image optimizer](https://squoosh.app/)
+
