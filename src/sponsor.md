@@ -80,11 +80,11 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 
 ## Sponsorship Levels
 
-* **Premier**: $1,000+ or significant in-kind donation
-* **Platinum**: $750+
-* **Gold**: $500+
-* **Silver**: $250+
-* **Bronze**: $100+
+* **Premier**: $1,000 or significant in-kind donation
+* **Platinum**: $750
+* **Gold**: $500
+* **Silver**: $250
+* **Bronze**: $100
 * **Swag**: Give-away items (e.g. books, bags, items to put in attendee bags, software licenses, other raffle items, etc.)  
 
 
