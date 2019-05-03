@@ -1,6 +1,7 @@
 ---
 layout: default-layout.njk
 title:  "Diversity Statement"
+meta_description: Our goal is to create an inclusive, respectful event environment that invites participation from people of all races, ethnicities, gender identities or expressions, ages, abilities, religions (or lack thereof), sexual orientations, and educational levels.
 ---
 
 <section class="main" >
