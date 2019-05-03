@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title:  "Be a Sponsor for VT Code Camp 2019"
+title:  "Be a Sponsor for Vermont Code Camp 11"
 ---
 
 <section class="main" >
@@ -16,7 +16,7 @@ title:  "Be a Sponsor for VT Code Camp 2019"
     </svg>
 </div>
 
-### The 11th annual Vermont Code Camp will be held on September 28, 2019 in Burlington, Vermont.  
+### The 11th annual Vermont Code Camp will be held on <span class="no-wrap">September 28, 2019</span> in Burlington, Vermont.  
 
 This full day event will bring together technology community members, students and professionals from around Vermont and beyond. A wide variety of software technologies will be represented. Session topics typically range from software development (e.g. languages, tools, practices, databases, web development, etc.) to the business of software and technology (e.g. entrepreneurship, consulting, team dynamics, etc.).
 
@@ -26,28 +26,64 @@ This full day event will bring together technology community members, students a
 
 Vermont Code Camp is free event for attendees and organized entirely by community volunteers, with the help of our sponsors. 
 
-Our 2017 event drew 250 attendees. We had 7 session slots throughout the day with 5 sessions running at any one time. You can see [last year’s schedule here](https://archive.vtcodecamp.org).
+2017 was the first year we hit a milestone of 250 attendees. With 5 rooms and a creative schedule, we are able to present 35 sessions throughout the day. Check out [last year’s schedule](https://archive.vtcodecamp.org).
 
-
-WCAX visited during the day, and Co-organizer, [Rob Hale, was interviewed about the event](http://www.wcax.com/content/news/A-tech-lovers-paradise-445146003.html).
+In 2017, local television station WCAX visited the event and we are very proud of the news item [they produced and shared locally](http://www.wcax.com/content/news/A-tech-lovers-paradise-445146003.html).
 
 While we keep our budget trim, we can’t pull off VT Code Camp without the financial support of our sponsors. Sponsorship opportunities typically include:
 
-* **Feed us**: sponsor breakfast, lunch or afternoon snacks
-* **Fund us**: enable us to cover our expenses for printing and other materials
-* **Educate us**: send books, mags, training to raffle
-* **Simplify our lives**: send your great software to raffle
-* **Promote us**: give us advertising space
-* **Entertain us**: sponsor the after party for speakers and volunteers
-
+<ul class="list-icons">
+  <li>
+    <svg>
+      <use xlink:href="/assets/fa/solid.svg#pizza-slice"></use>
+    </svg>
+    <span class="title">Feed us</span>
+    <span class="description">sponsor breakfast, lunch or afternoon snacks</span>
+  </li>
+  <li>
+    <svg>
+      <use xlink:href="/assets/fa/solid.svg#donate"></use>
+    </svg>
+    <span class="title">Fund us</span>
+    <span class="description">enable us to cover our expenses for printing and other materials</span>
+  </li>
+  <li>
+    <svg>
+      <use xlink:href="/assets/fa/solid.svg#books"></use>
+    </svg>
+    <span class="title">Educate us</span>
+    <span class="description">send books, mags, training to raffle</span>
+  </li>
+  <li>
+    <svg>
+      <use xlink:href="/assets/fa/solid.svg#leaf-heart"></use>
+    </svg>
+    <span class="title">Simplify us</span>
+    <span class="description">send your great software to raffle</span>
+  </li>
+  <li>
+    <svg>
+      <use xlink:href="/assets/fa/solid.svg#retweet"></use>
+    </svg>
+    <span class="title">Promote us</span>
+    <span class="description">give us advertising space</span>
+  </li>
+  <li>
+    <svg>
+      <use xlink:href="/assets/fa/solid.svg#glass-cheers"></use>
+    </svg>
+    <span class="title">Entertain us</span>
+    <span class="description">sponsor the after party for speakers and volunteers</span>
+  <li>
+</ul>
 
 ## Sponsorship Levels
 
-* **Premier**: $1,000+ or significant in-kind donation
-* **Platinum**: $750+
-* **Gold**: $500+
-* **Silver**: $250+
-* **Bronze**: $100+
+* **Premier**: $1,000 or significant in-kind donation
+* **Platinum**: $750
+* **Gold**: $500
+* **Silver**: $250
+* **Bronze**: $100
 * **Swag**: Give-away items (e.g. books, bags, items to put in attendee bags, software licenses, other raffle items, etc.)  
 
 
@@ -55,12 +91,12 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 
 
 * Vermont Code Camp is an annual event – its inaugural year was 2009
-* Covers a wide variety of technology topics including .NET, PHP, Ruby, Python, and Java
+* Covers a wide variety of technology topics including .NET, PHP, Ruby, Python, Jave, Data, Security, Patterns & Practices, DevOps, Professional Skills, Community Development, any all things development
 * Entirely community organized, with the help of sponsors
-* Organized primarily by the Vermont.NET User Group with help from other groups including the Burlington, Vermont PHP Users Group
-* Facility in 2017 provided by the Center for Communication and Creative Media at Champlain College;  Facility previously provided by The University of Vermont Grossman School of Business
-* Sponsors have included MyWebGrocer, Green Mountain Coffee Roasters, Microsoft, and Dealer.com
-* Registration is free
+* Hosted by the *Center for Communication and Creative Media at Champlain College* since 2017 and previously the *The University of Vermont Grossman School of Business*
+* Facility since 2017 provided by the Center for Communication and Creative Media at Champlain College;  Facility previously provided by The University of Vermont Grossman School of Business
+* We've been fortunate to have sponsorship from many of our amazing local businesses as well as international software companies like Microsoft and IBM
+* Registration is **free**
 
 ####  Attendance and participation is strong:
 
@@ -76,7 +112,7 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 | [2012](https://archive.vtcodecamp.org/2012) | 171       | 29       | 28       |
 | [2011](https://archive.vtcodecamp.org/2011) | 158       | 26       | 24       |
 | [2010](https://archive.vtcodecamp.org/2010) | 125       | 25       | 23       |
-| 2009                                        | 85        | 19       | -        |
+| 2009                                        | 85        | 19       | 19       |
 
 
 <br>
@@ -84,13 +120,12 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 ## Our commitment to sponsors
 
 * Your logo and link on VTCodeCamp.org website under the relevant Sponsorship Section
-* Your logo and link on meetup.com/vtcode website
-* Mention of your sponsorship in multiple emails to meetup’s 2200+ members
+* Mention of your sponsorship in multiple emails to meetup’s 2600+ members
 * Listing in printed materials provided to event attendees
 * Placement of materials (e.g. job listings, brochures, etc) on brochure table at event  
 * For Platinum and Premier sponsors, placement of free-standing banner or logo or availability of a sponsor table at the event
 * Mention of all sponsors during opening remarks
-* Tweets mentioning designated sponsor twitter account with thanks for sponsorship from the [@VTCodeCamp](https://twitter.com/vtcodecamp) account (900+ followers) and event organizers (total over 25,000 technical followers)  
+* Tweets mentioning designated sponsor twitter account with thanks for sponsorship from the [@VTCodeCamp](https://twitter.com/vtcodecamp) account (900+ followers) and event organizers (total over 30,000 technical followers)  
 
 With respect to swag, we can arrange someone to relay it the week of the event or you just bring it to the event.
 

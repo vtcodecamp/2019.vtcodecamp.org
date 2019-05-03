@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title:  "Speak at VT Code Camp 2019"
+title:  "Speak at Vermont Code Camp 11"
 ---
 
 
@@ -17,18 +17,31 @@ title:  "Speak at VT Code Camp 2019"
     </svg>
 </div>
 
-Vermont Code Camp 2019 will need you! Please consider submitting a speaker session proposal. You don't have to be from Vermont to attend or speak. 
+Vermont Code Camp 2019 needs you! Please consider submitting a speaker session proposal. You don't have to be from Vermont to attend or speak. 
 
-<a href="https://sessionize.com/vermont-code-camp-2019/" class="code cta">
+<!-- <a href="https://sessionize.com/vermont-code-camp-2019/" class="code cta">
     Sessionize.Submit<span class="text-muted" aria-hidden="true">();</span>
-</a>
+</a> -->
 
+Possible topics include:
 
-Help us with our ongoing work to build a more diverse conference experience by recommending appropriate speakers and/or organizers, and by sharing information about our call for proposals to relevant affinity groups. We welcome recommendations of future speakers and organizers.
+* .NET
+* PHP
+* Ruby
+* Python
+* Java
+* Data
+* Security
+* Patterns & Practices
+* DevOps
+* Professional Skills
+* Community Development
+* &hellip; really, anything related to development.
 
-Possible topics include .NET, PHP, Ruby, Python, Java&hellip; really, anything related to development.
 
 Sessions are either 30 or 60 minutes in duration, including time for questions. Feel free to submit one or several session proposals.
+
+Help us with our ongoing work to build a more diverse conference experience by recommending appropriate speakers and/or organizers, and by sharing information about our call for proposals to relevant affinity groups. We welcome recommendations of future speakers and organizers.
 
 </div>
 </section>

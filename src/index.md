@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title:  "Vermont Code Camp 11"
+title:  "Attend Vermont Code Camp 11"
 homepage: true
 ---
 
@@ -13,11 +13,12 @@ homepage: true
     Saturday, Sept. 28, 2019 <br/>
     Champlain College, Burlington, VT
 </div>
+
 <figure class="landing-image">
     <!-- <img src="/assets/event-sign.jpg" alt="A sign reading 'Vermont Code Campe' with a building in the background"/> -->
     <div class="img-wrap img-wrap-bg" style="--aspect-ratio:1185/590;">
-        <img src="/assets/vtcc10-welcome.jpg" width="1185"
-             alt="The three organizers welcoming attendees to Vermont Code Camp 10"/>
+        <img src="/assets/vtcc-event.jpeg" width="1185"
+             alt="Opening Session talk given at Vermont Code Camp 10"/>
     </div>
     <figcaption> Photo credit: Kyle Mitofsky </figcaption>
 </figure>
