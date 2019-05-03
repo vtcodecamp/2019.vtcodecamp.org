@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title:  "Vermont Code Camp 11"
+title:  "Attend Vermont Code Camp 11"
 homepage: true
 ---
 

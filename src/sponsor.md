@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title:  "Be a Sponsor for VT Code Camp 2019"
+title:  "Be a Sponsor for Vermont Code Camp 11"
 ---
 
 <section class="main" >
