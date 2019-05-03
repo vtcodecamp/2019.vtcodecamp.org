@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title:  "Be a Sponsor for Vermont Code Camp 11"
+title:  "Sponsor Vermont Code Camp 11"
 ---
 
 <section class="main" >
@@ -75,11 +75,10 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 ## Key Facts
 
 
-* Vermont Code Camp is an annual event – its inaugural year was 2009
+* Vermont Code Camp is an annual event started in 2009
 * Covers a wide variety of technology topics including .NET, PHP, Ruby, Python, Jave, Data, Security, Patterns & Practices, DevOps, Professional Skills, Community Development, any all things development
 * Entirely community organized, with the help of sponsors
-* Hosted by the *Center for Communication and Creative Media at Champlain College* since 2017 and previously the *The University of Vermont Grossman School of Business*
-* Facility since 2017 provided by the Center for Communication and Creative Media at Champlain College;  Facility previously provided by The University of Vermont Grossman School of Business
+* Hosted at the *Champlain College Center for Communication and Creative Media* since 2017 and previously at the *The University of Vermont Grossman School of Business*
 * We've been fortunate to have sponsorship from many of our amazing local businesses as well as international software companies like Microsoft and IBM
 * Registration is **free**
 
