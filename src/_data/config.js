@@ -30,6 +30,12 @@ module.exports = {
      */
     baseUrlCanonical: (URL) ? URL : DEFAULT_DEV_URL,
 
+    /**
+     * Meta robots tag 
+     * To prevent search engines indexing deploy preview and branch builds on Netlify
+     */
+    metaRobots: (CONTEXT == 'production') ? 'INDEX,FOLLOW' : 'NOINDEX,NOFOLLOW',
+
 };
 
 

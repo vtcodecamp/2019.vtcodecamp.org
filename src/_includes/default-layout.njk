@@ -5,33 +5,39 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width" > 
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     
-    <!-- Theme color for browser chrome (chrome android) -->
+    {# Theme color for browser chrome (chrome android) #}
     <meta name="theme-color" content="#1279a5">
 
-    <!-- Primary Meta Tags -->
+    {# Primary Meta Tags #}
     <title>{{title}}</title>
     <meta name="title" content="{{title}}">
     <meta name="description" content="{{meta_description}}">
+    <meta name="robots" content="{{config.metaRobots}}">
+    <link rel="canonical" href="{{config.baseUrlCanonical}}{{page.url}}">
+    
 
-    <!-- Open Graph / Facebook -->
+
+    {# Open Graph / Facebook #}
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{config.baseUrl}}{{page.url}}">
     <meta property="og:title" content="{{title}}">
     <meta property="og:description" content="{{meta_description}}">
     <meta property="og:image" content="{{config.baseUrl}}/assets/event-sign.jpg">
 
-    <!-- Twitter -->
+    {# Twitter #}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@vtcodecamp">
     <meta name="twitter:title" content="{{title}}">
     <meta name="twitter:description" content="{{meta_description}}">
     <meta name="twitter:image" content="{{config.baseUrl}}/assets/event-sign.jpg">
 
+    
+
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Inconsolata" rel="stylesheet">
 
-    <!-- capture the CSS content as a Nunjucks variable -->
+    {# capture the CSS content as a Nunjucks variable #}
     {% set css %}{% include "styles.css" %}{% endset %}
-    <!-- feed it through our cssmin filter to minify -->
+    {# feed it through our cssmin filter to minify #}
     <style type="text/css">{{ css | cssmin | safe }}</style>
 </head>
 
