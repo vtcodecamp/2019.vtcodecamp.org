@@ -1,8 +1,11 @@
 # VT Code Camp 2019 Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ef1b18a7-e5fd-4cb6-aa6e-f37a9a87369b/deploy-status)](https://app.netlify.com/sites/vt-code/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef1b18a7-e5fd-4cb6-aa6e-f37a9a87369b/deploy-status)](https://app.netlify.com/sites/vtcodecamp2019/deploys)
 
-Currently deployed to https://vt-code.netlify.com/
+* Production site: https://www.vtcodecamp.com/
+* Deploy Previews: https://https://deploy-preview-{PR#}--vtcodecamp2019.netlify.com/
+* Branch Deploys: https://https://{branch-name}--vtcodecamp2019.netlify.com/
+
 
 ## Built With
 
@@ -59,7 +62,6 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [11ty - inline css](https://www.11ty.io/docs/quicktips/inline-css/)
 * [11ty - 404 page](https://www.11ty.io/docs/quicktips/not-found/)
 * [11ty - environment variables](https://www.11ty.io/docs/data-js/#example%3A-exposing-environment-variables)
-* [npm - dotenv package](https://www.npmjs.com/package/dotenv)
 * [netlify - environment variables](https://www.netlify.com/docs/continuous-deployment/#environment-variables)
 * [netlify - TOML](https://www.netlify.com/docs/netlify-toml-reference/)
 * [netlify - Build](https://www.netlify.com/products/build/)
