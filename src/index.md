@@ -61,7 +61,7 @@ The entire day is **free**, including morning coffee & pastries, lunch and after
 
 Follow [@VTCodeCamp](https://twitter.com/VTCodeCamp) for event updates.
 
-Use the hashtag [#VTCC11](https://twitter.com/search?q=%23VTCC10) when posting about the event.
+Use the hashtag [#VTCC11](https://twitter.com/hashtag/VTCC11) when posting about the event.
 
 </div>
 <div class="section-content section-content-wide">
