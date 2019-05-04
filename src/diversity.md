@@ -17,9 +17,9 @@ This is an ongoing process. We are talking amongst our event organizers, and var
 
 Here are some ways you can help us build a more diverse conference experience:
 
-* Recommend appropriate speakers and/or organizers to the current organizers (see [our call for session proposals](http://vtcodecamp.org/#speak); you may also send an email to [team@vtcodecamp.org](mailto:team@vtcodecamp.org).
+* Recommend appropriate speakers and/or organizers to the current organizers (see [our call for session proposals](/speak/); you may also send an email to [team@vtcodecamp.org](mailto:team@vtcodecamp.org).
 * Forward our call for proposals to relevant affinity groups with the message that we are looking for a diverse speaker roster.
-* Suggest to potential speakers that they submit a proposal during our call for session proposals phase (see [our call for session proposals](http://vtcodecamp.org/#speak) for details).
+* Suggest to potential speakers that they submit a proposal during our call for session proposals phase (see [our call for session proposals](/speak/) for details).
 * Organize community-based public speaking trainings and practice events (Ignite is one popular format).
 * Suggest ways that the onsite event experience can be more welcoming and supportive, free from intimidation and marginalization (send an email to [team@vtcodecamp.org](mailto:team@vtcodecamp.org)).
 * Share your ideas and best practices for how we can realize our vision (send an email to [team@vtcodecamp.org](mailto:team@vtcodecamp.org)).
