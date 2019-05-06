@@ -48,7 +48,7 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
   </li>
   <li>
      {% include assets/fa/leaf-heart.svg %}
-    <span class="title">Simplify us</span>
+    <span class="title">Enable us</span>
     <span class="description">send your great software to raffle</span>
   </li>
   <li>
@@ -60,7 +60,7 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
     {% include assets/fa/glass-cheers.svg %}
     <span class="title">Entertain us</span>
     <span class="description">sponsor the after party for speakers and volunteers</span>
-  <li>
+  </li>
 </ul>
 
 ## Sponsorship Levels
