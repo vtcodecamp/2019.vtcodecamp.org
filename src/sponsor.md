@@ -18,8 +18,8 @@ meta_description: We can’t pull off VT Code Camp without the financial support
 
 This full day event will bring together technology community members, students and professionals from around Vermont and beyond. A wide variety of software technologies will be represented. Session topics typically range from software development (e.g. languages, tools, practices, databases, web development, etc.) to the business of software and technology (e.g. entrepreneurship, consulting, team dynamics, etc.).
 
-<a href="mailto:team@vtcodecamp.org" class="code cta">
-    Contact Coordinators
+<a href="mailto:sponsor@vtcodecamp.org" class="code cta">
+    Contact Sponsorship Team
 </a>
 
 Vermont Code Camp is free event for attendees and organized entirely by community volunteers, with the help of our sponsors. 
