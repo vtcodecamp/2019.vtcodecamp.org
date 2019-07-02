@@ -10,7 +10,7 @@ meta_description: We can’t pull off VT Code Camp without the financial support
 # {{title}}
 
 <div class="landing-image" aria-label="Woman expressing big thanks" >
-    {% include assets/undraw/undraw_super_thank_you_optim.svg %}
+    {% include "assets/undraw/undraw_super_thank_you_optim.svg" %}
 </div>
 
 
@@ -32,32 +32,32 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 
 <ul class="list-icons">
   <li>
-    {% include assets/fa/pizza-slice.svg %}
+    {% include "assets/fa/pizza-slice.svg" %}
     <span class="title">Feed us</span>
     <span class="description">sponsor breakfast, lunch or afternoon snacks</span>
   </li>
   <li>
-    {% include assets/fa/donate.svg %}
+    {% include "assets/fa/donate.svg" %}
     <span class="title">Fund us</span>
     <span class="description">enable us to cover our expenses for printing and other materials</span>
   </li>
   <li>
-    {% include assets/fa/books.svg %}
+    {% include "assets/fa/books.svg" %}
     <span class="title">Educate us</span>
     <span class="description">send books, mags, training to raffle</span>
   </li>
   <li>
-     {% include assets/fa/leaf-heart.svg %}
+     {% include "assets/fa/leaf-heart.svg" %}
     <span class="title">Enable us</span>
     <span class="description">send your great software to raffle</span>
   </li>
   <li>
-    {% include assets/fa/retweet.svg %}
+    {% include "assets/fa/retweet.svg" %}
     <span class="title">Promote us</span>
     <span class="description">give us advertising space</span>
   </li>
   <li>
-    {% include assets/fa/glass-cheers.svg %}
+    {% include "assets/fa/glass-cheers.svg" %}
     <span class="title">Entertain us</span>
     <span class="description">sponsor the after party for speakers and volunteers</span>
   </li>

@@ -11,7 +11,7 @@ meta_description: Vermont Code Camp needs you! Please consider submitting a spea
 # {{title}}
 
 <div class="landing-image" aria-label="Woman at a podium" >
-    {% include assets/undraw/undraw_candidate_optim.svg %}
+    {% include "assets/undraw/undraw_candidate_optim.svg" %}
 </div>
 
 Vermont Code Camp needs you! Please consider submitting a speaker session proposal. You don't have to be from Vermont to attend or speak. 
