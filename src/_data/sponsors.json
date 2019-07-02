@@ -1,0 +1,61 @@
+[{
+    "levelCode": "premier",
+    "levelName": "Premier Sponsors",
+    "sponsors": [
+        {
+            "name": "Champlain College",
+            "link": "https://www.champlain.edu",
+            "logo": "champlain-college.png"
+        }
+    ]
+},{
+    "levelCode": "platinum",
+    "levelName": "Platinum Sponsors",
+    "sponsors": [
+        
+    ]
+},{
+    "levelCode": "gold",
+    "levelName": "Gold Sponsors",
+    "sponsors": [
+        {
+            "name": "Jahnel Group",
+            "link": "https://www.jahnelgroup.com",
+            "logo": "jahnel-group.png"
+        }
+    ]
+},{
+    "levelCode": "silver",
+    "levelName": "Silver Sponsors",
+    "sponsors": [
+        {
+            "name": "Vermont Systems",
+            "link": "https://www.vermontsystems.com/",
+            "logo": "vermont-systems.png"
+        }
+    ]
+},{
+    "levelCode": "bronze",
+    "levelName": "Bronze Sponsors",
+    "sponsors": [
+        
+    ]
+},{
+    "levelCode": "swag",
+    "levelName": "Swag, Giveaways, & More",
+    "sponsors": [
+        
+    ]
+},{
+    "levelCode": "community-partner",
+    "levelName": "Community Partners",
+    "sponsors": [
+        {
+            "name": "Sessionize",
+            "link": "https://www.sessionize.com",
+            "logo": "sessionize.png"
+        }
+    ]
+}]
+
+

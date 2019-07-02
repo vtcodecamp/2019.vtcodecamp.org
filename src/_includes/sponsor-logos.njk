@@ -1,0 +1,19 @@
+
+{% for level in sponsors %}
+
+    {% if level.sponsors|length %}
+
+        <h3>{{level.levelName}}</h3>
+
+        {% for sponsor in level.sponsors %}
+
+            <a href="{{sponsor.link}}" class="sponsor-link">
+                <img src="assets/sponsor-logos/{{sponsor.logo}}" class="sponsor-logo" alt="{{sponsor.name}}"/>
+            </a>
+
+        {% endfor %}
+
+    {% endif %}
+
+{% endfor %}
+
