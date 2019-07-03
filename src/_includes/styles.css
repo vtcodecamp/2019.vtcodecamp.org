@@ -429,28 +429,31 @@ a.sponsor-link {
     display: block;
     box-shadow: none;
     border-bottom: none;
+    margin: 1rem;
 }
 a.sponsor-link:hover {
     background: none;
 }
-.sponsor-logo-list.premier .sponsor-link.shape-extra-wide {
+.sponsor-link img {
+    width: 100%;
+}
+.sponsor-logo-list.premier .sponsor-link.shape-extra-wide img {
     max-width: 400px;
     max-height: 100px;
 }
-.sponsor-logo-list.gold .sponsor-link.shape-wide {
+.sponsor-logo-list.premier .sponsor-link.shape-wide img {
+    max-width: 346px;
+    max-height: 115px;
+}
+.sponsor-logo-list.gold .sponsor-link.shape-wide img {
     max-width: 270px;
     max-height: 90px;
 }
-.sponsor-logo-list.silver .sponsor-link.shape-wide {
+.sponsor-logo-list.silver .sponsor-link.shape-wide img {
     max-width: 240px;
     max-height: 80px;
 }
-.sponsor-logo-list.community-partner .sponsor-link.shape-super-wide {
+.sponsor-logo-list.community-partner .sponsor-link.shape-super-wide img {
     max-width: 240px;
     max-height: 48px;
-}
-.sponsor-link > img {
-    object-fit: cover;
-    max-width: 100%;
-    max-height: 100%;
 }

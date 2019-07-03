@@ -5,7 +5,12 @@
         {
             "name": "Champlain College",
             "link": "https://www.champlain.edu",
-            "logo": "champlain-college-500x116.png",
+            "logo": "champlain-college-853x199.png",
+            "shape": "extra-wide"
+        },{
+            "name": "Galen Healthcare Solutions",
+            "link": "https://www.galenhealthcare.com/",
+            "logo": "galen-healthcare-800x200.png",
             "shape": "extra-wide"
         }
     ]
