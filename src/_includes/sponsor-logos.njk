@@ -1,0 +1,25 @@
+
+{% for level in sponsors %}
+
+    {% if level.sponsors|length %}
+
+        <div class="section-content">
+            <h3>{{level.levelName}}</h3>
+        </div>
+
+        <ul class="sponsor-logo-list {{level.levelCode}} section-content section-content-wide ">
+        {% for sponsor in level.sponsors %}
+
+            <li>
+                <a href="{{sponsor.link}}" class="sponsor-link shape-{{sponsor.shape}}">
+                    <img src="assets/sponsor-logos/{{sponsor.logo}}" class="sponsor-logo" alt="{{sponsor.name}}"/>
+                </a>
+            </li>
+
+        {% endfor %}
+        </ul>
+
+    {% endif %}
+
+{% endfor %}
+
