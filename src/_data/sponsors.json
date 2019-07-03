@@ -5,14 +5,15 @@
         {
             "name": "Champlain College",
             "link": "https://www.champlain.edu",
-            "logo": "champlain-college.png"
+            "logo": "champlain-college-500x116.png",
+            "shape": "extra-wide"
         }
     ]
 },{
     "levelCode": "platinum",
     "levelName": "Platinum Sponsors",
     "sponsors": [
-        
+
     ]
 },{
     "levelCode": "gold",
@@ -21,7 +22,8 @@
         {
             "name": "Jahnel Group",
             "link": "https://www.jahnelgroup.com",
-            "logo": "jahnel-group.png"
+            "logo": "jahnel-group.svg",
+            "shape": "wide"
         }
     ]
 },{
@@ -31,7 +33,8 @@
         {
             "name": "Vermont Systems",
             "link": "https://www.vermontsystems.com/",
-            "logo": "vermont-systems.png"
+            "logo": "vermont-systems-300x104.png",
+            "shape": "wide"
         }
     ]
 },{
@@ -52,8 +55,9 @@
     "sponsors": [
         {
             "name": "Sessionize",
-            "link": "https://www.sessionize.com",
-            "logo": "sessionize.png"
+            "link": "https://sessionize.com",
+            "logo": "sessionize-540x88.png",
+            "shape": "super-wide"
         }
     ]
 }]

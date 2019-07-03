@@ -162,6 +162,9 @@ section.past-years ul {
     margin: 0 auto;
 }
 
+section.sponsors {
+    background: linear-gradient(#f5f5f5 0, #fff 150px, #fff 100%)
+}
 
 @media (min-width: 500px) {
     section .section-content {
@@ -403,4 +406,51 @@ ul.list-icons li svg {
     .list-icons li .description {
         margin-top: -10px;
     }
+}
+
+
+/* Sponsor Logos */
+
+/*
+  These rules are temporary just to get the initial sponsors up on the site.
+  I'm trying to come up with an general solution that allows for various aspect ratios
+  while also contraining logo size based on sponsor tier - Zeke
+*/
+.sponsor-logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sponsor-logo-list > li {
+    list-style: none;
+}
+a.sponsor-link {
+    display: block;
+    box-shadow: none;
+    border-bottom: none;
+}
+a.sponsor-link:hover {
+    background: none;
+}
+.sponsor-logo-list.premier .sponsor-link.shape-extra-wide {
+    max-width: 400px;
+    max-height: 100px;
+}
+.sponsor-logo-list.gold .sponsor-link.shape-wide {
+    max-width: 270px;
+    max-height: 90px;
+}
+.sponsor-logo-list.silver .sponsor-link.shape-wide {
+    max-width: 240px;
+    max-height: 80px;
+}
+.sponsor-logo-list.community-partner .sponsor-link.shape-super-wide {
+    max-width: 240px;
+    max-height: 48px;
+}
+.sponsor-link > img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
 }
