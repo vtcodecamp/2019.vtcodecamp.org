@@ -29,6 +29,12 @@
             "link": "https://www.jahnelgroup.com",
             "logo": "jahnel-group.svg",
             "shape": "wide"
+        },
+        {
+            "name": "JetBrains",
+            "link": "https://www.jetbrains.com/",
+            "logo": "jetbrains-logo.svg",
+            "shape": ""
         }
     ]
 },{
