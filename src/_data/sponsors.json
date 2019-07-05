@@ -1,76 +1,77 @@
-[{
+[
+  {
     "levelCode": "premier",
     "levelName": "Premier Sponsors",
     "sponsors": [
-        {
-            "name": "Champlain College",
-            "link": "https://www.champlain.edu",
-            "logo": "champlain-college-853x199.png",
-            "shape": "extra-wide"
-        },{
-            "name": "Galen Healthcare Solutions",
-            "link": "https://www.galenhealthcare.com/",
-            "logo": "galen-healthcare-800x200.png",
-            "shape": "extra-wide"
-        }
+      {
+        "name": "Champlain College",
+        "link": "https://www.champlain.edu",
+        "logo": "../assets/sponsor-logos/champlain-college-853x199.png",
+        "shape": "extra-wide"
+      },
+      {
+        "name": "Galen Healthcare Solutions",
+        "link": "https://www.galenhealthcare.com/",
+        "logo": "../assets/sponsor-logos/galen-healthcare-386x94.png",
+        "shape": "extra-wide"
+      }
     ]
-},{
+  },
+  {
     "levelCode": "platinum",
     "levelName": "Platinum Sponsors",
-    "sponsors": [
-
-    ]
-},{
+    "sponsors": []
+  },
+  {
     "levelCode": "gold",
     "levelName": "Gold Sponsors",
     "sponsors": [
-        {
-            "name": "Jahnel Group",
-            "link": "https://www.jahnelgroup.com",
-            "logo": "jahnel-group.svg",
-            "shape": "wide"
-        },
-        {
-            "name": "JetBrains",
-            "link": "https://www.jetbrains.com/",
-            "logo": "jetbrains-logo.svg",
-            "shape": ""
-        }
+      {
+        "name": "Jahnel Group",
+        "link": "https://www.jahnelgroup.com",
+        "logo": "../assets/sponsor-logos/jahnel-group.svg",
+        "shape": "wide"
+      },
+      {
+        "name": "JetBrains",
+        "link": "https://www.jetbrains.com/",
+        "logo": "../assets/sponsor-logos/jetbrains-logo.svg",
+        "shape": ""
+      }
     ]
-},{
+  },
+  {
     "levelCode": "silver",
     "levelName": "Silver Sponsors",
     "sponsors": [
-        {
-            "name": "Vermont Systems",
-            "link": "https://www.vermontsystems.com/",
-            "logo": "vermont-systems-300x104.png",
-            "shape": "wide"
-        }
+      {
+        "name": "Vermont Systems",
+        "link": "https://www.vermontsystems.com/",
+        "logo": "../assets/sponsor-logos/vermont-systems-300x104.png",
+        "shape": "wide"
+      }
     ]
-},{
+  },
+  {
     "levelCode": "bronze",
     "levelName": "Bronze Sponsors",
-    "sponsors": [
-        
-    ]
-},{
+    "sponsors": []
+  },
+  {
     "levelCode": "swag",
     "levelName": "Swag, Giveaways, & More",
-    "sponsors": [
-        
-    ]
-},{
+    "sponsors": []
+  },
+  {
     "levelCode": "community-partner",
     "levelName": "Community Partners",
     "sponsors": [
-        {
-            "name": "Sessionize",
-            "link": "https://sessionize.com",
-            "logo": "sessionize-540x88.png",
-            "shape": "super-wide"
-        }
+      {
+        "name": "Sessionize",
+        "link": "https://sessionize.com",
+        "logo": "../assets/sponsor-logos/sessionize-540x88.png",
+        "shape": "super-wide"
+      }
     ]
-}]
-
-
+  }
+]
