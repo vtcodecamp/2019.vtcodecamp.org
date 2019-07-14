@@ -435,25 +435,23 @@ a.friend-link:hover {
     background: none;
 }
 .friend-link img {
-    width: 100%;
+    max-width: 100%;
 }
 .sponsor-logo-list.premier .friend-link.shape-extra-wide img {
-    max-width: 400px;
-    max-height: 100px;
+    width: 400px;
 }
 .sponsor-logo-list.premier .friend-link.shape-wide img {
-    max-width: 346px;
-    max-height: 115px;
+    width: 350px;
 }
 .sponsor-logo-list.gold .friend-link.shape-wide img {
-    max-width: 270px;
-    max-height: 90px;
+    width: 260px;
+}
+.sponsor-logo-list.gold .friend-link.shape-square img {
+    width: 140px;
 }
 .sponsor-logo-list.silver .friend-link.shape-wide img {
-    max-width: 240px;
-    max-height: 80px;
+    width: 240px;
 }
 .sponsor-logo-list.community-partner .friend-link.shape-super-wide img {
-    max-width: 240px;
-    max-height: 48px;
+    width: 240px;
 }

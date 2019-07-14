@@ -14,6 +14,11 @@
         "link": "https://www.galenhealthcare.com/",
         "logo": "/src/assets/sponsor-logos/galen-healthcare-386x94.png",
         "shape": "extra-wide"
+      },{
+        "name": "The University Of Vermont Medical Center",
+        "link": "https://www.uvmhealth.org/",
+        "logo": "uvm-medical-center-700x206.png",
+        "shape": "wide"
       }
     ]
   },
@@ -36,7 +41,7 @@
         "name": "JetBrains",
         "link": "https://www.jetbrains.com/",
         "logo": "/src/assets/sponsor-logos/jetbrains-logo.svg",
-        "shape": ""
+        "shape": "square"
       }
     ]
   },
