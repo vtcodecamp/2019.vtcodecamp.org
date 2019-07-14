@@ -17,7 +17,7 @@
       },{
         "name": "The University Of Vermont Medical Center",
         "link": "https://www.uvmhealth.org/",
-        "logo": "uvm-medical-center-700x206.png",
+        "logo": "/src/assets/sponsor-logos/uvm-medical-center-700x206.png",
         "shape": "wide"
       }
     ]
