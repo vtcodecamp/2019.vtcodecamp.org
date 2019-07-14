@@ -6,13 +6,13 @@
       {
         "name": "Champlain College",
         "link": "https://www.champlain.edu",
-        "logo": "../assets/sponsor-logos/champlain-college-853x199.png",
+        "logo": "/src/assets/sponsor-logos/champlain-college-500x116.png",
         "shape": "extra-wide"
       },
       {
         "name": "Galen Healthcare Solutions",
         "link": "https://www.galenhealthcare.com/",
-        "logo": "../assets/sponsor-logos/galen-healthcare-386x94.png",
+        "logo": "/src/assets/sponsor-logos/galen-healthcare-386x94.png",
         "shape": "extra-wide"
       }
     ]
@@ -29,13 +29,13 @@
       {
         "name": "Jahnel Group",
         "link": "https://www.jahnelgroup.com",
-        "logo": "../assets/sponsor-logos/jahnel-group.svg",
+        "logo": "/src/assets/sponsor-logos/jahnel-group.svg",
         "shape": "wide"
       },
       {
         "name": "JetBrains",
         "link": "https://www.jetbrains.com/",
-        "logo": "../assets/sponsor-logos/jetbrains-logo.svg",
+        "logo": "/src/assets/sponsor-logos/jetbrains-logo.svg",
         "shape": ""
       }
     ]
@@ -47,7 +47,7 @@
       {
         "name": "Vermont Systems",
         "link": "https://www.vermontsystems.com/",
-        "logo": "../assets/sponsor-logos/vermont-systems-300x104.png",
+        "logo": "/src/assets/sponsor-logos/vermont-systems-300x104.png",
         "shape": "wide"
       }
     ]
@@ -69,7 +69,7 @@
       {
         "name": "Sessionize",
         "link": "https://sessionize.com",
-        "logo": "../assets/sponsor-logos/sessionize-540x88.png",
+        "logo": "/src/assets/sponsor-logos/sessionize-540x88.png",
         "shape": "super-wide"
       }
     ]

@@ -12,6 +12,10 @@ module.exports = function(eleventyConfig) {
         return new CleanCSS({}).minify(code).styles;
     });
 
+    eleventyConfig.addFilter("RootURL", function(value) {
+        return value.replace('/src','');
+    });
+
     return {
         dir: {
             input: "src",
