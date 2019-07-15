@@ -419,6 +419,7 @@ ul.list-icons li svg {
 .sponsor-logo-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* ie11 fallback - https://caniuse.com/#feat=justify-content-space-evenly */
     justify-content: space-evenly;
     align-items: center;
 }
