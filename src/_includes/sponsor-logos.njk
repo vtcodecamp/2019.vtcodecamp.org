@@ -13,7 +13,7 @@
             <li>
                 {# .sponsor-logo * .sponsor-link is picked up by some ad-blockers  #}
                 <a href="{{sponsor.link}}" class="friend-link shape-{{sponsor.shape}}">
-                    <img src="assets/sponsor-logos/{{sponsor.logo}}" class="friend-logo" alt="{{sponsor.name}}"/>
+                    <img src="{{sponsor.logo | RootURL}}" class="friend-logo" alt="{{sponsor.name}}"/>
                 </a>
             </li>
 

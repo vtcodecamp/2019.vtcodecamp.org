@@ -2,9 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ef1b18a7-e5fd-4cb6-aa6e-f37a9a87369b/deploy-status)](https://app.netlify.com/sites/vtcodecamp2019/deploys)
 
-* Production site: https://www.vtcodecamp.com/
-* Deploy Previews: https://deploy-preview-{PR#}--vtcodecamp2019.netlify.com/
-* Branch Deploys: https://{branch-name}--vtcodecamp2019.netlify.com/
+* **Production site**: `https://www.vtcodecamp.com/`
+* **Deploy Previews**: `https://deploy-preview-{PR#}--vtcodecamp2019.netlify.com/`
+* **Branch Deploys**: `https://{branch-name}--vtcodecamp2019.netlify.com/`
 
 
 ## Built With
@@ -52,7 +52,7 @@ npm run build   # runs `npx eleventy` to build the site
 npm run serve   # builds site + serves `_site` dirrectory
 ```
 
-## Resources
+## Resources & References
 
 * [11ty - config input directory](https://www.11ty.io/docs/config/#input-directory)
 * [11ty - addPassthroughCopy](https://www.11ty.io/docs/copy/)
@@ -62,6 +62,7 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [11ty - inline css](https://www.11ty.io/docs/quicktips/inline-css/)
 * [11ty - 404 page](https://www.11ty.io/docs/quicktips/not-found/)
 * [11ty - environment variables](https://www.11ty.io/docs/data-js/#example%3A-exposing-environment-variables)
+* [11ty - filters](https://www.11ty.io/docs/filters/)
 * [netlify - environment variables](https://www.netlify.com/docs/continuous-deployment/#environment-variables)
 * [netlify - TOML](https://www.netlify.com/docs/netlify-toml-reference/)
 * [netlify - Build](https://www.netlify.com/products/build/)
@@ -71,6 +72,7 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [nunjucks - operators & logic](https://mozilla.github.io/nunjucks/templating.html#comparisons)
 * [nunjucks - check if variable in string](https://github.com/mozilla/nunjucks/issues/676)
 * [nunjucks - inline if expression](https://mozilla.github.io/nunjucks/templating.html#if-expression)
+* [nunjucks - substring of string](https://stackoverflow.com/a/48427351/1366033)
 * [a11y - language codes](https://www.w3schools.com/tags/ref_language_codes.asp)
 * [a11y - link names](https://dequeuniversity.com/rules/axe/3.2/link-name)
 * [a11y - semantic vs decorative icons](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
@@ -83,4 +85,5 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [squoosh - image optimizer](https://squoosh.app/)
 * [twitter - embed tweets](https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-javascript-factory-function)
 * [twitter - style tweets](https://medium.com/@makerspirit/how-to-style-your-twitter-widget-styling-on-shadow-dom-a405c36edd10)
-
+* [json schema - url format](https://github.com/json-schema-org/json-schema-spec/issues/233#issuecomment-279180514)
+* [json schema - array of type](https://stackoverflow.com/a/51557536/1366033)

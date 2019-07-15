@@ -1,0 +1,82 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "sponsors.json"
+      ],
+      "schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "title": "Sponsorship Tiers and Partners",
+        "description": "A list of sponsors, including their name, tier, and logo information",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "levelCode": {
+              "type": "string",
+              "enum": [
+                "premier",
+                "platinum",
+                "gold",
+                "silver",
+                "bronze",
+                "swag",
+                "community-partner"
+              ],
+              "description": "Programatic name to use in code for the sponsorship level"
+            },
+            "levelName": {
+              "type": "string",
+              "description": "Display Name to present to user for the sponsorship level"
+            },
+            "sponsors": {
+              "type": "array",
+              "description": "List of sponsors for this tier",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "Pretty text string for sponsor alt text"
+                  },
+                  "link": {
+                    "type": "string",
+                    "description": "Link to sponsor landing page of choice",
+                    "format": "uri",
+                    "pattern": "^https?://"
+                  },
+                  "logo": {
+                    "type": "string",
+                    "description": "Relative path where logo image is locally saved"
+                  },
+                  "shape": {
+                    "type": "string",
+                    "description": "Applys class to indicate aspect ratio to assist with sizing",
+                    "enum": [
+                      "",
+                      "square",
+                      "wide",
+                      "extra-wide",
+                      "super-wide"
+                    ]
+                  }
+                },
+                "required": [
+                  "name",
+                  "link",
+                  "logo",
+                  "shape"
+                ]
+              }
+            }
+          },
+          "required": [
+            "levelCode",
+            "levelName",
+            "sponsors"
+          ]
+        }
+      }
+    }
+  ]
+}
