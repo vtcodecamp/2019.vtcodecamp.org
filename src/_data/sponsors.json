@@ -76,6 +76,12 @@
         "link": "https://sessionize.com",
         "logo": "/src/assets/sponsor-logos/sessionize-540x88.png",
         "shape": "super-wide"
+      },
+      {
+        "name": "Code for BTV",
+        "link": "http://www.codeforbtv.org/",
+        "logo": "/src/assets/sponsor-logos/code-for-btv-blue_300.png",
+        "shape": "square"
       }
     ]
   }
