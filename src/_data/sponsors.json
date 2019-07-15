@@ -7,18 +7,18 @@
         "name": "Champlain College",
         "link": "https://www.champlain.edu",
         "logo": "/src/assets/sponsor-logos/champlain-college-500x116.png",
-        "shape": "extra-wide"
+        "scale": "100"
       },
       {
         "name": "Galen Healthcare Solutions",
         "link": "https://www.galenhealthcare.com/",
         "logo": "/src/assets/sponsor-logos/galen-healthcare-386x94.png",
-        "shape": "extra-wide"
+        "scale": "100"
       },{
         "name": "The University Of Vermont Medical Center",
         "link": "https://www.uvmhealth.org/",
         "logo": "/src/assets/sponsor-logos/uvm-medical-center-700x206.png",
-        "shape": "wide"
+        "scale": "100"
       }
     ]
   },
@@ -35,13 +35,13 @@
         "name": "Jahnel Group",
         "link": "https://www.jahnelgroup.com",
         "logo": "/src/assets/sponsor-logos/jahnel-group.svg",
-        "shape": "wide"
+        "scale": "100"
       },
       {
         "name": "JetBrains",
         "link": "https://www.jetbrains.com/",
         "logo": "/src/assets/sponsor-logos/jetbrains-logo.svg",
-        "shape": "square"
+        "scale": "140"
       }
     ]
   },
@@ -53,7 +53,7 @@
         "name": "Vermont Systems",
         "link": "https://www.vermontsystems.com/",
         "logo": "/src/assets/sponsor-logos/vermont-systems-300x104.png",
-        "shape": "wide"
+        "scale": "100"
       }
     ]
   },
@@ -75,13 +75,13 @@
         "name": "Sessionize",
         "link": "https://sessionize.com",
         "logo": "/src/assets/sponsor-logos/sessionize-540x88.png",
-        "shape": "super-wide"
+        "scale": "100"
       },
       {
         "name": "Code for BTV",
         "link": "http://www.codeforbtv.org/",
         "logo": "/src/assets/sponsor-logos/code-for-btv-blue_300.png",
-        "shape": "square"
+        "scale": "140"
       }
     ]
   }

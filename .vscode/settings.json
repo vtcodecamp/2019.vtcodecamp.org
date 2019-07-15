@@ -49,15 +49,18 @@
                     "type": "string",
                     "description": "Relative path where logo image is locally saved"
                   },
-                  "shape": {
+                  "scale": {
                     "type": "string",
                     "description": "Applys class to indicate aspect ratio to assist with sizing",
                     "enum": [
-                      "",
-                      "square",
-                      "wide",
-                      "extra-wide",
-                      "super-wide"
+                      "70",
+                      "80",
+                      "90",
+                      "100",
+                      "110",
+                      "120",
+                      "130",
+                      "140"
                     ]
                   }
                 },
@@ -65,7 +68,7 @@
                   "name",
                   "link",
                   "logo",
-                  "shape"
+                  "scale"
                 ]
               }
             }
