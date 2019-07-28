@@ -454,3 +454,30 @@ a.friend-link:hover {
 .sponsor-logo-list .scale-120 img { transform: scale(1.2); }
 .sponsor-logo-list .scale-130 img { transform: scale(1.3); }
 .sponsor-logo-list .scale-140 img { transform: scale(1.4); }
+
+/* make sure fragment urls fit under fixed header */
+[id] {
+    margin-top: -80px;
+    padding-top: 80px;
+    position: relative;
+}
+
+/* allows links to be ontop of negative padding in h2 elements */
+.content a {
+    position: relative;
+    z-index: 1;
+}
+
+.content .direct-link {
+    position: absolute;
+    left: -34px;
+    bottom: -2px;
+    display: none;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+h2:hover .direct-link,
+h2 .direct-link:hover {
+    display: block;
+}

@@ -1,6 +1,5 @@
 const CleanCSS = require("clean-css");
 
-
 module.exports = function(eleventyConfig) {
 
     // Copy the `assets/` directory (css, images, etc)
@@ -16,6 +15,33 @@ module.exports = function(eleventyConfig) {
         return value.replace('/src','');
     });
 
+    let markdownIt = require("markdown-it");
+    let options = {
+      html: true,
+      breaks: true,
+      linkify: true
+    };
+    
+    eleventyConfig.setLibrary("md", markdownIt(options));
+
+    /* Markdown */
+	let markdownItAnchor = require("markdown-it-anchor");
+	let opts = {
+		permalink: true,
+		slugify: function(s) {
+            // strip special chars
+            let newStr = s.replace(/[^a-z ]/gi,'').trim();
+            // take first 4 words and separate with "-""
+            newStr = newStr.split(" ").slice(0,4).join("-");
+			return newStr;
+		},
+		permalinkClass: "direct-link",
+		permalinkSymbol: "#",
+		level: [1,2,3,4]
+	};
+
+    eleventyConfig.setLibrary("md", markdownIt(options).use(markdownItAnchor, opts));
+    
     return {
         dir: {
             input: "src",

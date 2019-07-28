@@ -63,6 +63,7 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [11ty - 404 page](https://www.11ty.io/docs/quicktips/not-found/)
 * [11ty - environment variables](https://www.11ty.io/docs/data-js/#example%3A-exposing-environment-variables)
 * [11ty - filters](https://www.11ty.io/docs/filters/)
+* [11ty - plugins](https://www.11ty.io/docs/plugins/)
 * [netlify - environment variables](https://www.netlify.com/docs/continuous-deployment/#environment-variables)
 * [netlify - TOML](https://www.netlify.com/docs/netlify-toml-reference/)
 * [netlify - Build](https://www.netlify.com/products/build/)
@@ -88,3 +89,5 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [twitter - style tweets](https://medium.com/@makerspirit/how-to-style-your-twitter-widget-styling-on-shadow-dom-a405c36edd10)
 * [json schema - url format](https://github.com/json-schema-org/json-schema-spec/issues/233#issuecomment-279180514)
 * [json schema - array of type](https://stackoverflow.com/a/51557536/1366033)
+* [npm - markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
+* [md - extended syntax - ids](https://www.markdownguide.org/extended-syntax/#heading-ids)
