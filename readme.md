@@ -69,6 +69,7 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [netlify - Dev](https://www.netlify.com/products/dev/)
 * [netlify - Deploy Previews](https://www.netlify.com/docs/webhooks/#github-commit-statuses)
 * [vs code - Workspace recommended extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions)
+* [vs code - debug on windows and mac](https://stackoverflow.com/a/42471528/1366033)
 * [nunjucks - operators & logic](https://mozilla.github.io/nunjucks/templating.html#comparisons)
 * [nunjucks - check if variable in string](https://github.com/mozilla/nunjucks/issues/676)
 * [nunjucks - inline if expression](https://mozilla.github.io/nunjucks/templating.html#if-expression)
