@@ -233,14 +233,14 @@ ul.nav-buttons a {
     background: hsl(198, 80%, 36%);
 }
 ul.nav-buttons a:hover {
-    background: hsl(198, 80%, 33%);
+    background: hsl(198, 80%, 31%);
 }
 ul.nav-buttons a.active {
-    background: hsl(198, 80%, 28%);
+    background: hsl(198, 80%, 27%);
 }
 ul.nav-buttons a:focus {
     border-color: hsl(198, 100%, 60%);
-    background: hsl(198, 80%, 28%);
+    background: hsl(198, 80%, 27%);
     outline: none;
 }
 
@@ -260,9 +260,14 @@ ul.nav-buttons a:focus {
     transition: background .25s ease;
     color: black
 }
-.content a:hover {
+.content a:hover,
+.content a:focus {
    color: black;
    background: hsl(198, 80%, 86%);
+}
+.content a:focus {
+    outline: 2px solid hsla(198, 78%, 65%, 1);
+    box-shadow: 0px 0px 2px 2px hsla(198, 78%, 65%);
 }
 .content a.cta {
     display: inline-block;
