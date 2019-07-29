@@ -84,7 +84,7 @@ If a speaker is violating the Code of Conduct either with their words or within 
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify an event organizer or volunteer as soon as possible. 
 
-At in-person events, organizers/volunteers can be identified by a "Volunteer" t-shirt. Outside of events, the organizers, [Julie Lerman](https://twitter.com/julielerman), [Rob Hale](https://twitter.com/rob_hale_vt), and [Maureen McElaney](https://twitter.com/Mo_Mack), can all be reached via this email at [team@vtcodecamp.org](mailto:team@vtcodecamp.org); **however, this email may not be monitored during in-person events, so it is important to find an organizer/volunteer at the event or call the proper authorities based on the severity of the offense.**
+At in-person events, organizers/volunteers can be identified by a "Volunteer" t-shirt. Outside of events, the organizers, [Julie Lerman](https://twitter.com/julielerman), [Rob Hale](https://twitter.com/rob_hale_vt), and [Maureen McElaney](https://twitter.com/Mo_Mack), can all be reached via this email at [vtcodecamp.org](mailto:team@vtcodecamp.org); **however, this email may not be monitored during in-person events, so it is important to find an organizer/volunteer at the event or call the proper authorities based on the severity of the offense.**
 
 Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
 
@@ -100,7 +100,7 @@ Sit with the victim and ask, "How can I help?"
 Provide the victim with emergency contact information if needed.
 Communicate with the event organizers about what happened and how to handle it.
 
-Again, please let us know when an incident occurs. At in-person events, organizers/volunteers can be identified by a "Volunteer" t-shirt. The email address, [team@vtcodecamp.org](mailto:team@vtcodecamp.org), goes directly to the organizers (**however, since this email address may not be monitored during in-person events, please find an organizer/volunteer and notify them directly.**)
+Again, please let us know when an incident occurs. At in-person events, organizers/volunteers can be identified by a "Volunteer" t-shirt. The email address, [team@vtcodecamp.org](mailto:team@vtcodecamp.org), goes directly to the organizers, the organizers, [Julie Lerman](https://twitter.com/julielerman), [Rob Hale](https://twitter.com/rob_hale_vt), and [Maureen McElaney](https://twitter.com/Mo_Mack), (**however, since this email address may not be monitored during in-person events, please find an organizer/volunteer and notify them directly.**)
 
 We will take all good-faith reports of harassment by Vermont Code Camp community members, especially the organizers and volunteers, seriously. This includes harassment outside our spaces and harassment that took place at any point in time. The organizing team reserves the right to exclude people from Vermont Code Camp based on their past behavior, including behavior outside Vermont Code Camp spaces and behavior towards people who are not part of Vermont Code Camp.
 
@@ -129,7 +129,9 @@ We expect all community participants (contributors, paid or otherwise; sponsors;
 
 **At in-person events, please notify a community organizer or volunteer directly.** Organizers/volunteers can be identified by a "Volunteer" t-shirt.
 
-Email: [team@vtcodecamp.org](mailto:team@vtcodecamp.org) (this email address may not be monitored during in-person events)
+Email: [team@vtcodecamp.org](mailto:team@vtcodecamp.org) (This email goes to Julie, Rob and Maureen but keep in mind this email address may not be monitored during in-person events.)
+
+If you want to contact an individual organizer you can reach out directly to [Julie Lerman](https://twitter.com/julielerman), [Rob Hale](https://twitter.com/rob_hale_vt), or [Maureen McElaney](https://twitter.com/Mo_Mack).
 
 
 ## 10. License and Attribution
