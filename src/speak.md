@@ -17,7 +17,7 @@ meta_description: Vermont Code Camp needs you! Please consider submitting a spea
 Vermont Code Camp needs you! Please consider submitting a speaker session proposal. You don't have to be from Vermont to attend or speak. 
 
 * **CFP Deadline is now closed:** as of Sunday July 21 Midnight EST  
-* **Speaker Notification:** [Expected to be done] Sunday July 29  
+* **Speaker Notifications have been sent out:** as of Monday July 29 
 * **Schedule** will be built closer to the event 
 
 Possible topics include:
