@@ -509,7 +509,9 @@ h2 .direct-link:hover {
   visibility: visible
 }
 
+.toc li {
+    margin-bottom: 0.5rem;
+}
 .toc li a {
     border: none;
-    box-shadow: none;
 }
