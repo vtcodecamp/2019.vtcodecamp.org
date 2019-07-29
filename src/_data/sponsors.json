@@ -42,6 +42,12 @@
         "link": "https://www.jetbrains.com/",
         "logo": "/src/assets/sponsor-logos/jetbrains-logo.svg",
         "scale": "140"
+      },
+      {
+        "name": "Competitive Computing",
+        "link": "https://www.competitive.com/",
+        "logo": "/src/assets/sponsor-logos/competetive-computing-logo-25years-220x224.png",
+        "scale": "140"
       }
     ]
   },
