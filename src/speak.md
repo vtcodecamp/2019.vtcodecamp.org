@@ -20,10 +20,6 @@ Vermont Code Camp needs you! Please consider submitting a speaker session propos
 * **Speaker Notification:** [Expected to be done] Sunday July 29  
 * **Schedule** will be built closer to the event 
 
-<a href="https://sessionize.com/vtcodecamp" class="code cta">
-    Sessionize.Submit<span class="text-muted" aria-hidden="true">();</span>
-</a>
-
 Possible topics include:
 
 * .NET
