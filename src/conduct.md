@@ -1,5 +1,5 @@
 ---
-layout: default-layout.njk
+layout: toc-layout.njk
 title:  "Code of Conduct"
 meta_description: This code of conduct outlines our expectations for all those who participate in our event, as well as the consequences for unacceptable behavior.
 ---
@@ -7,7 +7,6 @@ meta_description: This code of conduct outlines our expectations for all those w
 <section class="main" >
 <div class="section-content">
 
-# {{title}}
 
 ## 1. Purpose
 
@@ -120,7 +119,7 @@ We expect all community participants (contributors, paid or otherwise; sponsors;
 
 Email: [team@vtcodecamp.org](mailto:team@vtcodecamp.org) (this email address may not be monitored during in-person events)
 
-## 10. License and Attribution
+## 11. License and Attribution
 
 This Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/).
 

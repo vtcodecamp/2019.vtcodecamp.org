@@ -1,0 +1,21 @@
+---
+layout: default-layout.njk
+---
+
+<section class="section-toc" >
+<div class="section-content">
+
+    <h1>{{title}}</h1>
+
+    <aside class="content">
+
+        {{ content | toc | safe }}
+
+    </aside>
+
+</div>
+</section>
+
+
+
+{{ content | safe }}

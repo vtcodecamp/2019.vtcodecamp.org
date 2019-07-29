@@ -1,4 +1,4 @@
-const CleanCSS = require("clean-css");
+
 
 module.exports = function(eleventyConfig) {
 
@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/favicon.ico");
 
     // add cssmin filter
+    const CleanCSS = require("clean-css");
     eleventyConfig.addFilter("cssmin", function(code) {
         return new CleanCSS({}).minify(code).styles;
     });
@@ -15,6 +16,7 @@ module.exports = function(eleventyConfig) {
         return value.replace('/src','');
     });
 
+    // set markdown defaults (inline so we can extend)
     let markdownIt = require("markdown-it");
     let options = {
       html: true,
@@ -22,12 +24,10 @@ module.exports = function(eleventyConfig) {
       linkify: true
     };
     
-    eleventyConfig.setLibrary("md", markdownIt(options));
-
-    /* Markdown */
+    // add markdown anchor options
 	let markdownItAnchor = require("markdown-it-anchor");
 	let opts = {
-		permalink: true,
+		permalink: false,
 		slugify: function(s) {
             // strip special chars
             let newStr = s.replace(/[^a-z ]/gi,'').trim();
@@ -42,6 +42,10 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.setLibrary("md", markdownIt(options).use(markdownItAnchor, opts));
     
+    // add table of contents plugin
+    const pluginTOC = require('eleventy-plugin-nesting-toc');
+    eleventyConfig.addPlugin(pluginTOC);
+
     return {
         dir: {
             input: "src",
