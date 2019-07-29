@@ -1,5 +1,5 @@
 ---
-layout: default-layout.njk
+layout: toc-layout.njk
 title:  "Code of Conduct"
 meta_description: This code of conduct outlines our expectations for all those who participate in our event, as well as the consequences for unacceptable behavior.
 ---
@@ -7,7 +7,6 @@ meta_description: This code of conduct outlines our expectations for all those w
 <section class="main" >
 <div class="section-content">
 
-# {{title}}
 
 
 ## 1. Purpose
@@ -134,7 +133,7 @@ Email: [team@vtcodecamp.org](mailto:team@vtcodecamp.org) (This email goes to Jul
 If you want to contact an individual organizer you can reach out directly to [Julie Lerman](https://twitter.com/julielerman), [Rob Hale](https://twitter.com/rob_hale_vt), or [Maureen McElaney](https://twitter.com/Mo_Mack).
 
 
-## 10. License and Attribution
+## 11. License and Attribution
 
 This Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/).
 
