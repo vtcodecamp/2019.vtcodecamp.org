@@ -75,7 +75,7 @@
         "name": "Sessionize",
         "link": "https://sessionize.com",
         "logo": "/src/assets/sponsor-logos/sessionize-540x88.png",
-        "scale": "100"
+        "scale": "90"
       },
       {
         "name": "Code for BTV",
@@ -88,6 +88,12 @@
         "link": "https://www.btvignite.com/",
         "logo": "/src/assets/sponsor-logos/btv-ignite-300x139.png",
         "scale": "120"
+      },
+      {
+        "name": "Lake Champlain Regional Chamber of Commerce",
+        "link": "https://www.vermont.org/chamber/",
+        "logo": "/src/assets/sponsor-logos/chamber-logo-1106x567.png",
+        "scale": "130"
       }
     ]
   }
