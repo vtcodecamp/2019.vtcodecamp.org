@@ -82,6 +82,12 @@
         "link": "http://www.codeforbtv.org/",
         "logo": "/src/assets/sponsor-logos/code-for-btv-blue_300.png",
         "scale": "140"
+      },
+      {
+        "name": "BTV Ignite",
+        "link": "https://www.btvignite.com/",
+        "logo": "/src/assets/sponsor-logos/btv-ignite-300x139.png",
+        "scale": "120"
       }
     ]
   }
