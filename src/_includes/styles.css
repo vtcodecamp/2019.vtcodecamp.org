@@ -464,7 +464,10 @@ a.friend-link:hover {
 .sponsor-logo-list .scale-140 img { transform: scale(1.4); }
 
 /* make sure fragment urls fit under fixed header */
-[id] {
+h1[id],
+h2[id],
+h3[id],
+h4[id] {
     margin-top: -80px;
     padding-top: 80px;
     position: relative;
