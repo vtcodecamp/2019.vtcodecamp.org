@@ -123,6 +123,10 @@ ul.nav-buttons {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Content sections layout */
@@ -216,6 +220,7 @@ ul.nav-links {
 
 ul.nav-buttons li {
     display: inline-block;
+    margin: 2px;
 }
 
 ul.nav-buttons a {
@@ -363,6 +368,12 @@ footer a svg {
     }
 
     
+}
+
+@media (max-width: 420px) {
+    ul.nav-buttons a {
+        padding: 5px;
+    }
 }
 
 .text-large {
