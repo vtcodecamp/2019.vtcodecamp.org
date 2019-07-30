@@ -14,11 +14,18 @@
         "link": "https://www.galenhealthcare.com/",
         "logo": "/src/assets/sponsor-logos/galen-healthcare-386x94.png",
         "scale": "100"
-      },{
+      },
+      {
         "name": "The University Of Vermont Medical Center",
         "link": "https://www.uvmhealth.org/",
         "logo": "/src/assets/sponsor-logos/uvm-medical-center-700x206.png",
         "scale": "100"
+      },
+      {
+        "name": "Symbiotic Labs",
+        "link": "https://www.symbioticlabs.io/",
+        "logo": "/src/assets/sponsor-logos/symbiotic-labs-logo.svg",
+        "scale": "150"
       }
     ]
   },
