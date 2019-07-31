@@ -55,6 +55,12 @@
         "link": "https://www.competitive.com/",
         "logo": "/src/assets/sponsor-logos/competetive-computing-logo-25years-220x224.png",
         "scale": "140"
+      },
+      {
+        "name": "Tyler Tech",
+        "link": "https://www.tylertech.com/",
+        "logo": "/src/assets/sponsor-logos/tyler-tech.png",
+        "scale": "130"
       }
     ]
   },
