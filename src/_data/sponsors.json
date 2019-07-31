@@ -42,19 +42,19 @@
         "name": "Jahnel Group",
         "link": "https://www.jahnelgroup.com",
         "logo": "/src/assets/sponsor-logos/jahnel-group.svg",
-        "scale": "100"
+        "scale": "90"
       },
       {
         "name": "JetBrains",
         "link": "https://www.jetbrains.com/",
         "logo": "/src/assets/sponsor-logos/jetbrains-logo.svg",
-        "scale": "140"
+        "scale": "130"
       },
       {
         "name": "Competitive Computing",
         "link": "https://www.competitive.com/",
-        "logo": "/src/assets/sponsor-logos/competetive-computing-logo-25years-220x224.png",
-        "scale": "140"
+        "logo": "/src/assets/sponsor-logos/competetive-computing-200x200.png",
+        "scale": "150"
       },
       {
         "name": "Tyler Tech",
