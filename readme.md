@@ -68,6 +68,7 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [netlify - TOML](https://www.netlify.com/docs/netlify-toml-reference/)
 * [netlify - Build](https://www.netlify.com/products/build/)
 * [netlify - Dev](https://www.netlify.com/products/dev/)
+* [netlify - Asset Optimization / Post Processing](https://www.netlify.com/docs/netlify-toml-reference/#post-processing)
 * [netlify - Deploy Previews](https://www.netlify.com/docs/webhooks/#github-commit-statuses)
 * [vs code - Workspace recommended extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions)
 * [vs code - debug on windows and mac](https://stackoverflow.com/a/42471528/1366033)
