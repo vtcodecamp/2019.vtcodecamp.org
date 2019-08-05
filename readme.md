@@ -52,6 +52,25 @@ npm run build   # runs `npx eleventy` to build the site
 npm run serve   # builds site + serves `_site` dirrectory
 ```
 
+## Sponsor Logo Workflow
+
+
+* Add sponsor info to `sponsors.json`
+* Start with `scale:100` and run project localy, value can be adjusted (`70...150`) to maintain consistent visual weight in each category
+* Logo should have an transparency channel for non-design elements (background)
+  * If it doesn't, add an alpha channel, and remove background with magic selector using any of the following programs: 
+    * [paint.net](https://www.getpaint.net/)
+    * [gimp](https://www.gimp.org/)
+    * [affinity designer](https://affinity.serif.com/en-us/designer/)
+    * any other tools (lots available)
+* Compress Image
+  * Raster
+    * Use [ImageOptim](https://imageoptim.com/mac), [Compressor.io](https://compressor.io/), or [Squoosh](https://squoosh.app/)
+    * Whatever the screen resulting resolution, the logo should be resized down to double that resolution for retina displays
+  * SVG
+    * Use [SVGOmg](https://jakearchibald.github.io/svgomg/)
+  * Note: At some point we may try to bake this into the build process if we can get node based CLIs for each optimization.  Netlify is setup to perform non-lossy [asset optimization](https://www.netlify.com/blog/2019/08/05/control-your-asset-optimization-settings-from-netlify.toml/), but there's still a lot of other more opinionated optimizations.
+
 ## Resources & References
 
 * [11ty - config input directory](https://www.11ty.io/docs/config/#input-directory)
@@ -68,6 +87,7 @@ npm run serve   # builds site + serves `_site` dirrectory
 * [netlify - TOML](https://www.netlify.com/docs/netlify-toml-reference/)
 * [netlify - Build](https://www.netlify.com/products/build/)
 * [netlify - Dev](https://www.netlify.com/products/dev/)
+* [netlify - Asset Optimization / Post Processing](https://www.netlify.com/docs/netlify-toml-reference/#post-processing)
 * [netlify - Deploy Previews](https://www.netlify.com/docs/webhooks/#github-commit-statuses)
 * [vs code - Workspace recommended extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions)
 * [vs code - debug on windows and mac](https://stackoverflow.com/a/42471528/1366033)
