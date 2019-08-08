@@ -459,6 +459,7 @@ a.friend-link:hover {
 }
 
 .sponsor-logo-list.premier            img { max-height: 100px; }
+.sponsor-logo-list.platinum           img { max-height: 95px; }
 .sponsor-logo-list.gold               img { max-height: 90px; }
 .sponsor-logo-list.silver             img { max-height: 80px;  }
 .sponsor-logo-list.bronze             img { max-height: 70px;  }

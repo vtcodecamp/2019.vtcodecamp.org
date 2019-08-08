@@ -32,7 +32,14 @@
   {
     "levelCode": "platinum",
     "levelName": "Platinum Sponsors",
-    "sponsors": []
+    "sponsors": [
+      {
+        "name": "Dealer Policy",
+        "link": "https://www.dealerpolicy.com/",
+        "logo": "/src/assets/sponsor-logos/dealer.svg",
+        "scale": "150"
+      }
+    ]
   },
   {
     "levelCode": "gold",
