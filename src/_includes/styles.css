@@ -139,7 +139,7 @@ ul.nav-buttons {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;  /* space-evenly looks a little better, but doesn't work in IE11 or Edge */
     max-width: 900px;
 }
 .nav-toggle {
