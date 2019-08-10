@@ -63,8 +63,7 @@
             <li><a href="/sponsor/" class='code {{ "active" if "/sponsor/" in page.url }}'>Sponsor</a></li>
         </ul>
         <a href="#footer-nav" id="navToggle" class='nav-toggle' 
-           aria-haspopup="true" aria-expanded="false" 
-           aria-label="Toggle additional nav items" > </a>
+           aria-hidden="true" > </a>
     </nav>
     <script>
         let navToggle = document.getElementById('navToggle');
@@ -74,7 +73,6 @@
 
             var isOpen = navToggle.classList.contains('expanded')
 
-            navToggle.setAttribute('aria-expanded', !isOpen)
             navToggle.classList.toggle('expanded', !isOpen);
             navHeader.classList.toggle('expanded', !isOpen);
         };

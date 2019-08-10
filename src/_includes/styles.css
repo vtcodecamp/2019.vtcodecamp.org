@@ -310,9 +310,9 @@ nav.header a.active {
     background: hsl(198, 80%, 27%);
 }
 nav.header a:focus {
-    border-color: hsl(198, 100%, 60%);
+    box-shadow: 0px 0px 3px 1px hsl(198, 100%, 60%);;
     background: hsl(198, 80%, 27%);
-    outline: none;
+    outline: hsl(198, 100%, 60%) 1px solid;
 }
 
 .main table {
