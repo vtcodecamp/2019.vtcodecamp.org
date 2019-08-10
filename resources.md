@@ -55,11 +55,10 @@ A stash for helpful articles, references, documentation looked up along the way
 * [svg omg - svg optimizer](https://jakearchibald.github.io/svgomg/)
 * [squoosh - image optimizer](https://squoosh.app/)
 
-
 ## Additional
 
-* [html - metatags](https://metatags.io/)
-* [compatability - box-shadow](https://caniuse.com/#feat=css-boxshadow)
+* [html - meta tags](https://metatags.io/)
+* [compatibility - box-shadow](https://caniuse.com/#feat=css-boxshadow)
 * [twitter - embed tweets](https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-javascript-factory-function)
 * [twitter - style tweets](https://medium.com/@makerspirit/how-to-style-your-twitter-widget-styling-on-shadow-dom-a405c36edd10)
 * [json schema - url format](https://github.com/json-schema-org/json-schema-spec/issues/233#issuecomment-279180514)

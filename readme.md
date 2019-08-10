@@ -57,6 +57,18 @@ npm run build   # runs `npx eleventy` to build the site
 npm run serve   # builds site + serves `_site` directory
 ```
 
+## YAML FrontMatter
+
+Data can be added to the beginning of a page and leveraged in the templating process.  The following fields are commonly used by the layout page:
+
+```yaml
+---
+layout: default-layout.njk
+title:  title will show up in ID
+meta_description: description will show up in meta tags
+---
+```
+
 ## Sponsor Logo Workflow
 
 * Add sponsor info to `sponsors.json`
