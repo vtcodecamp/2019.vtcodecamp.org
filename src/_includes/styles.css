@@ -181,7 +181,7 @@ ul.nav-buttons {
         width: 100%;
         transition: 200ms all;
     }
-    .nav-toggle.expanded::before {
+    nav.header.expanded .nav-toggle::before {
         border-width: 0.15em 0 0 0;
         transform: rotate(45deg);
         transform-origin: 0% 50%;
@@ -191,7 +191,7 @@ ul.nav-buttons {
         width: 110%;
 
     }
-    .nav-toggle.expanded::after {
+    nav.header.expanded .nav-toggle::after {
         transform: rotate(-45deg);
         transform-origin: 0% 50%;
         margin-bottom: 0;

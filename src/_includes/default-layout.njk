@@ -48,7 +48,7 @@
         </a>
     </header>
     
-    <nav id="headerNav" class="header">
+    <nav id="navHeader" class="header">
         <ul id="navButtons" class="nav-buttons">
             <li><a href="/" class='code home {{ "active" if "/" == page.url }}'>Home</a></li>
             <li><a href="/schedule/" class='code {{ "active" if "/schedule/" in page.url }}'>Schedule</a></li>
@@ -64,14 +64,10 @@
     </nav>
     <script>
         let navToggle = document.getElementById('navToggle');
-        let navHeader = document.getElementById('headerNav');
+        let navHeader = document.getElementById('navHeader');
         navToggle.onclick = function (event) {
             event.preventDefault();
-
-            var isOpen = navToggle.classList.contains('expanded')
-
-            navToggle.classList.toggle('expanded', !isOpen);
-            navHeader.classList.toggle('expanded', !isOpen);
+            navHeader.classList.toggle('expanded');
         };
     </script>
 
