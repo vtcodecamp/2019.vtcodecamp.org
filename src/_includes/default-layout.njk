@@ -62,14 +62,21 @@
             <li><a href="/diversity/" class='code {{ "active" if "/diversity/" in page.url }}'>Diversity</a></li>
             <li><a href="/sponsor/" class='code {{ "active" if "/sponsor/" in page.url }}'>Sponsor</a></li>
         </ul>
-        <a href="#footer-nav" id="navToggle" class='nav-toggle'> </a>
+        <a href="#footer-nav" id="navToggle" class='nav-toggle' 
+           aria-haspopup="true" aria-expanded="false" 
+           aria-label="Toggle additional nav items" > </a>
     </nav>
     <script>
         let navToggle = document.getElementById('navToggle');
-        navToggle.onclick = function () {
+        let navHeader = document.getElementById('headerNav');
+        navToggle.onclick = function (event) {
             event.preventDefault();
-            document.getElementById('navToggle').classList.toggle('expanded');
-            document.getElementById('headerNav').classList.toggle('expanded');
+
+            var isOpen = navToggle.classList.contains('expanded')
+
+            navToggle.setAttribute('aria-expanded', !isOpen)
+            navToggle.classList.toggle('expanded', !isOpen);
+            navHeader.classList.toggle('expanded', !isOpen);
         };
     </script>
 

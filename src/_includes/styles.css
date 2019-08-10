@@ -492,7 +492,7 @@ ul.list-icons li svg {
 /*
   These rules are temporary just to get the initial sponsors up on the site.
   I'm trying to come up with an general solution that allows for various aspect ratios
-  while also contraining logo size based on sponsor tier - Zeke
+  while also constraining logo size based on sponsor tier - Zeke
 */
 .sponsor-logo-list {
     display: flex;
