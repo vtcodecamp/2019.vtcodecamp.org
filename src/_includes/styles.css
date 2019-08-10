@@ -96,10 +96,11 @@ h2, h3 {
     max-width: 500px;
     margin: 1em auto 0 auto;
 }
-body > .header {
+.header {
     background: hsl(198, 80%, 36%);
     text-align: center;
     font-size: 1.2em;
+    line-height: 1.1em;
 }
 header.header {
     padding: 0.5em;
@@ -111,24 +112,92 @@ nav.header {
     position: -webkit-sticky;  /* because Safari is a laggard - 4/2019 */
     position: sticky;
     top: 0;
-    padding: 0.5rem;
+    padding: 5px 2px 4px 2px;
     margin-top: -1px; /* fix sunbeam through the blinds flicker */
-    padding-top: calc(0.5rem + 1px); 
+    max-height: calc(1.6em + 19px);
+    overflow: hidden;
+    transition: max-height 200ms;
 }
-@media (min-width: 500px) {
-    nav.header {
-        padding: 0.8rem;
-        padding-top: calc(0.8rem + 1px); /* fix sunbeam through the blinds flicker */
+nav.header.expanded {
+    max-height: 170px;
+}
+@media (min-width: 330px) {
+    nav.header.expanded {
+        max-height: 130px;
     }
 }
+@media (min-width: 430px) {
+    nav.header.expanded {
+        max-height: 90px;
+    }
+}
+
 ul.nav-buttons {
     list-style: none;
+    margin: 0 auto;
     padding: 0;
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
+    max-width: 900px;
+}
+.nav-toggle {
+    display: none;
+}
+@media (max-width: 740px) {
+    ul.nav-buttons {
+        padding: 0 2em 0 0;
+    }
+    nav.header a.nav-toggle {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 2px;
+        height: calc(1.1em + 10px);
+        width: calc(1.1em + 10px);
+        padding: 6px;
+    } 
+
+    .nav-toggle::before {
+        content: ' ';
+        display: block;
+        border-width: 0.15em 0;
+        border-color: white;
+        border-style: solid;
+        margin-top: 6%;
+        height: 50%;
+        width: 100%;
+        transition: 200ms all;
+    }
+    .nav-toggle::after {
+        content: ' ';
+        display: block;
+        border-width: 0 0 0.15em 0;
+        border-color: white;
+        border-style: solid;
+        height: 38%;
+        margin-bottom: 6%;
+        width: 100%;
+        transition: 200ms all;
+    }
+    .nav-toggle.expanded::before {
+        border-width: 0.15em 0 0 0;
+        transform: rotate(45deg);
+        transform-origin: 0% 50%;
+        border-bottom-color: transparent;
+        margin-top: 0;
+        height: 50%;
+        width: 110%;
+
+    }
+    .nav-toggle.expanded::after {
+        transform: rotate(-45deg);
+        transform-origin: 0% 50%;
+        margin-bottom: 0;
+        height: 50%;
+        width: 110%;
+    }
 }
 
 /* Content sections layout */
@@ -217,36 +286,30 @@ footer.footer {
 
 ul.nav-links {
     list-style: none;
-    padding: 0;
-    margin: 1em;
+    padding: 1em 0;
+    margin: 0 auto;
 }
 
-ul.nav-buttons li {
+nav.header a {
     display: inline-block;
-    margin: 2px;
-}
-
-ul.nav-buttons a {
-    display: inline-block;
-    padding: 5px 10px;
-    margin: 0px 10px;
-    border: 1px solid white;
+    padding: 5px 6px;
+    margin: 0.2em 4px;
     border-radius: 4px;
     text-decoration: none;
     color: white;
     transition: background .5s ease;
 }
 
-ul.nav-buttons a {
+nav.header a {
     background: hsl(198, 80%, 36%);
 }
-ul.nav-buttons a:hover {
+nav.header a:hover {
     background: hsl(198, 80%, 31%);
 }
-ul.nav-buttons a.active {
+nav.header a.active {
     background: hsl(198, 80%, 27%);
 }
-ul.nav-buttons a:focus {
+nav.header a:focus {
     border-color: hsl(198, 100%, 60%);
     background: hsl(198, 80%, 27%);
     outline: none;
@@ -316,6 +379,7 @@ footer a svg {
 footer a {
     color: hsl(198, 82%, 32%);
     text-decoration: none;
+    padding: 6px;
 }
 footer a:hover {
     color: hsl(198, 82%, 55%);
@@ -325,9 +389,23 @@ footer a svg {
     color: hsl(198, 3%, 8%);
 }
 
-.nav-links li {
-    display: inline-block;
-    margin: 0px 15px;
+footer .nav-links {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.7em;
+    max-width: 380px;
+}
+@media (min-width: 500px) {
+    footer .nav-links {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        max-width: 600px;
+    }
+    .nav-links li:nth-child(3), .nav-links li:nth-child(4) {
+        order: 2;
+    }
 }
 
 .copy-line {
@@ -335,6 +413,7 @@ footer a svg {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 1em;
 }
 
 .d-flex {
@@ -362,26 +441,6 @@ footer a svg {
 
 .no-break {
     white-space: nowrap;
-}
-
-@media (max-width: 500px) {
-    ul.nav-buttons a {
-        margin: 0px 3px;
-    }
-    .hide-xs {
-        display: none;
-    }
-    .nav-links li {
-        margin: 0px 5px;
-    }
-
-    
-}
-
-@media (max-width: 420px) {
-    ul.nav-buttons a {
-        padding: 5px;
-    }
 }
 
 .text-large {
