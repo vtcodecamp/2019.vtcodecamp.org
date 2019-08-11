@@ -142,7 +142,7 @@ ul.nav-buttons {
     justify-content: space-around;  /* space-evenly looks a little better, but doesn't work in IE11 or Edge */
     max-width: 900px;
 }
-.nav-toggle {
+nav.header a.nav-toggle {
     display: none;
 }
 @media (max-width: 740px) {
