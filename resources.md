@@ -66,6 +66,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [fa - download](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
 * [fa - sprites](https://fontawesome.com/how-to-use/on-the-web/advanced/svg-sprites)
 * [svg omg - svg optimizer](https://jakearchibald.github.io/svgomg/)
+* [svg - use xlink from other image](https://css-tricks.com/svg-use-external-source/)
 * [squoosh - image optimizer](https://squoosh.app/)
 
 ## Additional

@@ -1,7 +1,7 @@
 ---
 layout: default-layout.njk
 title:  "Speakers"
-meta_description: 
+meta_description: Read more about the Vermont Code Camp speakers
 ---
 
 
@@ -11,11 +11,53 @@ meta_description:
 
 <h1> {{title}} </h1>
 
-<ul>
-    {% for speaker in speakers %}
-        <li>{{speaker}}</li>
-    {% endfor %}
-</ul>
+{% for speakerId, speaker in speakers %}
+    <article class="speaker" id="{{ speakerId }}">
+        <div class="d-inline-flex speaker-headline ">
+            <h2 class="d-inline-flex" >
+                <a href="#{{ speakerId }}" >
+                    {{ speaker.fullName }} 
+                </a>
+            </h2>
+            {% for link in speaker.links %} 
+                {% if link.linkType == 'Twitter' %}
+                <h4 class="speaker-link twitter d-inline-flex">
+                    <a href="{{ link.url }}" class="d-inline-flex">
+                        <svg viewBox="0 0 512 512" >
+                            <use xlink:href="#twitter-path"></use>
+                        </svg>
+                        {# {% include 'assets/fa/twitter.svg' %} #}
+                        {{ link.name }}
+                    </a>
+                    <svg viewBox="0 0 576 512" >
+                        <use xlink:href="#external-link-path"></use>
+                    </svg>
+                </h4>
+                {% endif %}
+            {% endfor %}
+
+        </div>
+
+        {{ speaker.bio | markdown | safe }}
+
+        {% if speaker.sessions %}
+            <p class="speaker-sessions">Sessions:</p>
+            <ul> 
+            {% for sessionId in speaker.sessions %}
+                {% set session = sessions[sessionId] %}
+                <li><a href="/sessions#{{ sessionId }}">{{ session.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </article>
+{% endfor %}
+
 
 </div>
 </section>
+
+{# inline svg icons are on the page once - we'll re-use them using their ids #}
+<div class="d-none">
+    {% include "assets/fa/twitter.svg" %}
+    {% include "assets/fa/external-link-solid.svg" %}
+</div>
