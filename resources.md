@@ -38,6 +38,17 @@ A stash for helpful articles, references, documentation looked up along the way
 * [a11y - semantic vs decorative icons](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
 * [a11y - aria-hidden](https://developer.paciellogroup.com/blog/2012/05/html5-accessibility-chops-hidden-and-aria-hidden/)
 
+## Markdown
+
+* [md - extended syntax - ids](https://www.markdownguide.org/extended-syntax/#heading-ids)
+* [MarkdownLint](https://github.com/markdownlint/markdownlint) rule updates
+  * [MD013](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length) - Line Length too long
+    * If folks want to put paragraphs in markdown, that's fine, just use an IDE that wraps lines
+  * [MD025](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md025---multiple-top-level-headers-in-the-same-document) - Multiple Headers
+    * False reading from building our markdown pages using templates like this `# {{title}}`
+  * [MD033](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html) - Inline HTML
+    * We need this for templating reasons
+
 ## Node
 
 * [npm - markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
@@ -63,4 +74,4 @@ A stash for helpful articles, references, documentation looked up along the way
 * [twitter - style tweets](https://medium.com/@makerspirit/how-to-style-your-twitter-widget-styling-on-shadow-dom-a405c36edd10)
 * [json schema - url format](https://github.com/json-schema-org/json-schema-spec/issues/233#issuecomment-279180514)
 * [json schema - array of type](https://stackoverflow.com/a/51557536/1366033)
-* [md - extended syntax - ids](https://www.markdownguide.org/extended-syntax/#heading-ids)
+
