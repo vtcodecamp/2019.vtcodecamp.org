@@ -52,6 +52,7 @@ A stash for helpful articles, references, documentation looked up along the way
 ## Node
 
 * [npm - markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
+* [npm - run multiple scripts sequentially](https://stackoverflow.com/a/39172660/1366033)
 * [node - `__dirname`](https://nodejs.org/docs/latest/api/globals.html#globals_dirname)
 
 ## VS Code

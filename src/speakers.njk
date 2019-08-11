@@ -9,9 +9,13 @@ meta_description:
 <div class="section-content">   
 
 
-# {{title}}
+<h1> {{title}} </h1>
 
-
+<ul>
+    {% for speaker in speakers %}
+        <li>{{speaker}}</li>
+    {% endfor %}
+</ul>
 
 </div>
 </section>

@@ -13,7 +13,9 @@
   },
   "scripts": {
     "build": "npx eleventy",
-    "serve": "npx eleventy --serve"
+    "serve": "npx eleventy --serve",
+    "update-data": "node fetchData.js",
+    "full-build": "npm run update-data && npm run build"
   },
   "repository": {
     "type": "git",
