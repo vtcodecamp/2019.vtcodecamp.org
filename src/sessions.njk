@@ -12,18 +12,17 @@ meta_description:
 
 {% for session in sessionsSorted %}
 
-    <article class="session" id="{{ session.slug }}">
-        <h2 id="{{session.slug}}">
-            {{ session.title }} 
-
-            {# <small>
-                <a href="/schedule#{{ timeCode }}">
-                    {{ session.startsAt | to12hourTime }}-{{ session.endsAt | to12hourTime }}
+    <article class="session article" id="{{ session.slug }}">
+        <div class="d-inline-flex headline ">
+            <h2 class="d-inline-flex">
+                <a href="#{{ session.slug }}" >
+                    {{ session.title }} 
                 </a>
-            </small> #}
-        </h2>
+            </h2>
+        </div>
 
-        <h4 class="parenthesis">
+        <h4 class="byline">
+            By 
             {% for speakerKey in session.speakers %}
                 {% set speaker = speakers[speakerKey.id] %}
                 <a href="/speakers#{{speaker.slug}}">
@@ -32,8 +31,8 @@ meta_description:
                 {% if not loop.last %}/{% endif %}
             {% endfor %}
         </h4>
-
-        <p class="level">Level {{ session.level }}</p>
+        {% set levelNum = session.level.split(" ")[0] %}
+        <p class="level level-{{levelNum}}">{{session.level}}</p>
 
         {{ session.description | markdown | safe }}
 
