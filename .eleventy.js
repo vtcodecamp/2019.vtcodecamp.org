@@ -16,6 +16,11 @@ module.exports = function(eleventyConfig) {
         return value.replace('/src','');
     });
 
+    let md = require('markdown-it')();
+    eleventyConfig.addFilter("markdown", function(string) {
+        return md.render(string);
+    });
+
     // set markdown defaults (inline so we can extend)
     let markdownIt = require("markdown-it");
     let options = {

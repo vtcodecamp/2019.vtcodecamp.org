@@ -53,8 +53,10 @@
 ## NPM Scripts
 
 ```bash
-npm run build   # runs `npx eleventy` to build the site
-npm run serve   # builds site + serves `_site` directory
+npm run build         # runs `npx eleventy` to build the site
+npm run serve         # builds site + serves `_site` directory
+npm run update-data   # gets sessionize data and updates _data directory
+npm run full-build    # gets new sessionize data and builds site
 ```
 
 ## YAML FrontMatter
