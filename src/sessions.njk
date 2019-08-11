@@ -1,0 +1,54 @@
+---
+layout: default-layout.njk
+title:  "Sessions"
+meta_description: 
+---
+
+
+<section class="main" >
+<div class="section-content">
+
+<h1> {{title}} </h1>
+
+{% for session in sessionsSorted %}
+
+    <article class="session" id="{{ session.slug }}">
+        <h2 id="{{session.slug}}">
+            {{ session.title }} 
+
+            {# <small>
+                <a href="/schedule#{{ timeCode }}">
+                    {{ session.startsAt | to12hourTime }}-{{ session.endsAt | to12hourTime }}
+                </a>
+            </small> #}
+        </h2>
+
+        <h4 class="parenthesis">
+            {% for speakerKey in session.speakers %}
+                {% set speaker = speakers[speakerKey.id] %}
+                <a href="/speakers#{{speaker.slug}}">
+                    {{ speaker.fullName }}
+                </a>
+                {% if not loop.last %}/{% endif %}
+            {% endfor %}
+        </h4>
+
+        <p class="level">Level {{ session.level }}</p>
+
+        {{ session.description | markdown | safe }}
+
+        {% if session.resources %}
+            <p>Resources:</p>
+            <ul>
+            {% for resource in session.resources %}
+                <li><a href="{{ resource.href }}">{{ resource.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </article>
+    {% endfor %}
+
+
+
+</div>
+</section>

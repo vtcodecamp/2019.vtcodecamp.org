@@ -12,10 +12,11 @@ meta_description: Read more about the Vermont Code Camp speakers
 <h1> {{title}} </h1>
 
 {% for speakerId, speaker in speakers %}
-    <article class="speaker" id="{{ speakerId }}">
+
+    <article class="speaker" id="{{ speaker.slug }}">
         <div class="d-inline-flex speaker-headline ">
             <h2 class="d-inline-flex" >
-                <a href="#{{ speakerId }}" >
+                <a href="#{{ speaker.slug }}" >
                     {{ speaker.fullName }} 
                 </a>
             </h2>
@@ -43,9 +44,9 @@ meta_description: Read more about the Vermont Code Camp speakers
         {% if speaker.sessions %}
             <p class="speaker-sessions">Sessions:</p>
             <ul> 
-            {% for sessionId in speaker.sessions %}
-                {% set session = sessions[sessionId] %}
-                <li><a href="/sessions#{{ sessionId }}">{{ session.title }}</a></li>
+            {% for sessionKey in speaker.sessions %}
+                {% set session = sessions[sessionKey.id] %}
+                <li><a href="/sessions#{{ session.slug }}">{{ session.title }}</a></li>
             {% endfor %}
             </ul>
         {% endif %}

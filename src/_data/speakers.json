@@ -16,11 +16,15 @@
             }
         ],
         "sessions": [
-            124040
+            {
+                "id": 124040,
+                "slug": "Uptime-15379-days-The-Computers-of-Voyager"
+            }
         ],
         "fullName": "Aaron Cummings",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Aaron-Cummings"
     },
     "5b87cf23-c8d0-41eb-a0aa-95041bcad8b9": {
         "id": "5b87cf23-c8d0-41eb-a0aa-95041bcad8b9",
@@ -32,11 +36,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            138509
+            {
+                "id": 138509,
+                "slug": "Ensuring-Quality-The-Easy-Way"
+            }
         ],
         "fullName": "Allison Lazarz",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Allison-Lazarz"
     },
     "0a5d3f41-6bfc-4fe4-a0ce-d129f7db65dc": {
         "id": "0a5d3f41-6bfc-4fe4-a0ce-d129f7db65dc",
@@ -48,11 +56,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            138443
+            {
+                "id": 138443,
+                "slug": "Standing-on-the-Shoulders-of-Giants-Dependency-Injection-in"
+            }
         ],
         "fullName": "Ben Glassman",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Ben-Glassman"
     },
     "09fe8d80-d68f-49a7-a2c3-76c1aa52301a": {
         "id": "09fe8d80-d68f-49a7-a2c3-76c1aa52301a",
@@ -71,11 +83,15 @@
             }
         ],
         "sessions": [
-            138615
+            {
+                "id": 138615,
+                "slug": "Running-Azure-Securely-which-of-these-Azure-security-features"
+            }
         ],
         "fullName": "Bill Wilder",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Bill-Wilder"
     },
     "cb70d1bd-13ab-4a16-abfd-cf48b37ec30d": {
         "id": "cb70d1bd-13ab-4a16-abfd-cf48b37ec30d",
@@ -94,11 +110,15 @@
             }
         ],
         "sessions": [
-            124009
+            {
+                "id": 124009,
+                "slug": "Keeping-Configuration-Secrets-Out-Of-Source-Code"
+            }
         ],
         "fullName": "Bob Crowley",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Bob-Crowley"
     },
     "046493b2-5e16-47d6-a9f3-958d3e99bb45": {
         "id": "046493b2-5e16-47d6-a9f3-958d3e99bb45",
@@ -117,11 +137,15 @@
             }
         ],
         "sessions": [
-            131201
+            {
+                "id": 131201,
+                "slug": "Identity-101-How-usernamepassword-got-so-complicated"
+            }
         ],
         "fullName": "Bobby Johnson",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Bobby-Johnson"
     },
     "3c3e20d6-e3e1-4ec2-a1cd-326a0dc6b7db": {
         "id": "3c3e20d6-e3e1-4ec2-a1cd-326a0dc6b7db",
@@ -140,11 +164,15 @@
             }
         ],
         "sessions": [
-            136320
+            {
+                "id": 136320,
+                "slug": "Improving-student-engagement-for-050-cents-a-month"
+            }
         ],
         "fullName": "Brian Lloyd-Newberry",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Brian-LloydNewberry"
     },
     "ef7a10de-d257-4a34-934d-a25bb3c61c4c": {
         "id": "ef7a10de-d257-4a34-934d-a25bb3c61c4c",
@@ -163,11 +191,15 @@
             }
         ],
         "sessions": [
-            138573
+            {
+                "id": 138573,
+                "slug": "Bug-ConsciousnessWhat-we-can-learn-from-bugs-to-improve"
+            }
         ],
         "fullName": "Brie Hoblin",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Brie-Hoblin"
     },
     "a78ce4e1-4eff-4d58-86ef-3980f6959556": {
         "id": "a78ce4e1-4eff-4d58-86ef-3980f6959556",
@@ -179,11 +211,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            127696
+            {
+                "id": 127696,
+                "slug": "Power-BI-Report-Server-for-the-enterprise"
+            }
         ],
         "fullName": "Christian Cote",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Christian-Cote"
     },
     "e806795b-4377-48d5-8d7b-24b499f4be08": {
         "id": "e806795b-4377-48d5-8d7b-24b499f4be08",
@@ -202,11 +238,15 @@
             }
         ],
         "sessions": [
-            138584
+            {
+                "id": 138584,
+                "slug": "Yes-IPv6-Is-Real-How-To-Make-Your-Apps"
+            }
         ],
         "fullName": "Dan York",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Dan-York"
     },
     "2a3311e1-493c-4e5e-9859-8d5987709e46": {
         "id": "2a3311e1-493c-4e5e-9859-8d5987709e46",
@@ -218,11 +258,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            136264
+            {
+                "id": 136264,
+                "slug": "Azure-API-Management"
+            }
         ],
         "fullName": "Daniel Colón",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Daniel-Coln"
     },
     "c71411fa-f358-4661-bd03-cfad50052ff2": {
         "id": "c71411fa-f358-4661-bd03-cfad50052ff2",
@@ -241,11 +285,15 @@
             }
         ],
         "sessions": [
-            136258
+            {
+                "id": 136258,
+                "slug": "Becoming-a-Web-Accessibility-Champion"
+            }
         ],
         "fullName": "Eric Wright",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Eric-Wright"
     },
     "19549c8e-60a2-4da4-9b64-bc751d45930e": {
         "id": "19549c8e-60a2-4da4-9b64-bc751d45930e",
@@ -264,11 +312,15 @@
             }
         ],
         "sessions": [
-            135708
+            {
+                "id": 135708,
+                "slug": "Calling-Shenanigans-on-Agile-UX"
+            }
         ],
         "fullName": "Everett McKay",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Everett-McKay"
     },
     "9e6e85d8-9546-4a42-90f2-b206ac7f55b8": {
         "id": "9e6e85d8-9546-4a42-90f2-b206ac7f55b8",
@@ -287,11 +339,15 @@
             }
         ],
         "sessions": [
-            132433
+            {
+                "id": 132433,
+                "slug": "Securing-the-front-end-from-a-Node-server"
+            }
         ],
         "fullName": "gleb bahmutov",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "gleb-bahmutov"
     },
     "901abc5f-54f6-4b6e-b5cd-100ac28c541c": {
         "id": "901abc5f-54f6-4b6e-b5cd-100ac28c541c",
@@ -310,11 +366,15 @@
             }
         ],
         "sessions": [
-            138623
+            {
+                "id": 138623,
+                "slug": "A-Gentle-Intro-to-Akka-and-the-Actor-Model"
+            }
         ],
         "fullName": "Grant  Steinfeld",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Grant-Steinfeld"
     },
     "af0bdeab-5e15-46a9-9a7f-07d56483fd62": {
         "id": "af0bdeab-5e15-46a9-9a7f-07d56483fd62",
@@ -333,11 +393,15 @@
             }
         ],
         "sessions": [
-            135699
+            {
+                "id": 135699,
+                "slug": "Life-off-the-Happy-Path-How-to-Get-Started"
+            }
         ],
         "fullName": "Haney Hamdy",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Haney-Hamdy"
     },
     "bbb5af00-c8cd-406d-9eb5-7c821e748de3": {
         "id": "bbb5af00-c8cd-406d-9eb5-7c821e748de3",
@@ -349,11 +413,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            137732
+            {
+                "id": 137732,
+                "slug": "AI-The-rise-of-the-machine-learning"
+            }
         ],
         "fullName": "Joe Ng",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Joe-Ng"
     },
     "5a111e09-2922-4aff-a0eb-9b6691b6e8b2": {
         "id": "5a111e09-2922-4aff-a0eb-9b6691b6e8b2",
@@ -372,11 +440,15 @@
             }
         ],
         "sessions": [
-            125508
+            {
+                "id": 125508,
+                "slug": "Hacking-JWTs"
+            }
         ],
         "fullName": "Joel Lord",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Joel-Lord"
     },
     "4812034b-4e76-459b-bca9-954814199991": {
         "id": "4812034b-4e76-459b-bca9-954814199991",
@@ -395,11 +467,15 @@
             }
         ],
         "sessions": [
-            134755
+            {
+                "id": 134755,
+                "slug": "3-Tasty-Monads-to-Spice-Up-Your-JavaScript"
+            }
         ],
         "fullName": "John Need",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "John-Need"
     },
     "fb1e36de-8ea1-463c-a7d4-1a6a604b85f7": {
         "id": "fb1e36de-8ea1-463c-a7d4-1a6a604b85f7",
@@ -411,11 +487,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            138443
+            {
+                "id": 138443,
+                "slug": "Standing-on-the-Shoulders-of-Giants-Dependency-Injection-in"
+            }
         ],
         "fullName": "Jon Hoguet",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Jon-Hoguet"
     },
     "282a4701-f128-4b1d-bd67-da5d1f8b3eb0": {
         "id": "282a4701-f128-4b1d-bd67-da5d1f8b3eb0",
@@ -434,11 +514,15 @@
             }
         ],
         "sessions": [
-            136238
+            {
+                "id": 136238,
+                "slug": "Living-with-your-Legacy"
+            }
         ],
         "fullName": "Julie Lerman",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Julie-Lerman"
     },
     "165e172f-0221-4697-937a-4ba2b667d39b": {
         "id": "165e172f-0221-4697-937a-4ba2b667d39b",
@@ -457,11 +541,15 @@
             }
         ],
         "sessions": [
-            138591
+            {
+                "id": 138591,
+                "slug": "JAMming-out-with-Static-Site-Generators-Web-development-made"
+            }
         ],
         "fullName": "Kyle Mitofsky",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Kyle-Mitofsky"
     },
     "46349265-5780-459f-a766-31dbd5dafc85": {
         "id": "46349265-5780-459f-a766-31dbd5dafc85",
@@ -473,11 +561,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            131703
+            {
+                "id": 131703,
+                "slug": "Helping-high-school-students-learn-to-code"
+            }
         ],
         "fullName": "Lea Ann Smith",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Lea-Ann-Smith"
     },
     "393c3111-87ea-4314-b007-6edfa8fa0a63": {
         "id": "393c3111-87ea-4314-b007-6edfa8fa0a63",
@@ -496,11 +588,15 @@
             }
         ],
         "sessions": [
-            132196
+            {
+                "id": 132196,
+                "slug": "Building-Custom-Ecommerce-Solutions-On-The-Cheap-for-NonProfits"
+            }
         ],
         "fullName": "Linus Falck-Ytter",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Linus-FalckYtter"
     },
     "29d505af-541b-404d-9eb5-f1528a6a5645": {
         "id": "29d505af-541b-404d-9eb5-f1528a6a5645",
@@ -519,11 +615,15 @@
             }
         ],
         "sessions": [
-            138573
+            {
+                "id": 138573,
+                "slug": "Bug-ConsciousnessWhat-we-can-learn-from-bugs-to-improve"
+            }
         ],
         "fullName": "Lisa Crispin",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Lisa-Crispin"
     },
     "4870cd32-f9a5-492f-a1d5-6aa41a07b0d7": {
         "id": "4870cd32-f9a5-492f-a1d5-6aa41a07b0d7",
@@ -535,11 +635,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            127790
+            {
+                "id": 127790,
+                "slug": "Differential-Privacy"
+            }
         ],
         "fullName": "Malina Kirn",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Malina-Kirn"
     },
     "e2712384-1dff-4eb7-8dbf-77e621e4d274": {
         "id": "e2712384-1dff-4eb7-8dbf-77e621e4d274",
@@ -558,11 +662,15 @@
             }
         ],
         "sessions": [
-            138623
+            {
+                "id": 138623,
+                "slug": "A-Gentle-Intro-to-Akka-and-the-Actor-Model"
+            }
         ],
         "fullName": "Mary Grygleski",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Mary-Grygleski"
     },
     "cf712204-de09-4c66-8aba-045295f97883": {
         "id": "cf712204-de09-4c66-8aba-045295f97883",
@@ -574,11 +682,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            136414
+            {
+                "id": 136414,
+                "slug": "Intro-to-Docker-and-PHP"
+            }
         ],
         "fullName": "Mat Gilbert",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Mat-Gilbert"
     },
     "06a58103-991d-4a1d-b2f8-0dc5ae7e36d3": {
         "id": "06a58103-991d-4a1d-b2f8-0dc5ae7e36d3",
@@ -597,11 +709,15 @@
             }
         ],
         "sessions": [
-            138570
+            {
+                "id": 138570,
+                "slug": "Intro-to-Deep-Learning-for-Developers"
+            }
         ],
         "fullName": "Maureen McElaney",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Maureen-McElaney"
     },
     "c38b410c-4188-4eed-90e4-754e76b661a4": {
         "id": "c38b410c-4188-4eed-90e4-754e76b661a4",
@@ -620,11 +736,15 @@
             }
         ],
         "sessions": [
-            129319
+            {
+                "id": 129319,
+                "slug": "State-Machines-for-Programmerless-UIs"
+            }
         ],
         "fullName": "Nate Morse",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Nate-Morse"
     },
     "775e5929-a242-4d68-a792-f89d9792b640": {
         "id": "775e5929-a242-4d68-a792-f89d9792b640",
@@ -643,11 +763,15 @@
             }
         ],
         "sessions": [
-            135980
+            {
+                "id": 135980,
+                "slug": "Scale-your-API-quickly-using-Message-Queues-on-AWS"
+            }
         ],
         "fullName": "Nathan Westfall",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Nathan-Westfall"
     },
     "90a2a984-f105-4679-804a-1aafd432ad23": {
         "id": "90a2a984-f105-4679-804a-1aafd432ad23",
@@ -659,11 +783,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            136707
+            {
+                "id": 136707,
+                "slug": "From-Legacy-App-to-the-Cloud"
+            }
         ],
         "fullName": "Nelson Rooker",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Nelson-Rooker"
     },
     "644e3a35-e3b3-4a89-bf83-4cc2aa375ea1": {
         "id": "644e3a35-e3b3-4a89-bf83-4cc2aa375ea1",
@@ -675,11 +803,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            136361
+            {
+                "id": 136361,
+                "slug": "Building-Tech-Products-that-Solve-Problems"
+            }
         ],
         "fullName": "Olivia Johnston",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Olivia-Johnston"
     },
     "b47b1b66-9f33-4e4e-83f5-e2840ceb3f6b": {
         "id": "b47b1b66-9f33-4e4e-83f5-e2840ceb3f6b",
@@ -698,11 +830,15 @@
             }
         ],
         "sessions": [
-            137411
+            {
+                "id": 137411,
+                "slug": "Common-Sense-Stats-Bootstrapping"
+            }
         ],
         "fullName": "Ryan Harter",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Ryan-Harter"
     },
     "e4b4d074-0d40-44b4-8701-c4a8c99097d3": {
         "id": "e4b4d074-0d40-44b4-8701-c4a8c99097d3",
@@ -721,11 +857,15 @@
             }
         ],
         "sessions": [
-            136300
+            {
+                "id": 136300,
+                "slug": "Rearchitecting-the-Monolith"
+            }
         ],
         "fullName": "Stephen Thomas",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Stephen-Thomas"
     },
     "59296811-e638-45ad-94f1-a9c23606cf21": {
         "id": "59296811-e638-45ad-94f1-a9c23606cf21",
@@ -744,11 +884,15 @@
             }
         ],
         "sessions": [
-            128161
+            {
+                "id": 128161,
+                "slug": "Machine-Learning-in-JavaScript-with-TensorFlowjs"
+            }
         ],
         "fullName": "va barbosa",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "va-barbosa"
     },
     "889d5649-f426-4e5f-ac76-af723afd38f1": {
         "id": "889d5649-f426-4e5f-ac76-af723afd38f1",
@@ -767,11 +911,15 @@
             }
         ],
         "sessions": [
-            136036
+            {
+                "id": 136036,
+                "slug": "Sustaining-Community-Empowerment-as-a-Black-Woman"
+            }
         ],
         "fullName": "Valerie Sharp",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Valerie-Sharp"
     },
     "3e34cfb3-2012-432a-b944-14a98afd33b8": {
         "id": "3e34cfb3-2012-432a-b944-14a98afd33b8",
@@ -783,11 +931,15 @@
         "isTopSpeaker": false,
         "links": [],
         "sessions": [
-            126286
+            {
+                "id": 126286,
+                "slug": "Managing-local-development-environments-through-Docker-Compose"
+            }
         ],
         "fullName": "Zachary Kingston",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Zachary-Kingston"
     },
     "22a5e6d5-c5c4-4e4c-8f82-b088d5d797b7": {
         "id": "22a5e6d5-c5c4-4e4c-8f82-b088d5d797b7",
@@ -806,10 +958,14 @@
             }
         ],
         "sessions": [
-            138591
+            {
+                "id": 138591,
+                "slug": "JAMming-out-with-Static-Site-Generators-Web-development-made"
+            }
         ],
         "fullName": "Zeke Farwell",
         "categoryItems": [],
-        "questionAnswers": []
+        "questionAnswers": [],
+        "slug": "Zeke-Farwell"
     }
 }

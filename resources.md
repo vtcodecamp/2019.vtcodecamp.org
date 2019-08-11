@@ -15,6 +15,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [11ty - filters](https://www.11ty.io/docs/filters/)
 * [11ty - plugins](https://www.11ty.io/docs/plugins/)
 * [11ty - frontmatter in .11ty.js files](https://www.11ty.io/docs/languages/javascript/#permalinks)
+* [11ty - Debug 11ty with VS Code](https://github.com/11ty/eleventy/issues/331)
 
 ## Netlify
 
@@ -31,6 +32,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [nunjucks - check if variable in string](https://github.com/mozilla/nunjucks/issues/676)
 * [nunjucks - inline if expression](https://mozilla.github.io/nunjucks/templating.html#if-expression)
 * [nunjucks - substring of string](https://stackoverflow.com/a/48427351/1366033)
+* [nunjucks - iterating with `for`](https://mozilla.github.io/nunjucks/templating.html#for)
 
 ## A11y
 
