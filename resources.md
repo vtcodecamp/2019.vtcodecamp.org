@@ -14,6 +14,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [11ty - environment variables](https://www.11ty.io/docs/data-js/#example%3A-exposing-environment-variables)
 * [11ty - filters](https://www.11ty.io/docs/filters/)
 * [11ty - plugins](https://www.11ty.io/docs/plugins/)
+* [11ty - frontmatter in .11ty.js files](https://www.11ty.io/docs/languages/javascript/#permalinks)
 
 ## Netlify
 
