@@ -52,6 +52,11 @@ A stash for helpful articles, references, documentation looked up along the way
   * [MD033](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html) - Inline HTML
     * We need this for templating reasons
 
+## JavaScript
+
+* [Convet Object to array](https://stackoverflow.com/q/38824349/1366033)
+* [Sort array alphabetically](https://stackoverflow.com/a/45544166/1366033)
+
 ## Node
 
 * [npm - markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
