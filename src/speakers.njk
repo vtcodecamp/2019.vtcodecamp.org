@@ -39,7 +39,13 @@ meta_description: Read more about the Vermont Code Camp speakers
 
         </div>
 
+        <p>
+            {% if speaker.profilePicture %}
+                <img src="{{speaker.profilePicture}}" alt="Profile picture for {{speaker.fullName}}" class="profile"/>
+            {% endif %}
             {{ speaker.bio | minimalMarkdown | safe }}
+        </p>
+        <div class="clear"</div>
 
         {% if speaker.sessions %}
             <p class="speaker-sessions">Sessions:</p>

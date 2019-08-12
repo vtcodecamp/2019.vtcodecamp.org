@@ -427,6 +427,14 @@ article.article{
     display: inline;
 }
 
+img.profile {
+    height: 96px;
+    border-radius: 8px;
+    float: left;
+    margin-right: 11px;
+    margin-top: 5px;
+}
+
 .speaker-sessions {
     margin-bottom: 0px;
     color: #6f6f6f;
@@ -500,7 +508,9 @@ footer .nav-links {
     flex-wrap: wrap;
     padding: 1em;
 }
-
+.clear {
+    clear: both;
+}
 .d-none {
     display: none;
 }
