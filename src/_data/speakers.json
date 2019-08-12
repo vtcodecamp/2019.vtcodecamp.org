@@ -528,8 +528,8 @@
         "id": "165e172f-0221-4697-937a-4ba2b667d39b",
         "firstName": "Kyle",
         "lastName": "Mitofsky",
-        "bio": "Kyle's been writing software for the last six years professionally at the Vermont Department of Health, and recreationally at code camps, Meetups, and online. He's currently serving as the Team Technical Lead for our Software Development unit.\r\n\r\nKyle's interested in web, desktop, and mobile development technologies, especially if they're on the .NET stack",
-        "tagLine": "Software Development Tech Lead",
+        "bio": "Kyle's been writing software for the last seven years professionally at the Vermont Department of Health, and recreationally at code camps, Meetups, and online. By day, he focuses on the .NET stack, including ASP.NET MVC and SQL Server,  mentoring folks, reviewing code or interface design or internal processes, and supporting a team of other talented devs.  By night, he enjoys spending more time on the front-end with JavaScript frameworks like Vue, serverless functions, and static site generators.\r\n\r\nKyle spends a lot of time thinking about cats and also documenting what he's learning on [Stack Overflow](https://stackoverflow.com/).",
+        "tagLine": "Senior Full Stack Web Developer",
         "profilePicture": "https://sessionize.com/image?f=55cde8ee120c8c243b0b142ba4db6a02,400,400,True,False,55db796c-e2ac-4d0a-9de7-5d7af464c7fc.jpg",
         "isTopSpeaker": false,
         "links": [

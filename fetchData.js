@@ -83,7 +83,7 @@ function buildSpeakers(speakersData) {
 function buildSessions(sessionsData, levels, formats) {
     for (let session of sessionsData) {
 
-        // 
+        // apply level and category labels
         for (let categoryId of session.categoryItems) {
             if (categoryId in levels) {
                 session.level = levels[categoryId].name;
@@ -96,7 +96,7 @@ function buildSessions(sessionsData, levels, formats) {
         session.slug = slugify(session.title);
     }
 
-    return flattenArrayToObj(sortedSessions);
+    return flattenArrayToObj(sessionsData);
 }
 
 
