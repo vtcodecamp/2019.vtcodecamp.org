@@ -125,7 +125,7 @@ function flattenArrayToObj(array) {
 
 function slugify(s) {
     // strip special chars
-    let newStr = s.replace(/[^a-z0-9 ]/gi,'').trim();
+    let newStr = s.replace(/[^a-z0-9 ]/gi,'').toLowerCase();
     // take first 6 words and separate with "-""
     newStr = newStr.split(" ").filter(x=>x).slice(0,9).join("-");
     return newStr;

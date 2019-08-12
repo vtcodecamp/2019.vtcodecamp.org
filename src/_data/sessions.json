@@ -10,7 +10,7 @@
         "speakers": [
             {
                 "id": "cb70d1bd-13ab-4a16-abfd-cf48b37ec30d",
-                "slug": "Bob-Crowley"
+                "slug": "bob-crowley"
             }
         ],
         "categoryItems": [
@@ -21,7 +21,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Keeping-Configuration-Secrets-Out-Of-Source-Code"
+        "slug": "keeping-configuration-secrets-out-of-source-code"
     },
     "124040": {
         "id": "124040",
@@ -34,7 +34,7 @@
         "speakers": [
             {
                 "id": "8e70fc4b-975b-40ff-8886-31f24d16017c",
-                "slug": "Aaron-Cummings"
+                "slug": "aaron-cummings"
             }
         ],
         "categoryItems": [
@@ -45,7 +45,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "Uptime-15379-days-The-Computers-of-Voyager"
+        "slug": "uptime-15379-days-the-computers-of-voyager"
     },
     "125508": {
         "id": "125508",
@@ -58,7 +58,7 @@
         "speakers": [
             {
                 "id": "5a111e09-2922-4aff-a0eb-9b6691b6e8b2",
-                "slug": "Joel-Lord"
+                "slug": "joel-lord"
             }
         ],
         "categoryItems": [
@@ -69,7 +69,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "300 (pretty darned-experienced)",
-        "slug": "Hacking-JWTs"
+        "slug": "hacking-jwts"
     },
     "126286": {
         "id": "126286",
@@ -82,7 +82,7 @@
         "speakers": [
             {
                 "id": "3e34cfb3-2012-432a-b944-14a98afd33b8",
-                "slug": "Zachary-Kingston"
+                "slug": "zachary-kingston"
             }
         ],
         "categoryItems": [
@@ -93,7 +93,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Managing-local-development-environments-through-Docker-Compose"
+        "slug": "managing-local-development-environments-through-docker-compose"
     },
     "127696": {
         "id": "127696",
@@ -106,7 +106,7 @@
         "speakers": [
             {
                 "id": "a78ce4e1-4eff-4d58-86ef-3980f6959556",
-                "slug": "Christian-Cote"
+                "slug": "christian-cote"
             }
         ],
         "categoryItems": [
@@ -117,7 +117,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Power-BI-Report-Server-for-the-enterprise"
+        "slug": "power-bi-report-server-for-the-enterprise"
     },
     "127790": {
         "id": "127790",
@@ -130,7 +130,7 @@
         "speakers": [
             {
                 "id": "4870cd32-f9a5-492f-a1d5-6aa41a07b0d7",
-                "slug": "Malina-Kirn"
+                "slug": "malina-kirn"
             }
         ],
         "categoryItems": [
@@ -141,7 +141,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Differential-Privacy"
+        "slug": "differential-privacy"
     },
     "128161": {
         "id": "128161",
@@ -165,7 +165,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Machine-Learning-in-JavaScript-with-TensorFlowjs"
+        "slug": "machine-learning-in-javascript-with-tensorflowjs"
     },
     "129319": {
         "id": "129319",
@@ -178,7 +178,7 @@
         "speakers": [
             {
                 "id": "c38b410c-4188-4eed-90e4-754e76b661a4",
-                "slug": "Nate-Morse"
+                "slug": "nate-morse"
             }
         ],
         "categoryItems": [
@@ -189,7 +189,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "State-Machines-for-Programmerless-UIs"
+        "slug": "state-machines-for-programmerless-uis"
     },
     "131201": {
         "id": "131201",
@@ -202,7 +202,7 @@
         "speakers": [
             {
                 "id": "046493b2-5e16-47d6-a9f3-958d3e99bb45",
-                "slug": "Bobby-Johnson"
+                "slug": "bobby-johnson"
             }
         ],
         "categoryItems": [
@@ -213,7 +213,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "Identity-101-How-usernamepassword-got-so-complicated"
+        "slug": "identity-101-how-usernamepassword-got-so-complicated"
     },
     "131703": {
         "id": "131703",
@@ -226,7 +226,7 @@
         "speakers": [
             {
                 "id": "46349265-5780-459f-a766-31dbd5dafc85",
-                "slug": "Lea-Ann-Smith"
+                "slug": "lea-ann-smith"
             }
         ],
         "categoryItems": [
@@ -237,7 +237,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "Helping-high-school-students-learn-to-code"
+        "slug": "helping-high-school-students-learn-to-code"
     },
     "132196": {
         "id": "132196",
@@ -250,7 +250,7 @@
         "speakers": [
             {
                 "id": "393c3111-87ea-4314-b007-6edfa8fa0a63",
-                "slug": "Linus-FalckYtter"
+                "slug": "linus-falckytter"
             }
         ],
         "categoryItems": [
@@ -261,7 +261,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Building-Custom-Ecommerce-Solutions-On-The-Cheap-for-NonProfits"
+        "slug": "building-custom-ecommerce-solutions-on-the-cheap-for-nonprofits"
     },
     "132433": {
         "id": "132433",
@@ -285,7 +285,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Securing-the-front-end-from-a-Node-server"
+        "slug": "securing-the-front-end-from-a-node-server"
     },
     "134755": {
         "id": "134755",
@@ -298,7 +298,7 @@
         "speakers": [
             {
                 "id": "4812034b-4e76-459b-bca9-954814199991",
-                "slug": "John-Need"
+                "slug": "john-need"
             }
         ],
         "categoryItems": [
@@ -309,7 +309,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
-        "slug": "3-Tasty-Monads-to-Spice-Up-Your-JavaScript"
+        "slug": "3-tasty-monads-to-spice-up-your-javascript"
     },
     "135699": {
         "id": "135699",
@@ -322,7 +322,7 @@
         "speakers": [
             {
                 "id": "af0bdeab-5e15-46a9-9a7f-07d56483fd62",
-                "slug": "Haney-Hamdy"
+                "slug": "haney-hamdy"
             }
         ],
         "categoryItems": [
@@ -333,7 +333,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "Life-off-the-Happy-Path-How-to-Get-Started"
+        "slug": "life-off-the-happy-path-how-to-get-started"
     },
     "135708": {
         "id": "135708",
@@ -346,7 +346,7 @@
         "speakers": [
             {
                 "id": "19549c8e-60a2-4da4-9b64-bc751d45930e",
-                "slug": "Everett-McKay"
+                "slug": "everett-mckay"
             }
         ],
         "categoryItems": [
@@ -357,7 +357,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Calling-Shenanigans-on-Agile-UX"
+        "slug": "calling-shenanigans-on-agile-ux"
     },
     "135980": {
         "id": "135980",
@@ -370,7 +370,7 @@
         "speakers": [
             {
                 "id": "775e5929-a242-4d68-a792-f89d9792b640",
-                "slug": "Nathan-Westfall"
+                "slug": "nathan-westfall"
             }
         ],
         "categoryItems": [
@@ -381,7 +381,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Scale-your-API-quickly-using-Message-Queues-on-AWS"
+        "slug": "scale-your-api-quickly-using-message-queues-on-aws"
     },
     "136036": {
         "id": "136036",
@@ -394,7 +394,7 @@
         "speakers": [
             {
                 "id": "889d5649-f426-4e5f-ac76-af723afd38f1",
-                "slug": "Valerie-Sharp"
+                "slug": "valerie-sharp"
             }
         ],
         "categoryItems": [
@@ -405,7 +405,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "Sustaining-Community-Empowerment-as-a-Black-Woman"
+        "slug": "sustaining-community-empowerment-as-a-black-woman"
     },
     "136238": {
         "id": "136238",
@@ -418,7 +418,7 @@
         "speakers": [
             {
                 "id": "282a4701-f128-4b1d-bd67-da5d1f8b3eb0",
-                "slug": "Julie-Lerman"
+                "slug": "julie-lerman"
             }
         ],
         "categoryItems": [
@@ -429,7 +429,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Living-with-your-Legacy"
+        "slug": "living-with-your-legacy"
     },
     "136258": {
         "id": "136258",
@@ -442,7 +442,7 @@
         "speakers": [
             {
                 "id": "c71411fa-f358-4661-bd03-cfad50052ff2",
-                "slug": "Eric-Wright"
+                "slug": "eric-wright"
             }
         ],
         "categoryItems": [
@@ -453,7 +453,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "Becoming-a-Web-Accessibility-Champion"
+        "slug": "becoming-a-web-accessibility-champion"
     },
     "136264": {
         "id": "136264",
@@ -466,7 +466,7 @@
         "speakers": [
             {
                 "id": "2a3311e1-493c-4e5e-9859-8d5987709e46",
-                "slug": "Daniel-Coln"
+                "slug": "daniel-coln"
             }
         ],
         "categoryItems": [
@@ -477,7 +477,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Azure-API-Management"
+        "slug": "azure-api-management"
     },
     "136300": {
         "id": "136300",
@@ -490,7 +490,7 @@
         "speakers": [
             {
                 "id": "e4b4d074-0d40-44b4-8701-c4a8c99097d3",
-                "slug": "Stephen-Thomas"
+                "slug": "stephen-thomas"
             }
         ],
         "categoryItems": [
@@ -501,7 +501,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Rearchitecting-the-Monolith"
+        "slug": "rearchitecting-the-monolith"
     },
     "136320": {
         "id": "136320",
@@ -514,7 +514,7 @@
         "speakers": [
             {
                 "id": "3c3e20d6-e3e1-4ec2-a1cd-326a0dc6b7db",
-                "slug": "Brian-LloydNewberry"
+                "slug": "brian-lloydnewberry"
             }
         ],
         "categoryItems": [
@@ -525,7 +525,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Improving-student-engagement-for-050-cents-a-month"
+        "slug": "improving-student-engagement-for-050-cents-a-month"
     },
     "136361": {
         "id": "136361",
@@ -538,7 +538,7 @@
         "speakers": [
             {
                 "id": "644e3a35-e3b3-4a89-bf83-4cc2aa375ea1",
-                "slug": "Olivia-Johnston"
+                "slug": "olivia-johnston"
             }
         ],
         "categoryItems": [
@@ -549,7 +549,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Building-Tech-Products-that-Solve-Problems"
+        "slug": "building-tech-products-that-solve-problems"
     },
     "136414": {
         "id": "136414",
@@ -562,7 +562,7 @@
         "speakers": [
             {
                 "id": "cf712204-de09-4c66-8aba-045295f97883",
-                "slug": "Mat-Gilbert"
+                "slug": "mat-gilbert"
             }
         ],
         "categoryItems": [
@@ -573,7 +573,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "Intro-to-Docker-and-PHP"
+        "slug": "intro-to-docker-and-php"
     },
     "136707": {
         "id": "136707",
@@ -586,7 +586,7 @@
         "speakers": [
             {
                 "id": "90a2a984-f105-4679-804a-1aafd432ad23",
-                "slug": "Nelson-Rooker"
+                "slug": "nelson-rooker"
             }
         ],
         "categoryItems": [
@@ -597,7 +597,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "From-Legacy-App-to-the-Cloud"
+        "slug": "from-legacy-app-to-the-cloud"
     },
     "137411": {
         "id": "137411",
@@ -610,7 +610,7 @@
         "speakers": [
             {
                 "id": "b47b1b66-9f33-4e4e-83f5-e2840ceb3f6b",
-                "slug": "Ryan-Harter"
+                "slug": "ryan-harter"
             }
         ],
         "categoryItems": [
@@ -621,7 +621,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Common-Sense-Stats-Bootstrapping"
+        "slug": "common-sense-stats-bootstrapping"
     },
     "137732": {
         "id": "137732",
@@ -634,7 +634,7 @@
         "speakers": [
             {
                 "id": "bbb5af00-c8cd-406d-9eb5-7c821e748de3",
-                "slug": "Joe-Ng"
+                "slug": "joe-ng"
             }
         ],
         "categoryItems": [
@@ -645,7 +645,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "AI-The-rise-of-the-machine-learning"
+        "slug": "ai-the-rise-of-the-machine-learning"
     },
     "138443": {
         "id": "138443",
@@ -658,11 +658,11 @@
         "speakers": [
             {
                 "id": "0a5d3f41-6bfc-4fe4-a0ce-d129f7db65dc",
-                "slug": "Ben-Glassman"
+                "slug": "ben-glassman"
             },
             {
                 "id": "fb1e36de-8ea1-463c-a7d4-1a6a604b85f7",
-                "slug": "Jon-Hoguet"
+                "slug": "jon-hoguet"
             }
         ],
         "categoryItems": [
@@ -673,7 +673,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Standing-on-the-Shoulders-of-Giants-Dependency-Injection-in"
+        "slug": "standing-on-the-shoulders-of-giants-dependency-injection-in"
     },
     "138509": {
         "id": "138509",
@@ -686,7 +686,7 @@
         "speakers": [
             {
                 "id": "5b87cf23-c8d0-41eb-a0aa-95041bcad8b9",
-                "slug": "Allison-Lazarz"
+                "slug": "allison-lazarz"
             }
         ],
         "categoryItems": [
@@ -697,7 +697,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "Ensuring-Quality-The-Easy-Way"
+        "slug": "ensuring-quality-the-easy-way"
     },
     "138570": {
         "id": "138570",
@@ -710,7 +710,7 @@
         "speakers": [
             {
                 "id": "06a58103-991d-4a1d-b2f8-0dc5ae7e36d3",
-                "slug": "Maureen-McElaney"
+                "slug": "maureen-mcelaney"
             }
         ],
         "categoryItems": [
@@ -721,7 +721,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Intro-to-Deep-Learning-for-Developers"
+        "slug": "intro-to-deep-learning-for-developers"
     },
     "138573": {
         "id": "138573",
@@ -734,11 +734,11 @@
         "speakers": [
             {
                 "id": "29d505af-541b-404d-9eb5-f1528a6a5645",
-                "slug": "Lisa-Crispin"
+                "slug": "lisa-crispin"
             },
             {
                 "id": "ef7a10de-d257-4a34-934d-a25bb3c61c4c",
-                "slug": "Brie-Hoblin"
+                "slug": "brie-hoblin"
             }
         ],
         "categoryItems": [
@@ -749,7 +749,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "Bug-ConsciousnessWhat-we-can-learn-from-bugs-to-improve"
+        "slug": "bug-consciousnesswhat-we-can-learn-from-bugs-to-improve"
     },
     "138584": {
         "id": "138584",
@@ -762,7 +762,7 @@
         "speakers": [
             {
                 "id": "e806795b-4377-48d5-8d7b-24b499f4be08",
-                "slug": "Dan-York"
+                "slug": "dan-york"
             }
         ],
         "categoryItems": [
@@ -773,7 +773,7 @@
         "roomId": null,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Yes-IPv6-Is-Real-How-To-Make-Your-Apps"
+        "slug": "yes-ipv6-is-real-how-to-make-your-apps"
     },
     "138591": {
         "id": "138591",
@@ -786,11 +786,11 @@
         "speakers": [
             {
                 "id": "165e172f-0221-4697-937a-4ba2b667d39b",
-                "slug": "Kyle-Mitofsky"
+                "slug": "kyle-mitofsky"
             },
             {
                 "id": "22a5e6d5-c5c4-4e4c-8f82-b088d5d797b7",
-                "slug": "Zeke-Farwell"
+                "slug": "zeke-farwell"
             }
         ],
         "categoryItems": [
@@ -801,7 +801,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "JAMming-out-with-Static-Site-Generators-Web-development-made"
+        "slug": "jamming-out-with-static-site-generators-web-development-made"
     },
     "138615": {
         "id": "138615",
@@ -814,7 +814,7 @@
         "speakers": [
             {
                 "id": "09fe8d80-d68f-49a7-a2c3-76c1aa52301a",
-                "slug": "Bill-Wilder"
+                "slug": "bill-wilder"
             }
         ],
         "categoryItems": [
@@ -825,7 +825,7 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
-        "slug": "Running-Azure-Securely-which-of-these-Azure-security-features"
+        "slug": "running-azure-securely-which-of-these-azure-security-features"
     },
     "138623": {
         "id": "138623",
@@ -838,11 +838,11 @@
         "speakers": [
             {
                 "id": "e2712384-1dff-4eb7-8dbf-77e621e4d274",
-                "slug": "Mary-Grygleski"
+                "slug": "mary-grygleski"
             },
             {
                 "id": "901abc5f-54f6-4b6e-b5cd-100ac28c541c",
-                "slug": "Grant-Steinfeld"
+                "slug": "grant-steinfeld"
             }
         ],
         "categoryItems": [
@@ -853,6 +853,6 @@
         "roomId": null,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
-        "slug": "A-Gentle-Intro-to-Akka-and-the-Actor-Model"
+        "slug": "a-gentle-intro-to-akka-and-the-actor-model"
     }
 }
