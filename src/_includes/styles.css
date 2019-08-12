@@ -145,7 +145,7 @@ ul.nav-buttons {
 .nav-toggle {
     display: none;
 }
-@media (max-width: 740px) {
+@media (max-width: 670px) {
     ul.nav-buttons {
         padding: 0 2em 0 0;
     }
