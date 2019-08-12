@@ -15,6 +15,22 @@
 * [fontawesome icons](https://fontawesome.com/icons) - svg icons
 * [unDraw](https://undraw.co/illustrations) -- illustrations
 
+## Project Setup
+
+* Install [Node.js & NPM](https://nodejs.org/en/download/)
+* Run `npm install` in the project directory to install local dependencies
+* Run `npm run serve` to run a local dev environment
+* Access dev copy of the site at [localhost:8080](http://localhost:8080)
+
+## NPM Scripts
+
+```bash
+npm run build             # runs `npx eleventy` to build the site
+npm run serve             # builds site + serves `_site` directory
+npm run update-data       # gets sessionize data and updates _data directory
+npm run update-and-build  # gets new sessionize data and builds site
+```
+
 ## File Structure
 
 ```bash
@@ -43,20 +59,6 @@
 └── readme.md             # 🟊 [You Are Here]
 ```
 
-## Project Setup
-
-* Install [Node.js & NPM](https://nodejs.org/en/download/)
-* Run `npm install` in the project directory to install local dependencies
-* Run `npm run serve` to run a local dev environment
-* Access dev copy of the site at [localhost:8080](http://localhost:8080)
-
-## NPM Scripts
-
-```bash
-npm run build   # runs `npx eleventy` to build the site
-npm run serve   # builds site + serves `_site` directory
-```
-
 ## YAML FrontMatter
 
 Data can be added to the beginning of a page and leveraged in the templating process.  The following fields are commonly used by the layout page:
@@ -64,7 +66,7 @@ Data can be added to the beginning of a page and leveraged in the templating pro
 ```yaml
 ---
 layout: default-layout.njk
-title:  title will show up in ID
+title:  page title and header element
 meta_description: description will show up in meta tags
 ---
 ```
@@ -86,3 +88,13 @@ meta_description: description will show up in meta tags
   * SVG
     * Use [SVGOmg](https://jakearchibald.github.io/svgomg/)
   * Note: At some point we may try to bake this into the build process if we can get node based CLIs for each optimization.  Netlify is setup to perform non-lossy [asset optimization](https://www.netlify.com/blog/2019/08/05/control-your-asset-optimization-settings-from-netlify.toml/), but there's still a lot of other more opinionated optimizations.
+
+## Resources
+
+Checkout [resources.md](resources.md) for a bunch of docs, links, google search results that helped get us to the point where we are today.  Often each resource links lives within the same commit where that feature was being worked on, so you can see a real example of how that snippet was actually implemented.
+
+## Contributing
+
+Thanks for your interest in contributing! There are many ways to contribute to this project.
+
+Get started with [contributing.md](contributing.md)

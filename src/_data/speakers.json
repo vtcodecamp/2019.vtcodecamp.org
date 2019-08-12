@@ -1,0 +1,971 @@
+{
+    "8e70fc4b-975b-40ff-8886-31f24d16017c": {
+        "id": "8e70fc4b-975b-40ff-8886-31f24d16017c",
+        "firstName": "Aaron",
+        "lastName": "Cummings",
+        "bio": "Aaron Cummings is a software developer working in the semiconductor industry, currently leading a team working on tools for building and testing embedded memories.  He has also had a long-term fascination with the space program, and has been interested in Voyager since seeing the pictures returned from Jupiter and Saturn in the 1980s.",
+        "tagLine": "Design Automation with Clojure",
+        "profilePicture": "https://sessionize.com/image?f=62da18a652182a3a2eac23af8a792084,400,400,True,False,4b-975b-40ff-8886-31f24d16017c.2d54f214-8331-4c22-89b1-a2d00b4bde7d.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/btvaaron",
+                "linkType": "Twitter",
+                "name": "@btvaaron"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 124040,
+                "slug": "uptime-15379-days-the-computers-of-voyager"
+            }
+        ],
+        "fullName": "Aaron Cummings",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "aaron-cummings"
+    },
+    "5b87cf23-c8d0-41eb-a0aa-95041bcad8b9": {
+        "id": "5b87cf23-c8d0-41eb-a0aa-95041bcad8b9",
+        "firstName": "Allison",
+        "lastName": "Lazarz",
+        "bio": "Allison is a Software Test Engineer at Dealer.com and has been working with the company just over six years.  She has transitioned from focusing on manual testing to automated testing while continuing to advocate for a quality-first mentality on whatever team she's a part of. \r\n\r\nAllison has a Masters of Science in Broadcast Journalism and a Bachelor of Arts in Journalism and Mass Communication.  \r\n\r\nShe has held jobs as an Online Editor for the Burlington Free Press in Burlington, VT, Video Journalist/Reporter for News 10 Now in Syracuse, NY and Webmaster/QA Coordinator at CPA Site Solutions in Winooski, VT before working at Dealer.com\r\n\r\nWhen she's not improving her testing and javascript skills, Allison may be spotted skiing, biking to work, playing co-ed soccer or kickball, singing in an a cappella group, and/or advocating for green initiatives to help the environment!",
+        "tagLine": "Dealer.com Software Test Engineer",
+        "profilePicture": "https://sessionize.com/image?f=d3645d1f4e201165b844572fcd4fa9a2,400,400,True,False,23-c8d0-41eb-a0aa-95041bcad8b9.5527fb60-f97b-4159-b289-541a93aa772e.png",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 138509,
+                "slug": "ensuring-quality-the-easy-way"
+            }
+        ],
+        "fullName": "Allison Lazarz",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "allison-lazarz"
+    },
+    "0a5d3f41-6bfc-4fe4-a0ce-d129f7db65dc": {
+        "id": "0a5d3f41-6bfc-4fe4-a0ce-d129f7db65dc",
+        "firstName": "Ben",
+        "lastName": "Glassman",
+        "bio": "Ben Glassman is a Tech Lead & Software Engineer at Symbiotic Labs in Vermont.",
+        "tagLine": "Tech Lead, Symbiotic Labs",
+        "profilePicture": "https://sessionize.com/image?f=9cf3a8debefdc5e99f48f8a3a6d35c2a,400,400,True,False,41-6bfc-4fe4-a0ce-d129f7db65dc.1b798609-ea8e-42ef-810d-7ff441733ecc.png",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 138443,
+                "slug": "standing-on-the-shoulders-of-giants-dependency-injection-in"
+            }
+        ],
+        "fullName": "Ben Glassman",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "ben-glassman"
+    },
+    "09fe8d80-d68f-49a7-a2c3-76c1aa52301a": {
+        "id": "09fe8d80-d68f-49a7-a2c3-76c1aa52301a",
+        "firstName": "Bill",
+        "lastName": "Wilder",
+        "bio": "Bill Wilder is a cloud computing veteran, with deep expertise in the Microsoft Azure cloud platform, with a technology focus on public cloud, distributed systems architecture, and application security. Since 2014, Bill has been CTO at Finomial, an early stage SaaS company serving the global hedge fund industry from the cloud. Prior to that, Bill consulted as a hands-on architect to giant corporations (including Microsoft), mid-sized companies, and startups, helping them execute on the cloud by providing architecture guidance, Azure training, and custom development. Bill began working with the Azure cloud platform the day it was unveiled at the Microsoft PDC in 2008 and subsequently founded, in October 2009, Boston Azure, the oldest Azure-focused community user group in the world. \r\n\r\nBill is co-author of two CloudAcademy training courses on Azure (including one on Azure Security) and is the author of the book Cloud Architecture Patterns (O’Reilly Media, 2012) which explains patterns and concepts core to understanding how to most effectively use public cloud platforms such as those from Microsoft, Amazon, and Google. Bill is also recognized by Microsoft as a Microsoft Azure MVP, a reflection of his Azure cloud expertise, a willingness to share it, and community leadership.\r\n\r\nBill speaks regularly at community events and occasionally at big conferences (most recently at O’Reilly’s Software Architecture Conference), blogs at blog.codingoutloud.com, and tweets from @codingoutloud.\r\n\r\n",
+        "tagLine": "Community Leader, Azure MVP, Author, CTO",
+        "profilePicture": "https://sessionize.com/image?f=ce00f22f9c3c447b392a74a7afa47409,400,400,True,False,fcf67899-88dc-441a-b73f-cee6aa239259.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/codingoutloud",
+                "linkType": "Twitter",
+                "name": "@codingoutloud"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 138615,
+                "slug": "running-azure-securely-which-of-these-azure-security-features"
+            }
+        ],
+        "fullName": "Bill Wilder",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "bill-wilder"
+    },
+    "cb70d1bd-13ab-4a16-abfd-cf48b37ec30d": {
+        "id": "cb70d1bd-13ab-4a16-abfd-cf48b37ec30d",
+        "firstName": "Bob",
+        "lastName": "Crowley",
+        "bio": "Bob Crowley is a Senior Software Developer in Portland Maine where he builds solutions in the .Net and Azure ecosystems. Having gained so much from the community himself, he is trying to give a little back as an occasional presenter at his local Casco Bay .Net User Group, Boston Code Camp and Vermont Code Camp.\r\n\r\nFind Bob on twitter @contrivedex and see his occasional ramblings on contrivedexample.com.",
+        "tagLine": "Sr. Software Developer, .Net",
+        "profilePicture": "https://sessionize.com/image?f=89fd8297b301740264d69c011d45de39,400,400,True,False,bd-13ab-4a16-abfd-cf48b37ec30d.24b187ae-c9c9-4580-ad0e-ca856b8912ee.png",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/contrivedex",
+                "linkType": "Twitter",
+                "name": "@contrivedex"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 124009,
+                "slug": "keeping-configuration-secrets-out-of-source-code"
+            }
+        ],
+        "fullName": "Bob Crowley",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "bob-crowley"
+    },
+    "046493b2-5e16-47d6-a9f3-958d3e99bb45": {
+        "id": "046493b2-5e16-47d6-a9f3-958d3e99bb45",
+        "firstName": "Bobby",
+        "lastName": "Johnson",
+        "bio": "Bobby is a full-stack developer, advocate, and evangelist at Auth0. He is a passionate engineer with an interest in learning and teaching new technologies, using open source software, and engaging the greater software development community. His experience ranges from building line-of-business applications for financial professionals with Russell Investments and Milliman to distributed social content apps with Cheezeburger and Steller.",
+        "tagLine": "Developer Evangelist @ Auth0",
+        "profilePicture": "https://sessionize.com/image?f=77faf286b0297978a2c882dfecc39fdb,400,400,True,False,b2-5e16-47d6-a9f3-958d3e99bb45.99408d12-946b-4c89-8abd-67443c608b65.png",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/NotMyself",
+                "linkType": "Twitter",
+                "name": "@NotMyself"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 131201,
+                "slug": "identity-101-how-usernamepassword-got-so-complicated"
+            }
+        ],
+        "fullName": "Bobby Johnson",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "bobby-johnson"
+    },
+    "3c3e20d6-e3e1-4ec2-a1cd-326a0dc6b7db": {
+        "id": "3c3e20d6-e3e1-4ec2-a1cd-326a0dc6b7db",
+        "firstName": "Brian",
+        "lastName": "Lloyd-Newberry",
+        "bio": "Brian (BLN) is the AVP of Architecture for the Cox Automotive Data Portfolio and has been working in software for over 20 years including 9 years at Dealer.com. On nights and weekends he gets to be hands on playing with code and data. He is currently having fun building solutions that help drive engagement and better communication at schools.",
+        "tagLine": "Mostly Pragmatic Architect",
+        "profilePicture": "https://sessionize.com/image?f=c8897711256aef8c20d98f35c7715b25,400,400,True,False,ed425267-1ded-45ea-8d8e-e7727082fc9a.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/brianln",
+                "linkType": "Twitter",
+                "name": "@brianln"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 136320,
+                "slug": "improving-student-engagement-for-050-cents-a-month"
+            }
+        ],
+        "fullName": "Brian Lloyd-Newberry",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "brian-lloydnewberry"
+    },
+    "ef7a10de-d257-4a34-934d-a25bb3c61c4c": {
+        "id": "ef7a10de-d257-4a34-934d-a25bb3c61c4c",
+        "firstName": "Brie",
+        "lastName": "Hoblin",
+        "bio": "Brie Hoblin is a software developer turned QA Engineer with more than ten years of experience. She has a B.S. in Website Development and Design from Champlain College. Brie started Sage Logik in 2016 and has helped various local companies to implement or improve their QA processes.  She strongly suspects one of the reasons she is a good QA Engineer is because her horse has trained her well. ",
+        "tagLine": "Founder of Sage Logik--a QA consulting company",
+        "profilePicture": "https://sessionize.com/image?f=72d221568e3492dc6f570c9004bdacd5,400,400,True,False,cc1ec1f4-f39c-466f-821d-8a19ee2b9421.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/bhoblin",
+                "linkType": "Twitter",
+                "name": "@bhoblin"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 138573,
+                "slug": "bug-consciousnesswhat-we-can-learn-from-bugs-to-improve"
+            }
+        ],
+        "fullName": "Brie Hoblin",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "brie-hoblin"
+    },
+    "a78ce4e1-4eff-4d58-86ef-3980f6959556": {
+        "id": "a78ce4e1-4eff-4d58-86ef-3980f6959556",
+        "firstName": "Christian",
+        "lastName": "Cote",
+        "bio": "Christian Coté is an IT professional with more than 16 years of experience working in data warehouse and business intelligence projects. Before SSIS was released, Christian developed ETL processes using a range of tools on multiple platforms. Christian has been a presenter at a number of conferences and code camps. He currently co-leads the SQL Server PASS chapter in Montreal as well as Global French SQL PASS Chapter. He is also Microsoft Data Platform MVP.",
+        "tagLine": "McGill University",
+        "profilePicture": null,
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 127696,
+                "slug": "power-bi-report-server-for-the-enterprise"
+            }
+        ],
+        "fullName": "Christian Cote",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "christian-cote"
+    },
+    "e806795b-4377-48d5-8d7b-24b499f4be08": {
+        "id": "e806795b-4377-48d5-8d7b-24b499f4be08",
+        "firstName": "Dan",
+        "lastName": "York",
+        "bio": "Dan is a passionate advocate for the open Internet focused on helping people understand the changes going on all around us within communication technology and practices. Dan serves the Internet Society as the Director of Web Strategy for the Strategic Communications Team, focusing on the Internet Society's collection of 20+ WordPress sites. \r\n\r\nSince the mid-1980's Dan has been working with online communication technologies and helping businesses and organizations understand how to use and participate in those new media. An author of multiple books on networking, security, IPv6 and Linux, Dan is a dynamic and engaging speaker who frequently presents at industry conferences and events and has been blogging and writing online for over 20 years. His most recent books are \"Migrating Applications to IPv6\" and \"The Seven Deadliest Unified Communications Attacks\". \r\n\r\nA graduate of the University of New Hampshire, Dan lives in Shelburne, VT, speaks English and German and when not in front of the keyboard can usually be found engaging in outdoor activities or participating in the sport of curling, an addiction he picked up during 5 years of living in Ottawa, Ontario, Canada. More information about Dan can be found at danyork.me. ",
+        "tagLine": "Director of Web Strategy, Internet Society",
+        "profilePicture": "https://sessionize.com/image?f=d7d2b6482044a773ea52dfe5860ed889,400,400,True,False,5b-4377-48d5-8d7b-24b499f4be08.69fab1c2-d594-47da-88a1-6ee61641e2df.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/danyork",
+                "linkType": "Twitter",
+                "name": "@danyork"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 138584,
+                "slug": "yes-ipv6-is-real-how-to-make-your-apps"
+            }
+        ],
+        "fullName": "Dan York",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "dan-york"
+    },
+    "2a3311e1-493c-4e5e-9859-8d5987709e46": {
+        "id": "2a3311e1-493c-4e5e-9859-8d5987709e46",
+        "firstName": "Daniel",
+        "lastName": "Colón",
+        "bio": "Daniel has expertise in infrastructure, internet technologies, and systems integration obtained through 20 plus years of working as a manager, architect and developer on projects for mission critical back end systems that have included various cloud platforms such as SoftLayer, AWS and Azure. He has taught various courses at Northeastern University including ASP.NET, C#, and XML Web Services. He has various certifications including A+, Security+, MCSE: Cloud Platform and Infrastructure",
+        "tagLine": "Consultant",
+        "profilePicture": "https://sessionize.com/image?f=a7010bce363818cc89e8c1f3b48d7b32,400,400,True,False,e1-493c-4e5e-9859-8d5987709e46.a9188bdd-dadc-4f12-9858-26b8f5c868c8.png",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 136264,
+                "slug": "azure-api-management"
+            }
+        ],
+        "fullName": "Daniel Colón",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "daniel-coln"
+    },
+    "c71411fa-f358-4661-bd03-cfad50052ff2": {
+        "id": "c71411fa-f358-4661-bd03-cfad50052ff2",
+        "firstName": "Eric",
+        "lastName": "Wright",
+        "bio": "Eric Wright bas over ten years experience training web developers to make websites and web applications accessible to people with disabilities. He is on the Board of Directors for the Northeast Disabled Athletic Association, a Burlington-based non-profit that provides opportunities for athletes with physical disabilities to play recreational and competitive sports. Eric lives in Hinesburg with his fiancee Marissa and their two Australian Cattle Dogs.",
+        "tagLine": "Sr. Lead Technologist, Booz Allen Hamilton",
+        "profilePicture": "https://sessionize.com/image?f=c42cb7ef61d6d2d1b60a6f3a2a053cef,400,400,True,False,fa-f358-4661-bd03-cfad50052ff2.296dc84d-1ed9-4de3-9a4a-9b8752326da2.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/ewaccess",
+                "linkType": "Twitter",
+                "name": "@ewaccess"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 136258,
+                "slug": "becoming-a-web-accessibility-champion"
+            }
+        ],
+        "fullName": "Eric Wright",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "eric-wright"
+    },
+    "19549c8e-60a2-4da4-9b64-bc751d45930e": {
+        "id": "19549c8e-60a2-4da4-9b64-bc751d45930e",
+        "firstName": "Everett",
+        "lastName": "McKay",
+        "bio": "Everett McKay is Principal of UX Design Edge and a UX design trainer and consultant with global clientele. Everett's specialty is finding practical, intuitive, simple, highly usable solutions quickly for web, mobile, and desktop applications. Everett has over 30 years' experience in user interface design and has delivered UX design workshops to an international audience that includes Europe, Asia, South America, Australia, and Africa.\r\n\r\nEverett is author of \"Intuitive Design: Eight Steps to an Intuitive UI\", the definitive guide to designing intuitive interactions, and \"UI Is Communication: How to Design Intuitive, User Centered Interfaces by Focusing on Effective Communication\", a groundbreaking approach to UI design using human communication-based principles and techniques. While at Microsoft, Everett wrote the Windows UX Guidelines for Windows 7 and Windows Vista. Everett holds a master's degree in computer science from MIT.",
+        "tagLine": "Principal",
+        "profilePicture": "https://sessionize.com/image?f=ed85816757e806fbf2958327c283a848,400,400,True,False,8e-60a2-4da4-9b64-bc751d45930e.baa23fb8-2833-4d8a-accd-044baf634d28.png",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/UXDesignEdge",
+                "linkType": "Twitter",
+                "name": "@UXDesignEdge"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 135708,
+                "slug": "calling-shenanigans-on-agile-ux"
+            }
+        ],
+        "fullName": "Everett McKay",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "everett-mckay"
+    },
+    "9e6e85d8-9546-4a42-90f2-b206ac7f55b8": {
+        "id": "9e6e85d8-9546-4a42-90f2-b206ac7f55b8",
+        "firstName": "gleb",
+        "lastName": "bahmutov",
+        "bio": "Gleb Bahmutov is JavaScript ninja, image processing expert and software quality fanatic. During the day Gleb is making the web a better place as VP of Engineering at Cypress.io. At night he is fighting software bugs and blogs about it at https://glebbahmutov.com/blog/. Microsoft MVP for Open Source contributions.",
+        "tagLine": "JavaScript ninja, image processing expert, software quality fanatic",
+        "profilePicture": "https://sessionize.com/image?f=d71404ae32f4995ebc657eec724b0dba,400,400,True,False,d8-9546-4a42-90f2-b206ac7f55b8.5c9b09f2-b86d-44db-892a-f4c744d62fa6.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/bahmutov",
+                "linkType": "Twitter",
+                "name": "@bahmutov"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 132433,
+                "slug": "securing-the-front-end-from-a-node-server"
+            }
+        ],
+        "fullName": "gleb bahmutov",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "gleb-bahmutov"
+    },
+    "901abc5f-54f6-4b6e-b5cd-100ac28c541c": {
+        "id": "901abc5f-54f6-4b6e-b5cd-100ac28c541c",
+        "firstName": "Grant ",
+        "lastName": "Steinfeld",
+        "bio": "Accomplished and innovative Senior Software Architect and Engineer with a reputation for delivering client focused solutions. Teacher, loves to speak and present at meetups, conferences and hack-a-thons.  Developer Advocate and DevEx specialist.  Tooling and framework innovator.  Problem solver, team mentor with ability to work with and manage development teams. Interface with senior  and product team translating business requirements and challenges into project plans and real solutions",
+        "tagLine": "IBM Developer Advocate - Blockchain JVM America North East",
+        "profilePicture": "https://sessionize.com/image?f=0bf8826da6000972d6379c91be303f45,400,400,True,False,5f-54f6-4b6e-b5cd-100ac28c541c.dfe9033c-dafe-4148-834f-d2391b394621.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/gsteinfeld",
+                "linkType": "Twitter",
+                "name": "@gsteinfeld"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 138623,
+                "slug": "a-gentle-intro-to-akka-and-the-actor-model"
+            }
+        ],
+        "fullName": "Grant  Steinfeld",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "grant-steinfeld"
+    },
+    "af0bdeab-5e15-46a9-9a7f-07d56483fd62": {
+        "id": "af0bdeab-5e15-46a9-9a7f-07d56483fd62",
+        "firstName": "Haney",
+        "lastName": "Hamdy",
+        "bio": "My name is Haney Hamdy and I live and breathe design, quality assurance and teaching. Each of these is where a piece of my passion and drive lives. I hold a bachelor’s degree in Fine Art, a master’s degree in Web Design & Development, and a Certificate of Concentrated study in Web Programming.",
+        "tagLine": "QA Automation Engineer",
+        "profilePicture": "https://sessionize.com/image?f=878e6bfe65a13133ba947871b9ec7d4e,400,400,True,False,f7c723b2-572b-4ad6-977d-845434707cc8.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/publicstaticboy",
+                "linkType": "Twitter",
+                "name": "@publicstaticboy"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 135699,
+                "slug": "life-off-the-happy-path-how-to-get-started"
+            }
+        ],
+        "fullName": "Haney Hamdy",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "haney-hamdy"
+    },
+    "bbb5af00-c8cd-406d-9eb5-7c821e748de3": {
+        "id": "bbb5af00-c8cd-406d-9eb5-7c821e748de3",
+        "firstName": "Joe",
+        "lastName": "Ng",
+        "bio": "Joe Ng has a passion in applying information technologies to solve business challenges.  As a consultant, he has helped many companies, from Fortune 100 to non-profit, in reducing costs and improving revenues.  As Director of Information Technology, he has improved the availability and reliability of the State of Vermont’s mission critical systems.  He has also taught university level classes in computer science and information security. ",
+        "tagLine": "Director, IT",
+        "profilePicture": "https://sessionize.com/image?f=5f7fb5aed6e90c1d4d7ba18c3d249c55,400,400,True,False,00-c8cd-406d-9eb5-7c821e748de3.9841a310-d7cf-4489-ba24-9ae544a8a111.jpg",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 137732,
+                "slug": "ai-the-rise-of-the-machine-learning"
+            }
+        ],
+        "fullName": "Joe Ng",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "joe-ng"
+    },
+    "5a111e09-2922-4aff-a0eb-9b6691b6e8b2": {
+        "id": "5a111e09-2922-4aff-a0eb-9b6691b6e8b2",
+        "firstName": "Joel",
+        "lastName": "Lord",
+        "bio": "Joel Lord is passionate about web and technology in general.  He likes to learn new things but most of all, he likes to share his discoveries.  He does so by travelling at various conferences all across the globe.\r\nHe graduated from college in computer programming in the last millennium.  Apart for a little break to get his BSc in computational astrophysics, he was always in the industry.\r\nAs a technical evangelist with Auth0, he meets with developers to help them make the web a safer place.\r\nDuring his free time, he is usually found stargazing in a camping site somewhere or brewing a batch of beer in his garage.",
+        "tagLine": "Javascript Junkie",
+        "profilePicture": "https://sessionize.com/image?f=aeb6554ca6fae6bf475bcf4025f422e4,400,400,True,False,ca3d3e3c-b38a-4a00-b2d8-bf3c4eb469ef.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/joel__lord",
+                "linkType": "Twitter",
+                "name": "@joel__lord"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 125508,
+                "slug": "hacking-jwts"
+            }
+        ],
+        "fullName": "Joel Lord",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "joel-lord"
+    },
+    "4812034b-4e76-459b-bca9-954814199991": {
+        "id": "4812034b-4e76-459b-bca9-954814199991",
+        "firstName": "John",
+        "lastName": "Need",
+        "bio": "John Need is a team lead and civic hacking advocate working with Code for BTV, the local brigade of Code for America. He has contributed to several C4BTV projects including the \"Green Up Vermont\" app and \"Safe to Swim,\" a machine learning project intended to improve Vermont's water quality through better data-data collection and analysis of algae blooms.",
+        "tagLine": "Team Lead for the Code for BTV Green Up Mobile App",
+        "profilePicture": "https://sessionize.com/image?f=6187bc3da043c86e34e4f8084cb5d82e,400,400,True,False,560ba66a-8c7f-4089-acf3-b8b14ccfccec.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/JohnNeed",
+                "linkType": "Twitter",
+                "name": "@JohnNeed"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 134755,
+                "slug": "3-tasty-monads-to-spice-up-your-javascript"
+            }
+        ],
+        "fullName": "John Need",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "john-need"
+    },
+    "fb1e36de-8ea1-463c-a7d4-1a6a604b85f7": {
+        "id": "fb1e36de-8ea1-463c-a7d4-1a6a604b85f7",
+        "firstName": "Jon",
+        "lastName": "Hoguet",
+        "bio": "Jon Hoguet knows how to get things done. Over the last 20 years he has accumulated a\r\nlifetime of experience in software engineering, managing projects, and leading teams, driving\r\nhim to found Symbiotic Labs in May of 2017. Few are as determined as Jon, as evidenced by all\r\nhe’s accomplished during his short time on earth: \r\nhttps://www.symbioticlabs.io/bios/jon-hoguet.pdf",
+        "tagLine": "Technical Lead and Founder of Symbiotic Labs",
+        "profilePicture": "https://sessionize.com/image?f=3a365948e706a5fd0c8e4f473831e70d,400,400,True,False,e4e045c0-7a94-48fc-9377-05c58240e52f.jpg",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 138443,
+                "slug": "standing-on-the-shoulders-of-giants-dependency-injection-in"
+            }
+        ],
+        "fullName": "Jon Hoguet",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "jon-hoguet"
+    },
+    "282a4701-f128-4b1d-bd67-da5d1f8b3eb0": {
+        "id": "282a4701-f128-4b1d-bd67-da5d1f8b3eb0",
+        "firstName": "Julie",
+        "lastName": "Lerman",
+        "bio": "Julie Lerman is a Microsoft Regional Director, Docker Captain and long-time Microsoft MVP who now counts her years as a coder in decades.  She makes her living as a mentor and consultant to software teams around the world. You can find Julie presenting on Entity Framework, Domain Driven Design and other topics at user groups and conferences around the world. Julie blogs at thedatafarm.com/blog, is the author of the highly acclaimed “Programming Entity Framework” books, the MSDN Magazine Data Points column and popular videos on Pluralsight.com. Follow Julie on twitter at julielerman.",
+        "tagLine": "Software Coach, Pluralsight Author, .NET & DDD",
+        "profilePicture": "https://sessionize.com/image?f=2b2083b12c35d98319ab6b0cbfec38cb,400,400,True,False,01-f128-4b1d-bd67-da5d1f8b3eb0.8641eaab-6eb1-4ccc-9b93-7eaf968ef034.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "http://twitter.com/julielerman",
+                "linkType": "Twitter",
+                "name": "@julielerman"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 136238,
+                "slug": "living-with-your-legacy"
+            }
+        ],
+        "fullName": "Julie Lerman",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "julie-lerman"
+    },
+    "165e172f-0221-4697-937a-4ba2b667d39b": {
+        "id": "165e172f-0221-4697-937a-4ba2b667d39b",
+        "firstName": "Kyle",
+        "lastName": "Mitofsky",
+        "bio": "Kyle's been writing software for the last seven years professionally at the Vermont Department of Health, and recreationally at code camps, Meetups, and online. By day, he focuses on the .NET stack, including ASP.NET MVC and SQL Server,  mentoring folks, reviewing code or interface design or internal processes, and supporting a team of other talented devs.  By night, he enjoys spending more time on the front-end with JavaScript frameworks like Vue, serverless functions, and static site generators.\r\n\r\nKyle spends a lot of time thinking about cats and also documenting what he's learning on [Stack Overflow](https://stackoverflow.com/).",
+        "tagLine": "Senior Full Stack Web Developer",
+        "profilePicture": "https://sessionize.com/image?f=55cde8ee120c8c243b0b142ba4db6a02,400,400,True,False,55db796c-e2ac-4d0a-9de7-5d7af464c7fc.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/KyleMitBTV",
+                "linkType": "Twitter",
+                "name": "@KyleMitBTV"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 138591,
+                "slug": "jamming-out-with-static-site-generators-web-development-made"
+            }
+        ],
+        "fullName": "Kyle Mitofsky",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "kyle-mitofsky"
+    },
+    "46349265-5780-459f-a766-31dbd5dafc85": {
+        "id": "46349265-5780-459f-a766-31dbd5dafc85",
+        "firstName": "Lea Ann",
+        "lastName": "Smith",
+        "bio": "Lea Ann is a math teacher, coding instructor and STEM Academy leader at Essex High School.  Lea Ann's education is in physics, prior to teaching, she spent ten years as a process engineer in the semiconductor industry.",
+        "tagLine": "STEM Academy leader at Essex High School",
+        "profilePicture": "https://sessionize.com/image?f=c50f8e6f2822238fcac3ee87b2bb8b4c,400,400,True,False,65-5780-459f-a766-31dbd5dafc85.05f87609-276d-4021-a0c3-98ad2ec55107.jpg",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 131703,
+                "slug": "helping-high-school-students-learn-to-code"
+            }
+        ],
+        "fullName": "Lea Ann Smith",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "lea-ann-smith"
+    },
+    "393c3111-87ea-4314-b007-6edfa8fa0a63": {
+        "id": "393c3111-87ea-4314-b007-6edfa8fa0a63",
+        "firstName": "Linus",
+        "lastName": "Falck-Ytter",
+        "bio": "Linus grew up splitting time between Germany and the United States before his family made an exciting life decision by settling in Cleveland, Ohio. He has a degree in Computer Science from 'The' Ohio State University and now lives in Cambridge with his cat.",
+        "tagLine": "Code Janitor",
+        "profilePicture": "https://sessionize.com/image?f=cc3d25b86c99af1d108ae5070f22c043,400,400,True,False,697a9250-35a6-41ea-bed5-d4947725940e.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/lifayt",
+                "linkType": "Twitter",
+                "name": "@lifayt"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 132196,
+                "slug": "building-custom-ecommerce-solutions-on-the-cheap-for-nonprofits"
+            }
+        ],
+        "fullName": "Linus Falck-Ytter",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "linus-falckytter"
+    },
+    "29d505af-541b-404d-9eb5-f1528a6a5645": {
+        "id": "29d505af-541b-404d-9eb5-f1528a6a5645",
+        "firstName": "Lisa",
+        "lastName": "Crispin",
+        "bio": "Lisa Crispin is the co-author, with Janet Gregory, of _Agile Testing Condensed: A Brief Introduction_, _More Agile Testing: Learning Journeys for the Whole Team_,_Agile Testing: A Practical Guide for Testers and Agile Teams_ the LiveLessons Agile Testing Essentials video course, and “Agile Testing for the Whole Team\" 3-day training course offered through the Agile Testing Fellowship. Lisa was voted by her peers as the Most Influential Agile Testing Professional Person at Agile Testing Days in 2012. She is a testing advocate working at mabl. Please visit www.lisacrispin.com and www.agiletester.ca for more.\r\n\r\n",
+        "tagLine": "Co-leader of Agile Testing Fellowship. Testing advocate at mabl.",
+        "profilePicture": "https://sessionize.com/image?f=fbbee1d44ec8c7913996a1b3690c0102,400,400,True,False,dadbecd0-9fc0-4be6-9eba-3fc7f0b7e904.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/lisacrispin",
+                "linkType": "Twitter",
+                "name": "@lisacrispin"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 138573,
+                "slug": "bug-consciousnesswhat-we-can-learn-from-bugs-to-improve"
+            }
+        ],
+        "fullName": "Lisa Crispin",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "lisa-crispin"
+    },
+    "4870cd32-f9a5-492f-a1d5-6aa41a07b0d7": {
+        "id": "4870cd32-f9a5-492f-a1d5-6aa41a07b0d7",
+        "firstName": "Malina",
+        "lastName": "Kirn",
+        "bio": "Malina Kirn is an architect at Dealer.com and founder of a local startup. She holds a doctorate in scientific computation from the University of Maryland and has eleven years of academic research experience in computational physics. She's worked in the software engineering industry for the past seven years, specializing in big data applications.",
+        "tagLine": "Computer of all the things",
+        "profilePicture": "https://sessionize.com/image?f=c4aab8e81c9cbca55229b7db3612ed29,400,400,True,False,32-f9a5-492f-a1d5-6aa41a07b0d7.bf98d752-4b0b-45f7-9005-4e94f92d0738.jpg",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 127790,
+                "slug": "differential-privacy"
+            }
+        ],
+        "fullName": "Malina Kirn",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "malina-kirn"
+    },
+    "e2712384-1dff-4eb7-8dbf-77e621e4d274": {
+        "id": "e2712384-1dff-4eb7-8dbf-77e621e4d274",
+        "firstName": "Mary",
+        "lastName": "Grygleski",
+        "bio": "Mary is currently a Java Developer Advocate at IBM, specializing in Reactive Java systems. She started working as a software engineer with C and Unix, then got into Java, Open Source, and web development in the new Millennium, and now she is venturing into Reactive, Mobile, and the DevOps space. In her previous incarnations, she worked for several technology product companies in the Route 128 Boston Technology Corridor as well the San Francisco Bay Area. She now resides in the Greater Chicago area, and is an Executive Board member and the Director of Meetings for the Chicago Java Users Group (CJUG). Mary continues to be amazed by how software innovations can dramatically transform our lives. Despite the many challenges in an ever-evolving technical world, she gets energized by the constant change and believes that she has uncovered the pathway to stay young.  She can’t wait to see what the next tech wave will be like.",
+        "tagLine": "Developer Advocate at IBM",
+        "profilePicture": "https://sessionize.com/image?f=d817bcb40488a7cb23b26e573b07caa8,400,400,True,False,84-1dff-4eb7-8dbf-77e621e4d274.15f15861-1c1b-49fd-baeb-35f29ca94372.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/mgrygles",
+                "linkType": "Twitter",
+                "name": "@mgrygles"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 138623,
+                "slug": "a-gentle-intro-to-akka-and-the-actor-model"
+            }
+        ],
+        "fullName": "Mary Grygleski",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "mary-grygleski"
+    },
+    "cf712204-de09-4c66-8aba-045295f97883": {
+        "id": "cf712204-de09-4c66-8aba-045295f97883",
+        "firstName": "Mat",
+        "lastName": "Gilbert",
+        "bio": "Mat is a Web Developer at Bluehouse Group. He enjoys working in PHP and Javascript.",
+        "tagLine": "Web Developer",
+        "profilePicture": "https://sessionize.com/image?f=b127eeb367c2ceafacd36897da46c307,400,400,True,False,04-de09-4c66-8aba-045295f97883.99112699-4b5a-42d1-b43c-aee8ac35ae0d.jpg",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 136414,
+                "slug": "intro-to-docker-and-php"
+            }
+        ],
+        "fullName": "Mat Gilbert",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "mat-gilbert"
+    },
+    "06a58103-991d-4a1d-b2f8-0dc5ae7e36d3": {
+        "id": "06a58103-991d-4a1d-b2f8-0dc5ae7e36d3",
+        "firstName": "Maureen",
+        "lastName": "McElaney",
+        "bio": "Maureen McElaney is a Developer Advocate at IBM Center of Open Source Data and Ai Technologies and enjoys broadening IBM's understanding and involvement in open source communities. Prior to joining the team, she worked as a QA Engineer at Dealer.com and is passionate about building tools that increase developer productivity and joy. She is an experienced community builder and is passionate about building diversity (of all kinds) in tech.",
+        "tagLine": "Developer Advocate, IBM",
+        "profilePicture": "https://sessionize.com/image?f=c2f31acd08ab2444a8418bcdb849fa16,400,400,True,False,03-991d-4a1d-b2f8-0dc5ae7e36d3.1ae0ac95-41d6-452e-b4c2-7d34a962ca31.png",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/Mo_Mack",
+                "linkType": "Twitter",
+                "name": "@Mo_Mack"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 138570,
+                "slug": "intro-to-deep-learning-for-developers"
+            }
+        ],
+        "fullName": "Maureen McElaney",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "maureen-mcelaney"
+    },
+    "c38b410c-4188-4eed-90e4-754e76b661a4": {
+        "id": "c38b410c-4188-4eed-90e4-754e76b661a4",
+        "firstName": "Nate",
+        "lastName": "Morse",
+        "bio": "I like exploring coding languages, to see how each one helps us code up solutions. If one programming approach gives us a simpler way of solving a problem, then that is cool and we need languages to support that approach.  ",
+        "tagLine": "Always looking for a better way.",
+        "profilePicture": "https://sessionize.com/image?f=e97bc9ec14726a6d9a79db00ac614b5e,400,400,True,False,787b62d3-6a5f-4937-af34-3602451cb9d5.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/natemorse",
+                "linkType": "Twitter",
+                "name": "@natemorse"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 129319,
+                "slug": "state-machines-for-programmerless-uis"
+            }
+        ],
+        "fullName": "Nate Morse",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "nate-morse"
+    },
+    "775e5929-a242-4d68-a792-f89d9792b640": {
+        "id": "775e5929-a242-4d68-a792-f89d9792b640",
+        "firstName": "Nathan",
+        "lastName": "Westfall",
+        "bio": "I am a Software Engineering Team Lead in upstate New York mainly working on Xamarin and .NET web applications.  While still being young, I have been in the field for 8 years working for start-ups, local businesses, and current Tyler Technologies.  I love contributing to open source, help run a local user group on .NET, and produce a podcast about all things engineering.",
+        "tagLine": "Software Engineering Team Lead at Tyler Technologies",
+        "profilePicture": "https://sessionize.com/image?f=874b6cd9baa6f1966810dd325f7910dc,400,400,True,False,29-a242-4d68-a792-f89d9792b640.d4f74340-2791-4ae7-90bd-93af8fb454e0.jpeg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/timeawastin",
+                "linkType": "Twitter",
+                "name": "@timeawastin"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 135980,
+                "slug": "scale-your-api-quickly-using-message-queues-on-aws"
+            }
+        ],
+        "fullName": "Nathan Westfall",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "nathan-westfall"
+    },
+    "90a2a984-f105-4679-804a-1aafd432ad23": {
+        "id": "90a2a984-f105-4679-804a-1aafd432ad23",
+        "firstName": "Nelson",
+        "lastName": "Rooker",
+        "bio": "I've been writing code professionally and recreationally for years and look forward to sharing my experiences with others.",
+        "tagLine": "Manager Maps Engineering, TomTom North America",
+        "profilePicture": null,
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 136707,
+                "slug": "from-legacy-app-to-the-cloud"
+            }
+        ],
+        "fullName": "Nelson Rooker",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "nelson-rooker"
+    },
+    "644e3a35-e3b3-4a89-bf83-4cc2aa375ea1": {
+        "id": "644e3a35-e3b3-4a89-bf83-4cc2aa375ea1",
+        "firstName": "Olivia",
+        "lastName": "Johnston",
+        "bio": "Olivia has spent her career designing and managing scalable mobile and web applications for many of North America's largest grocery and digital retail chains. A Rochester Institute of Technology alum, she believes complex software solutions are most valuable when distilled into simple, customer-focused, and elegantly developed products.",
+        "tagLine": "Product Manager, Onion River Consulting",
+        "profilePicture": "https://sessionize.com/image?f=9334c42b95747da45d32c62a37643803,400,400,True,False,6ca356f5-cb53-41ab-93c6-d3d6393b8bf3.jpg",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 136361,
+                "slug": "building-tech-products-that-solve-problems"
+            }
+        ],
+        "fullName": "Olivia Johnston",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "olivia-johnston"
+    },
+    "b47b1b66-9f33-4e4e-83f5-e2840ceb3f6b": {
+        "id": "b47b1b66-9f33-4e4e-83f5-e2840ceb3f6b",
+        "firstName": "Ryan",
+        "lastName": "Harter",
+        "bio": "Ryan Harter is a Senior-Staff Data Scientist with Mozilla working on Firefox. He has years of experience solving business problems in the technology and energy industries both as a data scientist and data engineer. Ryan shares practical advice for applying data science as a mentor and at blog.harterrt.com",
+        "tagLine": "Data Scientist, Mozilla",
+        "profilePicture": "https://sessionize.com/image?f=7146450383eeb47d02314d1bb1b4b09a,400,400,True,False,66-9f33-4e4e-83f5-e2840ceb3f6b.12534d31-c00a-432a-807e-16fb554b7d24.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/harterrt",
+                "linkType": "Twitter",
+                "name": "@harterrt"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 137411,
+                "slug": "common-sense-stats-bootstrapping"
+            }
+        ],
+        "fullName": "Ryan Harter",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "ryan-harter"
+    },
+    "e4b4d074-0d40-44b4-8701-c4a8c99097d3": {
+        "id": "e4b4d074-0d40-44b4-8701-c4a8c99097d3",
+        "firstName": "Stephen",
+        "lastName": "Thomas",
+        "bio": "Software Architect in predictive analytics and decision making by way of cognitive neuroscience. \r\n[he/him]",
+        "tagLine": "Principal Architect - Infor",
+        "profilePicture": "https://sessionize.com/image?f=9bb0cbe04e38b952adfe9210270f473b,400,400,True,False,74-0d40-44b4-8701-c4a8c99097d3.3bc9a9e4-4b50-465b-983a-aa68b07c3eb8.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/connor_twit",
+                "linkType": "Twitter",
+                "name": "@connor_twit"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 136300,
+                "slug": "rearchitecting-the-monolith"
+            }
+        ],
+        "fullName": "Stephen Thomas",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "stephen-thomas"
+    },
+    "59296811-e638-45ad-94f1-a9c23606cf21": {
+        "id": "59296811-e638-45ad-94f1-a9c23606cf21",
+        "firstName": "va",
+        "lastName": "barbosa",
+        "bio": "As a developer advocate for the Center for Open-Source Data & AI Technologies at IBM, va barbosa is focused on the collaboration between developers and data scientists. The goal being to make data science more accessible to developers and easier for developers to leverage the tools and practices of data scientists. It fueled by his passion to help others and his enthusiasm for open source technology.",
+        "tagLine": "crioulo de cabo verde",
+        "profilePicture": "https://sessionize.com/image?f=ddc6181c23668babe011714e6f3f6c07,400,400,True,False,11-e638-45ad-94f1-a9c23606cf21.b7b79c4a-1086-4aa6-868c-cee493c7ccfd.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/vabarbosa",
+                "linkType": "Twitter",
+                "name": "@vabarbosa"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 128161,
+                "slug": "machine-learning-in-javascript-with-tensorflowjs"
+            }
+        ],
+        "fullName": "va barbosa",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "va-barbosa"
+    },
+    "889d5649-f426-4e5f-ac76-af723afd38f1": {
+        "id": "889d5649-f426-4e5f-ac76-af723afd38f1",
+        "firstName": "Valerie",
+        "lastName": "Sharp",
+        "bio": "Valerie Sharp is a technologist who focuses on create user-centered digital experiences as a full-time UX designer & full stack developer. To help spread the financial wealth offered by the tech industry, Valerie founded Tech By Choice, a nonprofit that is working to increase diversity in the tech industry by providing low to no cost events for individuals in protected groups.",
+        "tagLine": "Executive Director of Tech By Choice ",
+        "profilePicture": "https://sessionize.com/image?f=29c655e411153e63be35be134ef35cec,400,400,True,False,49-f426-4e5f-ac76-af723afd38f1.00b49142-b033-4650-a86b-3cab710b704b.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/Digitalblkhippy",
+                "linkType": "Twitter",
+                "name": "@Digitalblkhippy"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 136036,
+                "slug": "sustaining-community-empowerment-as-a-black-woman"
+            }
+        ],
+        "fullName": "Valerie Sharp",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "valerie-sharp"
+    },
+    "3e34cfb3-2012-432a-b944-14a98afd33b8": {
+        "id": "3e34cfb3-2012-432a-b944-14a98afd33b8",
+        "firstName": "Zachary",
+        "lastName": "Kingston",
+        "bio": "Zach Kingston is a Sr. Software Developer at Mi9 Retail. He grew up in Jericho, but currently lives in St. Albans.",
+        "tagLine": "Software Developer at Mi9 Retail",
+        "profilePicture": "https://sessionize.com/image?f=65bf22fed435cce0406c63b49e1b2cac,400,400,True,False,b3-2012-432a-b944-14a98afd33b8.5c12d6f0-c47a-4750-bacc-4d125949b8d0.jpg",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 126286,
+                "slug": "managing-local-development-environments-through-docker-compose"
+            }
+        ],
+        "fullName": "Zachary Kingston",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "zachary-kingston"
+    },
+    "22a5e6d5-c5c4-4e4c-8f82-b088d5d797b7": {
+        "id": "22a5e6d5-c5c4-4e4c-8f82-b088d5d797b7",
+        "firstName": "Zeke",
+        "lastName": "Farwell",
+        "bio": "Zeke is a senior web developer working in ecommerce.  He feels strongly that a developer's job is to solve problems through critical thinking, and that writing code is just the means to that end.  Zeke is passionate about performance, deep business domain knowledge, and good user interfaces.  He's worked at Outdoor Gear Exchange since 2007.",
+        "tagLine": "Full Stack Web Developer",
+        "profilePicture": "https://sessionize.com/image?f=5a07688e0473ff639c5a38d13ad5f44d,400,400,True,False,d5-c5c4-4e4c-8f82-b088d5d797b7.2a67da9c-2879-499e-a0ec-d5501223b710.jpg",
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/zekefarwell",
+                "linkType": "Twitter",
+                "name": "@zekefarwell"
+            }
+        ],
+        "sessions": [
+            {
+                "id": 138591,
+                "slug": "jamming-out-with-static-site-generators-web-development-made"
+            }
+        ],
+        "fullName": "Zeke Farwell",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "zeke-farwell"
+    }
+}

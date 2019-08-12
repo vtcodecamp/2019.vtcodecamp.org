@@ -1,5 +1,5 @@
 [build]
-  command = "eleventy"
+  command = "npm run update-and-build"
   publish = "_site"
 
 [build.processing]

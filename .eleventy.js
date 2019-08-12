@@ -16,6 +16,26 @@ module.exports = function(eleventyConfig) {
         return value.replace('/src','');
     });
 
+
+    var enable = ["normalize", "block", "inline", "linkify", "autolink", 'link', 'backticks', 'emphasis', "paragraph", "text", "newline"]
+    var md = require('markdown-it')('zero',{linkify: true}).enable(enable);
+
+    eleventyConfig.addFilter("minimalMarkdown", function(string) {
+        return md.render(string);
+    });
+
+    eleventyConfig.addFilter("to12hourTime", function(timeString) { 
+        let date = new Date(timeString);
+        let time = date.toLocaleTimeString('en-US', {
+            timezone: 'America/New_York',
+            hour12: true,
+            hour: 'numeric',
+            minute: 'numeric',
+        })
+        return time;
+    });
+
+
     // set markdown defaults (inline so we can extend)
     let markdownIt = require("markdown-it");
     let options = {

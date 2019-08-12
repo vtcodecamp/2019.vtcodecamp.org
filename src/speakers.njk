@@ -1,0 +1,71 @@
+---
+layout: default-layout.njk
+title:  "Speakers"
+meta_description: Read more about our amazing VT Code Camp speakers
+permalink: /2019/speakers/
+---
+
+
+<section class="main" >
+<div class="section-content">   
+
+
+<h1> {{title}} </h1>
+
+{% for speakerId, speaker in speakers %}
+
+    <article class="speaker article" id="{{ speaker.slug }}">
+        <div class="d-inline-flex headline ">
+            <h2 class="d-inline-flex" >
+                <a href="#{{ speaker.slug }}" >
+                    {{ speaker.fullName }} 
+                </a>
+            </h2>
+            {% for link in speaker.links %} 
+                {% if link.linkType == 'Twitter' %}
+                <h4 class="speaker-link twitter d-inline-flex">
+                    <a href="{{ link.url }}" class="d-inline-flex">
+                        <svg viewBox="0 0 512 512" >
+                            <use xlink:href="#twitter-path"></use>
+                        </svg>
+                        {# {% include 'assets/fa/twitter.svg' %} #}
+                        {{ link.name }}
+                    </a>
+                    <svg viewBox="0 0 576 512" >
+                        <use xlink:href="#external-link-path"></use>
+                    </svg>
+                </h4>
+                {% endif %}
+            {% endfor %}
+
+        </div>
+
+        <p>
+            {# {% if speaker.profilePicture %}
+                <img src="{{speaker.profilePicture}}" alt="Profile picture for {{speaker.fullName}}" class="profile"/>
+            {% endif %} #}
+            {{ speaker.bio | minimalMarkdown | safe }}
+        </p>
+        <div class="clear"</div>
+
+        {% if speaker.sessions %}
+            <p class="speaker-sessions">Sessions:</p>
+            <ul> 
+            {% for sessionKey in speaker.sessions %}
+                {% set session = sessions[sessionKey.id] %}
+                <li><a href="/sessions#{{ session.slug }}">{{ session.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </article>
+{% endfor %}
+
+
+</div>
+</section>
+
+{# inline svg icons are on the page once - we'll re-use them using their ids #}
+<div class="d-none">
+    {% include "assets/fa/twitter.svg" %}
+    {% include "assets/fa/external-link-solid.svg" %}
+</div>

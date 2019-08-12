@@ -1,0 +1,54 @@
+---
+layout: default-layout.njk
+title:  "Sessions"
+meta_description: Browse the sessions being presented at this the 2019 VT Code Camp
+permalink: /2019/sessions/
+---
+
+
+<section class="main" >
+<div class="section-content">
+
+<h1> {{title}} </h1>
+
+{% for session in sessionsSorted %}
+
+    <article class="session article" id="{{ session.slug }}">
+        <div class="d-inline-flex headline ">
+            <h2 class="d-inline-flex">
+                <a href="#{{ session.slug }}" >
+                    {{ session.title }} 
+                </a>
+            </h2>
+        </div>
+
+        <h4 class="byline">
+            By 
+            {% for speakerKey in session.speakers %}
+                {% set speaker = speakers[speakerKey.id] %}
+                <a href="/speakers#{{speaker.slug}}">
+                    {{ speaker.fullName }}
+                </a>
+                {% if not loop.last %}/{% endif %}
+            {% endfor %}
+        </h4>
+        {% set levelNum = session.level.split(" ")[0] %}
+        <p class="level level-{{levelNum}}">{{session.level}}</p>
+
+        {{ session.description | minimalMarkdown | safe }}
+
+        {% if session.resources %}
+            <p>Resources:</p>
+            <ul>
+            {% for resource in session.resources %}
+                <li><a href="{{ resource.href }}">{{ resource.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </article>
+    {% endfor %}
+
+
+
+</div>
+</section>

@@ -145,7 +145,7 @@ ul.nav-buttons {
 nav.header a.nav-toggle {
     display: none;
 }
-@media (max-width: 740px) {
+@media (max-width: 670px) {
     ul.nav-buttons {
         padding: 0 2em 0 0;
     }
@@ -368,12 +368,111 @@ nav.header a:focus {
     }
 }
 
+/* speaker styles */
+article.article{
+    margin-top: -85px;
+    padding-top: 85px;
+    margin-bottom: 3em;
+}
+
+.d-inline-flex.headline {
+    align-items: flex-end;
+}
+
+.article .headline > * {
+    margin: 0; 
+    padding: 0; 
+}
 
 
+.content .headline h2 a {
+    border-bottom: none;
+    box-shadow: inset 0 -6px 0 #d7d700;
+}
+.content .headline h2 a:focus, 
+.content .headline h2 a:hover {
+    background: #d7d700;
+}
 
+.headline h2 {
+    position: relative;
+}
+.headline h2:hover::before {
+    content: "#";
+    color: #5a5a5a;
+    position: absolute;
+    left: -20px;
+    bottom: 0px
+}
+/* hide # on small screens */
+@media (max-width: 500px) {
+    .headline h2:hover::before {
+        display:none;
+    }
+}
+
+
+.speaker .speaker-link.twitter {
+    margin-left: .5em;
+    font-size: .8em;
+}
+
+.speaker-link a svg {
+    height: 18px;
+    width: 18px;
+}
+
+.speaker-link a + svg {
+    height: 15px;
+    width: 15px;
+    color: #5a5a5a;
+    margin-left: 3px;
+    margin-top: -11px;
+    display:none;
+}
+.speaker-link a:hover + svg {
+    display: inline;
+}
+
+img.profile {
+    height: 96px;
+    border-radius: 8px;
+    float: left;
+    margin-right: 11px;
+    margin-top: 5px;
+}
+
+.speaker-sessions {
+    margin-bottom: 0px;
+    color: #6f6f6f;
+}
+.speaker-sessions + ul {
+    margin-top: 0px;
+}
+
+/* session styles */
+
+.byline {
+    margin-top: .5em;
+}
+
+p.level {
+    display: inline-block;
+    padding: 1px 10px;
+    border-radius: 4px;
+    margin: 0;
+    font-size: .9em;
+}
+
+.level-100 { background: #dcefe2; }
+.level-200 { background: #efefdc; }
+.level-300 { background: #efe4dc; }
+.level-400 { background: #efdcdc; }
+
+/* footer styles */
 footer a svg {
-    height: 22px;
-    width: 22px;
+    height: 25px;
+    width: 25px;
 }
 
 footer a {
@@ -408,6 +507,7 @@ footer .nav-links {
     }
 }
 
+/* utility styles */
 .copy-line {
     display: flex;
     align-items: center;
@@ -415,9 +515,19 @@ footer .nav-links {
     flex-wrap: wrap;
     padding: 1em;
 }
-
+.clear {
+    clear: both;
+}
+.d-none {
+    display: none;
+}
 .d-flex {
     display: flex;
+}
+.d-inline-flex {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 .code {
     font-family: 'Inconsolata', monospace;

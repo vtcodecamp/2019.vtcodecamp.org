@@ -14,6 +14,8 @@ A stash for helpful articles, references, documentation looked up along the way
 * [11ty - environment variables](https://www.11ty.io/docs/data-js/#example%3A-exposing-environment-variables)
 * [11ty - filters](https://www.11ty.io/docs/filters/)
 * [11ty - plugins](https://www.11ty.io/docs/plugins/)
+* [11ty - frontmatter in .11ty.js files](https://www.11ty.io/docs/languages/javascript/#permalinks)
+* [11ty - Debug 11ty with VS Code](https://github.com/11ty/eleventy/issues/331)
 
 ## Netlify
 
@@ -23,6 +25,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [netlify - Dev](https://www.netlify.com/products/dev/)
 * [netlify - Asset Optimization / Post Processing](https://www.netlify.com/docs/netlify-toml-reference/#post-processing)
 * [netlify - Deploy Previews](https://www.netlify.com/docs/webhooks/#github-commit-statuses)
+* [netlify - Build Hooks](https://www.netlify.com/docs/webhooks/#incoming-webhooks)
 
 ## Nunjucks
 
@@ -30,6 +33,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [nunjucks - check if variable in string](https://github.com/mozilla/nunjucks/issues/676)
 * [nunjucks - inline if expression](https://mozilla.github.io/nunjucks/templating.html#if-expression)
 * [nunjucks - substring of string](https://stackoverflow.com/a/48427351/1366033)
+* [nunjucks - iterating with `for`](https://mozilla.github.io/nunjucks/templating.html#for)
 
 ## A11y
 
@@ -38,9 +42,29 @@ A stash for helpful articles, references, documentation looked up along the way
 * [a11y - semantic vs decorative icons](https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility)
 * [a11y - aria-hidden](https://developer.paciellogroup.com/blog/2012/05/html5-accessibility-chops-hidden-and-aria-hidden/)
 
+## Markdown
+
+* [md - extended syntax - ids](https://www.markdownguide.org/extended-syntax/#heading-ids)
+* [md - MarkdownLint](https://github.com/markdownlint/markdownlint) rule updates
+  * [MD013](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length) - Line Length too long
+    * If folks want to put paragraphs in markdown, that's fine, just use an IDE that wraps lines
+  * [MD025](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md025---multiple-top-level-headers-in-the-same-document) - Multiple Headers
+    * False reading from building our markdown pages using templates like this `# {{title}}`
+  * [MD033](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html) - Inline HTML
+    * We need this for templating reasons
+* [md - only allow limited subset of tags](https://github.com/markdown-it/markdown-it/issues/582)
+* [md - escape backtick](https://meta.stackexchange.com/a/55443/209031)
+* [md - preset zero rules](https://markdown-it.github.io/markdown-it/#MarkdownIt.new)
+
+## JavaScript
+
+* [Convet Object to array](https://stackoverflow.com/q/38824349/1366033)
+* [Sort array alphabetically](https://stackoverflow.com/a/45544166/1366033)
+
 ## Node
 
 * [npm - markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
+* [npm - run multiple scripts sequentially](https://stackoverflow.com/a/39172660/1366033)
 * [node - `__dirname`](https://nodejs.org/docs/latest/api/globals.html#globals_dirname)
 
 ## VS Code
@@ -53,7 +77,12 @@ A stash for helpful articles, references, documentation looked up along the way
 * [fa - download](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
 * [fa - sprites](https://fontawesome.com/how-to-use/on-the-web/advanced/svg-sprites)
 * [svg omg - svg optimizer](https://jakearchibald.github.io/svgomg/)
+* [svg - use xlink from other image](https://css-tricks.com/svg-use-external-source/)
 * [squoosh - image optimizer](https://squoosh.app/)
+
+## Github
+
+* [Github - Community health guidelines](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization)
 
 ## Additional
 
@@ -63,4 +92,4 @@ A stash for helpful articles, references, documentation looked up along the way
 * [twitter - style tweets](https://medium.com/@makerspirit/how-to-style-your-twitter-widget-styling-on-shadow-dom-a405c36edd10)
 * [json schema - url format](https://github.com/json-schema-org/json-schema-spec/issues/233#issuecomment-279180514)
 * [json schema - array of type](https://stackoverflow.com/a/51557536/1366033)
-* [md - extended syntax - ids](https://www.markdownguide.org/extended-syntax/#heading-ids)
+

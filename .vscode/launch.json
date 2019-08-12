@@ -11,13 +11,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Functions",
-            "runtimeExecutable": "npm",
-            "runtimeArgs": [
-                "run-script",
-                "functions"
-            ],
-            "port": 9229
+            "name": "Launch Update Data",
+            "program": "${workspaceFolder}/updateData.js",
         }
     ]
 }
