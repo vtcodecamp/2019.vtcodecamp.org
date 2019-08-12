@@ -88,3 +88,13 @@ meta_description: description will show up in meta tags
   * SVG
     * Use [SVGOmg](https://jakearchibald.github.io/svgomg/)
   * Note: At some point we may try to bake this into the build process if we can get node based CLIs for each optimization.  Netlify is setup to perform non-lossy [asset optimization](https://www.netlify.com/blog/2019/08/05/control-your-asset-optimization-settings-from-netlify.toml/), but there's still a lot of other more opinionated optimizations.
+
+## Resources
+
+Checkout [resources.md](resources.md) for a bunch of docs, links, google search results that helped get us to the point where we are today.  Often each resource links lives within the same commit where that feature was being worked on, so you can see a real example of how that snippet was actually implemented.
+
+## Contributing
+
+Thanks for your interest in contributing! There are many ways to contribute to this project.
+
+Get started with [contributing.md](contributing.md)

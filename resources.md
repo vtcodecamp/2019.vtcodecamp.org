@@ -25,6 +25,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [netlify - Dev](https://www.netlify.com/products/dev/)
 * [netlify - Asset Optimization / Post Processing](https://www.netlify.com/docs/netlify-toml-reference/#post-processing)
 * [netlify - Deploy Previews](https://www.netlify.com/docs/webhooks/#github-commit-statuses)
+* [netlify - Build Hooks](https://www.netlify.com/docs/webhooks/#incoming-webhooks)
 
 ## Nunjucks
 
@@ -52,6 +53,7 @@ A stash for helpful articles, references, documentation looked up along the way
   * [MD033](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html) - Inline HTML
     * We need this for templating reasons
 * [md - only allow limited subset of tags](https://github.com/markdown-it/markdown-it/issues/582)
+* [md - escape backtick](https://meta.stackexchange.com/a/55443/209031)
 * [md - preset zero rules](https://markdown-it.github.io/markdown-it/#MarkdownIt.new)
 
 ## JavaScript
@@ -77,6 +79,10 @@ A stash for helpful articles, references, documentation looked up along the way
 * [svg omg - svg optimizer](https://jakearchibald.github.io/svgomg/)
 * [svg - use xlink from other image](https://css-tricks.com/svg-use-external-source/)
 * [squoosh - image optimizer](https://squoosh.app/)
+
+## Github
+
+* [Github - Community health guidelines](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization)
 
 ## Additional
 
