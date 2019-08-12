@@ -404,6 +404,13 @@ article.article{
     left: -20px;
     bottom: 0px
 }
+/* hide # on small screens */
+@media (max-width: 500px) {
+    .headline h2:hover::before {
+        display:none;
+    }
+}
+
 
 .speaker .speaker-link.twitter {
     margin-left: .5em;
