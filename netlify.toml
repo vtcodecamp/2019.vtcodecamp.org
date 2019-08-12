@@ -1,5 +1,5 @@
 [build]
-  command = "npm run full-build"
+  command = "npm run update-and-build"
   publish = "_site"
 
 [build.processing]

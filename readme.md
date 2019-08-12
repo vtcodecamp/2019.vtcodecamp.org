@@ -15,6 +15,22 @@
 * [fontawesome icons](https://fontawesome.com/icons) - svg icons
 * [unDraw](https://undraw.co/illustrations) -- illustrations
 
+## Project Setup
+
+* Install [Node.js & NPM](https://nodejs.org/en/download/)
+* Run `npm install` in the project directory to install local dependencies
+* Run `npm run serve` to run a local dev environment
+* Access dev copy of the site at [localhost:8080](http://localhost:8080)
+
+## NPM Scripts
+
+```bash
+npm run build             # runs `npx eleventy` to build the site
+npm run serve             # builds site + serves `_site` directory
+npm run update-data       # gets sessionize data and updates _data directory
+npm run update-and-build  # gets new sessionize data and builds site
+```
+
 ## File Structure
 
 ```bash
@@ -43,22 +59,6 @@
 └── readme.md             # 🟊 [You Are Here]
 ```
 
-## Project Setup
-
-* Install [Node.js & NPM](https://nodejs.org/en/download/)
-* Run `npm install` in the project directory to install local dependencies
-* Run `npm run serve` to run a local dev environment
-* Access dev copy of the site at [localhost:8080](http://localhost:8080)
-
-## NPM Scripts
-
-```bash
-npm run build         # runs `npx eleventy` to build the site
-npm run serve         # builds site + serves `_site` directory
-npm run update-data   # gets sessionize data and updates _data directory
-npm run full-build    # gets new sessionize data and builds site
-```
-
 ## YAML FrontMatter
 
 Data can be added to the beginning of a page and leveraged in the templating process.  The following fields are commonly used by the layout page:
@@ -66,7 +66,7 @@ Data can be added to the beginning of a page and leveraged in the templating pro
 ```yaml
 ---
 layout: default-layout.njk
-title:  title will show up in ID
+title:  page title and header element
 meta_description: description will show up in meta tags
 ---
 ```

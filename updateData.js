@@ -3,9 +3,9 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 
 
-module.exports = fetchData();
+module.exports = updateData();
 
-async function fetchData()
+async function updateData()
 {
     const response = await fetch('https://sessionize.com/api/v2/rffu883w/view/all');
     const sessionize = await response.json();

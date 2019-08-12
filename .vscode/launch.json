@@ -12,7 +12,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Update Data",
-            "program": "${workspaceFolder}/fetchData.js",
+            "program": "${workspaceFolder}/updateData.js",
         }
     ]
 }
