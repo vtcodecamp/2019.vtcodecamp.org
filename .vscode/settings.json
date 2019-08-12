@@ -83,5 +83,20 @@
         }
       }
     }
+  ],
+  "cSpell.words": [
+    "eleventy",
+    "fontawesome",
+    "gitignore",
+    "templating",
+    "vtcodecamp",
+    "ImageOptim",
+    "Squoosh",
+    "CLI",
+    "permalinks",
+    "passthrough",
+    "undraw",
+    "optim",
+    "CLIs"
   ]
 }

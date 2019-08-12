@@ -6,7 +6,7 @@ meta_description: Vermont Code Camp needs you! Please consider submitting a spea
 
 
 <section class="main" >
-<div class="section-content">   
+<div class="section-content">
 
 # {{title}}
 
@@ -14,11 +14,11 @@ meta_description: Vermont Code Camp needs you! Please consider submitting a spea
     {% include "assets/undraw/undraw_candidate_optim.svg" %}
 </div>
 
-Vermont Code Camp needs you! Please consider submitting a speaker session proposal. You don't have to be from Vermont to attend or speak. 
+Vermont Code Camp needs you! Please consider submitting a speaker session proposal. You don't have to be from Vermont to attend or speak.
 
 * **CFP Deadline is now closed:** as of Sunday July 21 Midnight EST  
-* **Speaker Notifications have been sent out:** as of Monday July 29 
-* **Schedule** will be built closer to the event 
+* **Speaker Notifications have been sent out:** as of Monday July 29
+* **Schedule** will be built closer to the event
 
 Possible topics include:
 
@@ -34,7 +34,6 @@ Possible topics include:
 * Professional Skills
 * Community Development
 * &hellip; really, anything related to development.
-
 
 Sessions are either 30 or 60 minutes in duration, including time for questions. Feel free to submit one or several session proposals.
 
