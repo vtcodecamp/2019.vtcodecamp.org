@@ -26,7 +26,7 @@ permalink: /2019/sessions/
             By 
             {% for speakerKey in session.speakers %}
                 {% set speaker = speakers[speakerKey.id] %}
-                <a href="/speakers#{{speaker.slug}}">
+                <a href="/2019/speakers#{{speaker.slug}}">
                     {{ speaker.fullName }}
                 </a>
                 {% if not loop.last %}/{% endif %}
