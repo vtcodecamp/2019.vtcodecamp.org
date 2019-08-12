@@ -39,7 +39,7 @@ meta_description: Read more about the Vermont Code Camp speakers
 
         </div>
 
-        {{ speaker.bio | markdown | safe }}
+            {{ speaker.bio | minimalMarkdown | safe }}
 
         {% if speaker.sessions %}
             <p class="speaker-sessions">Sessions:</p>

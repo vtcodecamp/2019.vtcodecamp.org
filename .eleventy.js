@@ -16,8 +16,11 @@ module.exports = function(eleventyConfig) {
         return value.replace('/src','');
     });
 
-    let md = require('markdown-it')();
-    eleventyConfig.addFilter("markdown", function(string) {
+
+    var enable = ["normalize", "block", "inline", "linkify", "autolink", 'link', 'backticks', 'emphasis', "paragraph", "text", "newline"]
+    var md = require('markdown-it')('zero',{linkify: true}).enable(enable);
+
+    eleventyConfig.addFilter("minimalMarkdown", function(string) {
         return md.render(string);
     });
 

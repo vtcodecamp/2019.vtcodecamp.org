@@ -34,7 +34,7 @@ meta_description:
         {% set levelNum = session.level.split(" ")[0] %}
         <p class="level level-{{levelNum}}">{{session.level}}</p>
 
-        {{ session.description | markdown | safe }}
+        {{ session.description | minimalMarkdown | safe }}
 
         {% if session.resources %}
             <p>Resources:</p>

@@ -44,13 +44,15 @@ A stash for helpful articles, references, documentation looked up along the way
 ## Markdown
 
 * [md - extended syntax - ids](https://www.markdownguide.org/extended-syntax/#heading-ids)
-* [MarkdownLint](https://github.com/markdownlint/markdownlint) rule updates
+* [md - MarkdownLint](https://github.com/markdownlint/markdownlint) rule updates
   * [MD013](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length) - Line Length too long
     * If folks want to put paragraphs in markdown, that's fine, just use an IDE that wraps lines
   * [MD025](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md025---multiple-top-level-headers-in-the-same-document) - Multiple Headers
     * False reading from building our markdown pages using templates like this `# {{title}}`
   * [MD033](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html) - Inline HTML
     * We need this for templating reasons
+* [md - only allow limited subset of tags](https://github.com/markdown-it/markdown-it/issues/582)
+* [md - preset zero rules](https://markdown-it.github.io/markdown-it/#MarkdownIt.new)
 
 ## JavaScript
 
