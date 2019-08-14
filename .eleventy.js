@@ -6,6 +6,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/favicon.ico");
 
+    eleventyConfig.addLayoutAlias('default', 'default-layout.njk');
+
     // add cssmin filter
     const CleanCSS = require("clean-css");
     eleventyConfig.addFilter("cssmin", function(code) {

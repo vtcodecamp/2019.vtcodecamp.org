@@ -65,7 +65,7 @@ Data can be added to the beginning of a page and leveraged in the templating pro
 
 ```yaml
 ---
-layout: default-layout.njk
+layout: default
 title:  page title and header element
 meta_description: description will show up in meta tags
 ---
