@@ -97,7 +97,7 @@
         "id": "cb70d1bd-13ab-4a16-abfd-cf48b37ec30d",
         "firstName": "Bob",
         "lastName": "Crowley",
-        "bio": "Bob Crowley is a Senior Software Developer in Portland Maine where he builds solutions in the .Net and Azure ecosystems. Having gained so much from the community himself, he is trying to give a little back as an occasional presenter at his local Casco Bay .Net User Group, Boston Code Camp and Vermont Code Camp.\r\n\r\nFind Bob on twitter @contrivedex and see his occasional ramblings on contrivedexample.com.",
+        "bio": "Bob Crowley is a Senior Software Developer in Portland Maine where he builds solutions in the .Net and Azure ecosystems. He has been writing bugs for over fifteen years, mostly in the financial industry despite (or because?) still not knowing the difference between a debit and a credit.\r\n\r\nIn his free time he likes to make the most of both weeks of Maine's summer out on the water either in a kayak or saltwater fishing.\r\n\r\nFind Bob on twitter @contrivedex and see his occasional ramblings on contrivedexample.com.",
         "tagLine": "Sr. Software Developer, .Net",
         "profilePicture": "https://sessionize.com/image?f=89fd8297b301740264d69c011d45de39,400,400,True,False,bd-13ab-4a16-abfd-cf48b37ec30d.24b187ae-c9c9-4580-ad0e-ca856b8912ee.png",
         "isTopSpeaker": false,
@@ -559,7 +559,14 @@
         "tagLine": "STEM Academy leader at Essex High School",
         "profilePicture": "https://sessionize.com/image?f=c50f8e6f2822238fcac3ee87b2bb8b4c,400,400,True,False,65-5780-459f-a766-31dbd5dafc85.05f87609-276d-4021-a0c3-98ad2ec55107.jpg",
         "isTopSpeaker": false,
-        "links": [],
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/EssexSTEM",
+                "linkType": "Twitter",
+                "name": "@EssexSTEM"
+            }
+        ],
         "sessions": [
             {
                 "id": 131703,
