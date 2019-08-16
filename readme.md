@@ -31,6 +31,10 @@ npm run update-data       # gets sessionize data and updates _data directory
 npm run update-and-build  # gets new sessionize data and builds site
 ```
 
+## Build Workflow / Interface Diagram
+
+![diagram](src/assets/BuildWorkflowDiagram.png)
+
 ## File Structure
 
 ```bash
