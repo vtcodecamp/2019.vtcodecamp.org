@@ -627,6 +627,15 @@ a.friend-link:hover {
     max-width: 100%;
 }
 
+.sponsors .section-content h3 {
+    color: #9a9a9a;
+    text-align: center;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
 .sponsor-logo-list.premier            img { max-height: 100px; }
 .sponsor-logo-list.platinum           img { max-height: 95px; }
 .sponsor-logo-list.gold               img { max-height: 90px; }
