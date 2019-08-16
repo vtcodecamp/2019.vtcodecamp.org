@@ -26,6 +26,12 @@
         "link": "https://www.symbioticlabs.io/",
         "logo": "/src/assets/sponsor-logos/symbiotic-labs-logo.svg",
         "scale": "100"
+      },
+      {
+        "name": "Perficient",
+        "link": "https://www.perficient.com",
+        "logo": "/src/assets/sponsor-logos/perficient-329x115.gif",
+        "scale": "100"
       }
     ]
   },
@@ -127,8 +133,6 @@
         "logo": "/src/assets/sponsor-logos/btv-ignite-300x139.png",
         "scale": "120"
       }
-
-
     ]
   }
 ]
