@@ -83,6 +83,7 @@ A stash for helpful articles, references, documentation looked up along the way
 ## Github
 
 * [Github - Community health guidelines](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization)
+* [Github - Displaying a sponsor button in your repository](https://help.github.com/en/articles/displaying-a-sponsor-button-in-your-repository)
 
 ## Additional
 
