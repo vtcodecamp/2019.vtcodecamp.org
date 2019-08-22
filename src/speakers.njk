@@ -41,9 +41,9 @@ permalink: /2019/speakers/
         </div>
 
         <p>
-            {# {% if speaker.profilePicture %}
+            {% if speaker.profilePicture %}
                 <img src="{{speaker.profilePicture}}" alt="Profile picture for {{speaker.fullName}}" class="profile"/>
-            {% endif %} #}
+            {% endif %}
             {{ speaker.bio | minimalMarkdown | safe }}
         </p>
         <div class="clear"</div>
