@@ -42,7 +42,7 @@
       {
         "name": "Dealer Policy",
         "link": "https://www.dealerpolicy.com/",
-        "logo": "/src/assets/sponsor-logos/dealer.svg",
+        "logo": "/src/assets/sponsor-logos/dealer-policy.svg",
         "scale": "150"
       }
     ]
@@ -74,6 +74,12 @@
         "link": "https://www.jetbrains.com/",
         "logo": "/src/assets/sponsor-logos/jetbrains-logo.svg",
         "scale": "130"
+      },
+      {
+        "name": "Dealer.com",
+        "link": "https://www.dealer.com/",
+        "logo": "/src/assets/sponsor-logos/dealerdotcom-1000x172.png",
+        "scale": "80"
       }
     ]
   },

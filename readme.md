@@ -87,8 +87,8 @@ meta_description: description will show up in meta tags
     * any other tools (lots available)
 * Compress Image
   * Raster
-    * Use [ImageOptim](https://imageoptim.com/mac), [Compressor.io](https://compressor.io/), or [Squoosh](https://squoosh.app/)
-    * Whatever the screen resulting resolution, the logo should be resized down to double that resolution for retina displays
+    1. Whatever the screen resulting resolution, the logo should be resized down to double that resolution for retina displays
+    2. Use [ImageOptim](https://imageoptim.com/mac), [Compressor.io](https://compressor.io/), or [Squoosh](https://squoosh.app/)
   * SVG
     * Use [SVGOmg](https://jakearchibald.github.io/svgomg/)
   * Note: At some point we may try to bake this into the build process if we can get node based CLIs for each optimization.  Netlify is setup to perform non-lossy [asset optimization](https://www.netlify.com/blog/2019/08/05/control-your-asset-optimization-settings-from-netlify.toml/), but there's still a lot of other more opinionated optimizations.
