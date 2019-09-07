@@ -24,7 +24,7 @@ This full day event will bring together technology community members, students a
 
 Vermont Code Camp is free event for attendees and organized entirely by community volunteers, with the help of our sponsors. 
 
-2017 was the first year we hit a milestone of 250 attendees. With 5 rooms and a creative schedule, we are able to present 35 sessions throughout the day. Check out [last year’s schedule](https://archive.vtcodecamp.org).
+2017 was the first year we hit a milestone of 250 attendees. With 5 rooms and a creative schedule, we are able to present 35 sessions throughout the day. Check out [last year’s schedule](https://2018.vtcodecamp.org/schedule).
 
 In 2017, local television station WCAX visited the event and we are very proud of the news item [they produced and shared locally](http://www.wcax.com/content/news/A-tech-lovers-paradise-445146003.html).
 
@@ -86,18 +86,18 @@ While we keep our budget trim, we can’t pull off VT Code Camp without the fina
 ####  Attendance and participation is strong:
 
 
-| Year                                        | Attendees | Sessions | Speakers |
-|---------------------------------------------|:---------:|:--------:|:--------:|
-| [2018](https://archive.vtcodecamp.org)      | 230       | 35       | 34       |
-| [2017](https://archive.vtcodecamp.org/2017) | 250       | 34       | 34       |
-| [2016](https://archive.vtcodecamp.org/2016) | 194       | 37       | 35       |
-| [2015](https://archive.vtcodecamp.org/2015) | 165       | 32       | 34       |
-| [2014](https://archive.vtcodecamp.org/2014) | 165       | 29       | 29       |
-| [2013](https://archive.vtcodecamp.org/2013) | 161       | 27       | 27       |
-| [2012](https://archive.vtcodecamp.org/2012) | 171       | 29       | 28       |
-| [2011](https://archive.vtcodecamp.org/2011) | 158       | 26       | 24       |
-| [2010](https://archive.vtcodecamp.org/2010) | 125       | 25       | 23       |
-| 2009                                        | 85        | 19       | 19       |
+| Year                                         | Attendees | Sessions | Speakers |
+|----------------------------------------------|:---------:|:--------:|:--------:|
+| [2018](https://2018.vtcodecamp.org)          | 230       | 35       | 34       |
+| [2017](https://2017.vtcodecamp.org)          | 250       | 34       | 34       |
+| [2016](https://2016.vtcodecamp.org)          | 194       | 37       | 35       |
+| [2015](https://2015.vtcodecamp.org)          | 165       | 32       | 34       |
+| [2014](https://2014.vtcodecamp.org)          | 165       | 29       | 29       |
+| [2013](https://2013.vtcodecamp.org)          | 161       | 27       | 27       |
+| [2012](https://2012.vtcodecamp.org)          | 171       | 29       | 28       |
+| [2011](https://2011.vtcodecamp.org/schedule) | 158       | 26       | 24       |
+| [2010](https://2010.vtcodecamp.org/schedule) | 125       | 25       | 23       |
+| 2009                                         | 85        | 19       | 19       |
 
 
 <br>
