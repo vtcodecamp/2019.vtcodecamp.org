@@ -1,2 +1,10 @@
+
+# Redirect past year paths to subdomains
 /2017/*  https://2017.vtcodecamp.org/:splat
 /2016/*  https://2016.vtcodecamp.org/:splat
+/2015/*  https://2015.vtcodecamp.org/:splat
+/2014/*  https://2014.vtcodecamp.org/:splat
+/2013/*  https://2013.vtcodecamp.org/:splat
+/2012/*  https://2012.vtcodecamp.org/:splat
+/2011/*  https://2011.vtcodecamp.org/:splat
+/2010/*  https://2010.vtcodecamp.org/:splat
