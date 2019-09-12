@@ -32,6 +32,12 @@
         "link": "https://www.perficient.com",
         "logo": "/src/assets/sponsor-logos/perficient-329x115.gif",
         "scale": "100"
+      },
+      {
+        "name": "Burlington Telecom",
+        "link": "https://www.burlingtontelecom.com/",
+        "logo": "/src/assets/sponsor-logos/burlington-telecom-logo-450x114.png",
+        "scale": "90"
       }
     ]
   },
