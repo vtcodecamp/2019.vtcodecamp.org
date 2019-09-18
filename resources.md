@@ -16,6 +16,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [11ty - plugins](https://www.11ty.io/docs/plugins/)
 * [11ty - frontmatter in .11ty.js files](https://www.11ty.io/docs/languages/javascript/#permalinks)
 * [11ty - Debug 11ty with VS Code](https://github.com/11ty/eleventy/issues/331)
+* [11ty - Layout Aliasing](https://www.11ty.io/docs/layouts/#layout-aliasing)
 
 ## Netlify
 

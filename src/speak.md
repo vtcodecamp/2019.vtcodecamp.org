@@ -1,5 +1,5 @@
 ---
-layout: default-layout.njk
+layout: default
 title:  "Speak at Vermont Code Camp 11"
 meta_description: Vermont Code Camp needs you! Please consider submitting a speaker session proposal.
 ---

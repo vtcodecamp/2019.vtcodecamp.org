@@ -1,5 +1,5 @@
 ---
-layout: default-layout.njk
+layout: default
 title:  "Champlain College Parking Information"
 ---
 
