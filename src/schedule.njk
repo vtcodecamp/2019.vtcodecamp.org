@@ -72,14 +72,34 @@ table.schedule {
     line-height:1;
     max-width: 100%;
 }
+.timespan {
+    background: #dfebf1;
+}
+small.speaker {
+    display: block;
+    margin-top: 6px;
+}
 @media all and (max-width: 479px) {
     table.schedule {
-        font-size: 0.4em;        
-        -webkit-text-size-adjust: none;
+        margin-top: -1rem;
     }
-    .main table td, .main table th {
-        padding: 1px 1px;
+    table.schedule .timespan {
+        border-top: 1px solid #cecece;
+        padding: 2px 4px;
+        margin-top: 1rem;
     }
+    table.schedule thead {
+        display: none;
+    }
+    table.schedule td,
+    table.schedule th {
+        display: block;
+        border: none;
+        padding: 5px 6px;
+        border: 1px solid #cecece;
+        border-top: none;
+    }
+
 }
 @media all and (min-width: 480px) and (max-width: 599px) {
     table.schedule {
