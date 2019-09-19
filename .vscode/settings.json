@@ -85,18 +85,19 @@
     }
   ],
   "cSpell.words": [
+    "CLI",
+    "CLIs",
+    "ImageOptim",
+    "Squoosh",
+    "destructure",
     "eleventy",
     "fontawesome",
     "gitignore",
-    "templating",
-    "vtcodecamp",
-    "ImageOptim",
-    "Squoosh",
-    "CLI",
-    "permalinks",
-    "passthrough",
-    "undraw",
     "optim",
-    "CLIs"
+    "passthrough",
+    "permalinks",
+    "templating",
+    "undraw",
+    "vtcodecamp"
   ]
 }
