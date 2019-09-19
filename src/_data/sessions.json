@@ -871,21 +871,21 @@
     },
     "9c82ba86-c663-4743-8f88-a2ed57907c28": {
         "id": "9c82ba86-c663-4743-8f88-a2ed57907c28",
-        "title": "Opening Remarks 15 min?",
+        "title": "Welcome (Common Room)",
         "description": null,
         "startsAt": "2019-09-28T08:45:00",
-        "endsAt": "2019-09-28T09:00:00",
+        "endsAt": "2019-09-28T09:05:00",
         "isServiceSession": true,
         "isPlenumSession": true,
         "speakers": [],
         "categoryItems": [],
         "questionAnswers": [],
         "roomId": 8460,
-        "slug": "opening-remarks-15-min"
+        "slug": "welcome-common-room"
     },
     "92d3edfe-4b8d-4122-b762-89d7a5bd7838": {
         "id": "92d3edfe-4b8d-4122-b762-89d7a5bd7838",
-        "title": "Lunch",
+        "title": "Lunch (Common Room)",
         "description": null,
         "startsAt": "2019-09-28T12:15:00",
         "endsAt": "2019-09-28T13:15:00",
@@ -895,11 +895,11 @@
         "categoryItems": [],
         "questionAnswers": [],
         "roomId": 8460,
-        "slug": "lunch"
+        "slug": "lunch-common-room"
     },
     "049f2a79-4fd0-40d5-aaa2-4b2cdb1df80a": {
         "id": "049f2a79-4fd0-40d5-aaa2-4b2cdb1df80a",
-        "title": "Afternoon Snack Break 30 min",
+        "title": "Break and Afternoon Snacks (Common Room)",
         "description": null,
         "startsAt": "2019-09-28T15:00:00",
         "endsAt": "2019-09-28T15:30:00",
@@ -909,11 +909,11 @@
         "categoryItems": [],
         "questionAnswers": [],
         "roomId": 8460,
-        "slug": "afternoon-snack-break-30-min"
+        "slug": "break-and-afternoon-snacks-common-room"
     },
     "ce5f8d41-a064-43f5-b6cd-ed1e0a2445de": {
         "id": "ce5f8d41-a064-43f5-b6cd-ed1e0a2445de",
-        "title": "Wrap-up about 10 minutes?",
+        "title": "Closing Remarks (Common Room)",
         "description": null,
         "startsAt": "2019-09-28T17:30:00",
         "endsAt": "2019-09-28T17:40:00",
@@ -923,6 +923,6 @@
         "categoryItems": [],
         "questionAnswers": [],
         "roomId": 8460,
-        "slug": "wrapup-about-10-minutes"
+        "slug": "closing-remarks-common-room"
     }
 }
