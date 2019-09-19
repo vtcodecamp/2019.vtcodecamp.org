@@ -49,7 +49,7 @@
         "name": "Dealer Policy",
         "link": "https://www.dealerpolicy.com/",
         "logo": "/src/assets/sponsor-logos/dealer-policy.svg",
-        "scale": "150"
+        "scale": "160"
       }
     ]
   },
@@ -85,7 +85,7 @@
         "name": "Dealer.com",
         "link": "https://www.dealer.com/",
         "logo": "/src/assets/sponsor-logos/dealerdotcom-1000x172.png",
-        "scale": "80"
+        "scale": "70"
       }
     ]
   },
@@ -115,7 +115,14 @@
   {
     "levelCode": "swag",
     "levelName": "Swag, Giveaways, & More",
-    "sponsors": []
+    "sponsors": [
+      {
+        "name": "Tower",
+        "link": "https://www.git-tower.com/",
+        "logo": "/src/assets/sponsor-logos/tower-logo.svg",
+        "scale": "150"
+      }
+    ]
   },
   {
     "levelCode": "community-partner",
@@ -125,7 +132,7 @@
         "name": "Sessionize",
         "link": "https://sessionize.com",
         "logo": "/src/assets/sponsor-logos/sessionize-540x88.png",
-        "scale": "90"
+        "scale": "80"
       },
       {
         "name": "Lake Champlain Regional Chamber of Commerce",
