@@ -3,8 +3,8 @@
         "id": "124009",
         "title": "Keeping Configuration Secrets Out Of Source Code",
         "description": "Keeping secrets safe and out of source code has always been challenging. De-coupling sensitive information like connection strings, certificates and passwords keeps these secrets out of source control where it is all to easy to expose them unintentionally.\r\nThis session focuses mostly on .Net Core Configuration and also provides an overview of how to leverage Azure App Service Settings, KeyVault and Managed Identities for Azure Resources to help alleviate this long-standing problem. Additionally we will see how to consume configuration even when you, the developer, don't have access to production secrets.\r\nDemonstrated are three application scenarios - A non-Azure-hosted app, An Azure-hosted app and local debugging.\r\nTime permitting, we will also see some techniques for managing secrets in full-framework applications that typically rely on web.config files.\r\nThis presentation gives you the basic knowledge to keep secrets out of source code while still assuring correct production configuration.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T14:00:00",
+        "endsAt": "2019-09-28T15:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -18,7 +18,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8463,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "keeping-configuration-secrets-out-of-source-code"
@@ -27,8 +27,8 @@
         "id": "124040",
         "title": "Uptime 15,379 days - The Computers of Voyager",
         "description": "The Voyager 1 and Voyager 2 space probes, both launched in 1977, each had a primary objective to explore Jupiter and Saturn.  This goal was achieved by 1981.  Yet Voyager, NASA's longest running mission, has continued to this day.  Both Voyager probes are still operating, and returning scientific data from outside our solar system.\r\n\r\nThis talk explores the computing systems of Voyager - the systems which enable remote control of the spacecraft, and provide for the recording and return of data to Earth.  These systems have proved to be both adaptable, durable, and resilient in support of a scientific undertaking now in it's fifth decade.\r\n\r\nWhat can we learn from the engineering of Voyager's computing systems? Why have they survived for so long in the harsh environment of space? What is involved in patching a system from a billion miles away?  And what does the future hold?\r\n",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T14:00:00",
+        "endsAt": "2019-09-28T15:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -42,7 +42,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8464,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
         "slug": "uptime-15379-days-the-computers-of-voyager"
@@ -51,8 +51,8 @@
         "id": "125508",
         "title": "Hacking JWTs",
         "description": "So you’ve finally implemented your own authorization server.  And it uses JWT because everyone else does.  But is it secure?  JWTs are the new great thing that everyone is talking about but you need to use them correctly.  During this talk, we will see how we can use various attacks to hack into OAuth systems that use JWTs as a token mechanism.  By seeing the attackers’ point of view, the attendees will learn how to better defend themselves and make more secure servers.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T14:00:00",
+        "endsAt": "2019-09-28T15:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -63,20 +63,20 @@
         ],
         "categoryItems": [
             17266,
-            17269
+            17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8460,
         "format": "60 minutes",
-        "level": "300 (pretty darned-experienced)",
+        "level": "200 (never stop learning)",
         "slug": "hacking-jwts"
     },
     "126286": {
         "id": "126286",
         "title": "Managing local development environments through Docker Compose.",
         "description": "Containerization gives developers unprecedented control over application infrastructure. But jumping directly into enterprise level container orchestration with something like Kubernetes can be overwhelming. Wouldn't it be great if there was an intermediate step? One where we could start to leverage the power of containerization right away?\r\n \r\nIn this live demo I'll show how my team uses Docker Compose to script, manage, and share local environments for development.\r\n \r\nAlong the way we will\r\n...learn the basics of working with Docker containers.\r\n...spin up and tear down a new development environment consisting of multiple third party applications with publicly available Docker images.\r\n...write our own Dockerfiles which extend these images to meet our particular needs.\r\n...discuss the options available to us if we decide we want to take a containerization into production.  ",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T16:15:00",
+        "endsAt": "2019-09-28T17:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -90,7 +90,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8461,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "managing-local-development-environments-through-docker-compose"
@@ -99,8 +99,8 @@
         "id": "127696",
         "title": "Power BI Report Server for the enterprise",
         "description": "Power BI Report server allows you to share Power BI vizualisations on-premises as well as paginated reports. In this session, weèll cover the various possibilities of Power BI Report Server as a portal for your enterprise reports and we'll compare it to its counterpart in the clouds.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T14:00:00",
+        "endsAt": "2019-09-28T15:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -114,7 +114,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8461,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "power-bi-report-server-for-the-enterprise"
@@ -123,8 +123,8 @@
         "id": "127790",
         "title": "Differential Privacy",
         "description": "Differential privacy is used by a variety of organizations for storing and/or sharing data about people without compromising the identities of individuals within the sample. This session will describe reidentification attacks; the mathematics of differential privacy and how it defeats reidentification; and algorithms that provide differential privacy.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T10:30:00",
+        "endsAt": "2019-09-28T11:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -138,7 +138,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8463,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
         "slug": "differential-privacy"
@@ -147,8 +147,8 @@
         "id": "128161",
         "title": "Machine Learning in JavaScript with TensorFlow.js",
         "description": "Machine learning can be used for many tasks including image or audio classification, facial recognition, object recognition, image caption generation, and natural language processing. And with TensorFlow.js developers can embed pre-trained machine learning models or train new models directly in JavaScript.\r\n\r\nTensorFlow.js enables real-time machine learning directly in the browser or edge device, improving data security and removing dependency on slow and unreliable network API calls. We’ll learn how to get started with TensorFlow.js and explore the opportunities and the challenges around deploying machine learning models in JavaScript.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T13:15:00",
+        "endsAt": "2019-09-28T13:45:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -162,7 +162,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8460,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
         "slug": "machine-learning-in-javascript-with-tensorflowjs"
@@ -171,8 +171,8 @@
         "id": "129319",
         "title": "State Machines for Programmerless UIs",
         "description": "State Machines are a declarative way to control user interfaces. Once you see a UI as a progression of states, you will see a state machine as the ultimate desk organizer. Don't worry if you are not super well versed in state machines, we will go over what you need to know. For me it's also about how we can visualize the structure of the states in 2 and 3d. Oh and 'Programmerless' well, we will not be replaced 100%, but lets talk.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T11:15:00",
+        "endsAt": "2019-09-28T12:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -186,7 +186,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8460,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "state-machines-for-programmerless-uis"
@@ -195,8 +195,8 @@
         "id": "131201",
         "title": "Identity 101:  How username/password got so complicated",
         "description": "Taking your first step beyond the default username and password based authentication offered by a full stack web application framework can be overwhelming. Social logins, Identity Providers, OAuth 2.0, LDAP, SAML, OpenId Connect; all can be confusing. What does it all mean? How did we get here? By the end of this session, you will have a good understanding of each of these ideas, how they work and when it is appropriate to use them.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T09:15:00",
+        "endsAt": "2019-09-28T10:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -210,7 +210,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8463,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
         "slug": "identity-101-how-usernamepassword-got-so-complicated"
@@ -219,8 +219,8 @@
         "id": "131703",
         "title": "Helping high school students learn to code",
         "description": "Essex High School has a year-long course in HTML, CSS, JS and React Native.  This session will describe the curriculum and explain ways you could share your expertise with the students.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T15:30:00",
+        "endsAt": "2019-09-28T16:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -234,7 +234,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8462,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
         "slug": "helping-high-school-students-learn-to-code"
@@ -243,8 +243,8 @@
         "id": "132196",
         "title": "Building Custom Ecommerce Solutions On The Cheap for Non-Profits With Azure & Stripe",
         "description": "If you're a Nonprofit or if you're interested in participating in one, you can get basic eCommerce options on the cheap by leveraging a core toolset of Azure, simplified billing with stripe, and modern JS development. Join me as we walk through the business process and tech stack for a Nonprofit that hosts several continuing education conferences for physicians every year and leave with a better understanding of how you can bootstrap your own eCommerce platform. \r\n\r\nhttps://slides.com/lifayt",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T14:00:00",
+        "endsAt": "2019-09-28T15:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -258,7 +258,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8462,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "building-custom-ecommerce-solutions-on-the-cheap-for-nonprofits"
@@ -267,8 +267,8 @@
         "id": "132433",
         "title": "Securing the front end, from a Node server",
         "description": "A simple technique to disable the script injection attacks on your web pages is to disable the inline JavaScript. This means that most popular ways to inject variables and code fragments into your pages will have to change. I will show the JavaScript to JavaScript rendering engine for Express that allows you to set very strict and safe Content-Security-Policy on your website. Not only my approach is much safer, but it will be very testable as well.\r\n\r\nAs a bonus I will show another project that can prevent sensitive information leaking to GitHub and NPM.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T15:30:00",
+        "endsAt": "2019-09-28T16:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -282,7 +282,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8460,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
         "slug": "securing-the-front-end-from-a-node-server"
@@ -291,8 +291,8 @@
         "id": "134755",
         "title": "3 Tasty Monads to Spice Up Your JavaScript",
         "description": "Simplify your JS, purify your functions and wow your nerd friends by generously sprinkling these 3 handy monads into your code.\r\nWe'll focus on practical examples for these woefully misunderstood, but super handy, design patterns",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T10:30:00",
+        "endsAt": "2019-09-28T11:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -306,7 +306,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8460,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
         "slug": "3-tasty-monads-to-spice-up-your-javascript"
@@ -315,8 +315,8 @@
         "id": "135699",
         "title": "Life off the Happy Path: How to Get Started in Test Automation",
         "description": "This will be a 100 level introduction into simple test automation of a UI and an API as well as a presentation of why we use Test Automation and how it lives alongside manual testing. ",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T11:15:00",
+        "endsAt": "2019-09-28T12:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -330,7 +330,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8463,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
         "slug": "life-off-the-happy-path-how-to-get-started"
@@ -339,8 +339,8 @@
         "id": "135708",
         "title": "Calling Shenanigans on Agile UX",
         "description": "I get the Agile manifesto and Scrum…I really do. But I don't get Agile UX at all. It's pretending that a process conceived without any concern about UX design (or UX designers) works just great for design…but it doesn't. Just work two sprints ahead, collaborate enough, iterate enough, and everything will work out fine. There's a reason why every UX conference has a talk on making Agile UX work. It's because it doesn't.\r\nIn this talk, we are going to explore waterfall, agile, and agile UX--each from the perspective of how it should work, how it actually works, and how we are pretending it works. I will conclude by making the case for a significant course correction.\r\n",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T16:15:00",
+        "endsAt": "2019-09-28T17:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -354,7 +354,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8462,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "calling-shenanigans-on-agile-ux"
@@ -363,8 +363,8 @@
         "id": "135980",
         "title": "Scale your API quickly using Message Queues on AWS",
         "description": "APIs are easy enough to build, but making sure they can scale without breaking the bank can be difficult.  While there are ways to auto-scale your API through containers/VMs with load balancers, it might be better to use a message queue.  In this session, you'll learn how to build an API that sends data to a message queue for processing rather just connecting straight to a database.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T10:30:00",
+        "endsAt": "2019-09-28T11:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -378,7 +378,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8464,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
         "slug": "scale-your-api-quickly-using-message-queues-on-aws"
@@ -387,14 +387,14 @@
         "id": "136036",
         "title": "Sustaining Community Empowerment as a Black Woman",
         "description": "I entered the tech industry from a nontraditional path. I felt as if I was alone during my journey. I constantly felt overwhelmed by the idea of entering the industry as a black, female, self-taught, developer. Growing up, I was told I had to be twice as good to get half of what they got. This nontraditional path broke that idea, and I struggled with finding a way to overcome my own self-doubt.\r\n\r\nTo me, getting community right was simple: create a space where the most marginalized people feel safe, and this space will be safe for everyone. As an individual, this is what I tried to do whenever anyone needed help on their tech journey. At work, during events, and in online communities, I became the person that would drop anything to help someone that was stuck in their tech journey. Little by little, I saw what type of organization people needed. I saw the gaps in the market, and I knew I had the empathy and skill set to build it. ",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T13:15:00",
+        "endsAt": "2019-09-28T13:45:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
             {
                 "id": "889d5649-f426-4e5f-ac76-af723afd38f1",
-                "slug": "valerie-sharp"
+                "slug": "valerie-phoenix"
             }
         ],
         "categoryItems": [
@@ -402,7 +402,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8462,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
         "slug": "sustaining-community-empowerment-as-a-black-woman"
@@ -410,9 +410,9 @@
     "136238": {
         "id": "136238",
         "title": "Living with your Legacy",
-        "description": "While we all want to work on whiny new software with shiny new technology, the reality is that many developers and teams are stuck maintaining legacy systems. While typically these systems continue to work, maintaining them can be painful. Yet the cost of replacing the old systems with new ones is unimaginable and financially untenable for most companies. How do we deal with this situation without abandoning our clients who are not yet candidates for rewrites or even for lift and shift ? A long-time software veteran will share some of their own experiences and tips for keeping clients businesses running while slowly helping them evolve to modern times and blending modern software practices into ancient systems.",
-        "startsAt": null,
-        "endsAt": null,
+        "description": "While we all want to work on shiny new software with shiny new technology, the reality is that many developers and teams are stuck maintaining legacy systems. While typically these systems continue to work, maintaining them can be painful. Yet the cost of replacing the old systems with new ones is unimaginable and financially untenable for many companies. How do we deal with this situation without abandoning our clients who are not yet candidates for rewrites or even for lift and shift? A long-time software veteran will share some of their own experiences and tips for keeping clients businesses running while slowly helping them evolve to modern times, blending modern software practices into ancient systems.",
+        "startsAt": "2019-09-28T16:15:00",
+        "endsAt": "2019-09-28T17:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -426,7 +426,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8464,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "living-with-your-legacy"
@@ -435,8 +435,8 @@
         "id": "136258",
         "title": "Becoming a Web Accessibility Champion",
         "description": "Learn all about web accessibility: who it's for, why it's important, and how to start or grow a web accessibility practice at work. In this session, Eric will demonstrate how he uses the web with assistive technology, and the technical attributes that enable web browsers to render web content that is accessible and usable for everyone. Eric will demonstrate free web accessibility testing tools and offer practical advice for talking with your technical and business teams about accessibility. ",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T09:15:00",
+        "endsAt": "2019-09-28T10:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -450,7 +450,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8462,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
         "slug": "becoming-a-web-accessibility-champion"
@@ -459,8 +459,8 @@
         "id": "136264",
         "title": "Azure API Management",
         "description": "We will explore the features and scenarios where Azure API Management might meet your needs. Azure API Management is a turnkey solution for managing, securing, and analyzing APIs allowing you to monetize your existing data and services. APIs can be hosted anywhere, not just in Azure. During this session we will cover a brief introduction to API Management along with how to import and publish your first API. This will allow you to easily secure and protect your API from abuse and overuse using an API key along with IP filtering, quotas and rate limits.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T15:30:00",
+        "endsAt": "2019-09-28T16:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -474,7 +474,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8463,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
         "slug": "azure-api-management"
@@ -483,8 +483,8 @@
         "id": "136300",
         "title": "Re-architecting the Monolith",
         "description": "A story in 4 acts. \r\nAct 1: Building the Monolith,\r\nAct 2: The Monolith Grows Old\r\nAct 3: Fear and Choices\r\nAct 4: A New Generation\r\nThis session is a case study of a large re-build project. \r\nYou'll get:\r\n*insights on how and why legacy monoliths develop and persist.\r\n*strategies for assessing technical debt and building a case for re-architecting.\r\n*history of how the re-build was approached: cultural, process, technical.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T11:15:00",
+        "endsAt": "2019-09-28T12:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -498,7 +498,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8464,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "rearchitecting-the-monolith"
@@ -507,8 +507,8 @@
         "id": "136320",
         "title": "Improving student engagement for $0.50 cents a month",
         "description": "Serverless is all the buzz these days. We'll dive into what it means and how to leverage these kinds of technologies to build solutions that can handle busts of a thousand concurrent users for fifty cents a month (or less). We'll focus on Amazon Web Services, but will talk about options from other providers. We'll cover AWS Lambda, Dynamo DB, S3 and how to deploy Single Page Apps easily in AWS.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T11:15:00",
+        "endsAt": "2019-09-28T12:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -522,7 +522,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8462,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "improving-student-engagement-for-050-cents-a-month"
@@ -531,8 +531,8 @@
         "id": "136361",
         "title": "Building Tech Products that Solve Problems",
         "description": "Agile and lean methodologies have shaped how we work over the last 20+ years. To build great technology products that customers need and want, we also have to focus on what we build. At the intersection of business, technology, and user experience, product management provides a catalyst for building great products. We’ll cover what a technology product manager does, how to focus on the problem instead of the solution, and why great products come from great product teams.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T15:30:00",
+        "endsAt": "2019-09-28T16:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -546,7 +546,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8464,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
         "slug": "building-tech-products-that-solve-problems"
@@ -555,8 +555,8 @@
         "id": "136414",
         "title": "Intro to Docker and PHP",
         "description": "Basic intro to getting started with Docker and PHP. Hoping for a better local development environment we're experimenting with Docker and we want to share what we've learned about getting applications to run and the benefits of local development with Docker.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T13:15:00",
+        "endsAt": "2019-09-28T13:45:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -570,7 +570,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8463,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
         "slug": "intro-to-docker-and-php"
@@ -579,8 +579,8 @@
         "id": "136707",
         "title": "From Legacy App to the Cloud",
         "description": "Do you have a legacy app that you need to run in the cloud but don't have the time or budget to completely re-write?\r\nIn this session, I'll describe how I isolated a legacy app into a black box and built cloud infrastructure around it to convert it into a cloud service using Amazon Web Services. I'll touch on Lambda, Simple Queue Service, DynamoDB, EC2, CloudWatch, S3 buckets.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T09:15:00",
+        "endsAt": "2019-09-28T10:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -594,7 +594,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8464,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "from-legacy-app-to-the-cloud"
@@ -603,8 +603,8 @@
         "id": "137411",
         "title": "Common Sense Stats - Bootstrapping",
         "description": "Working with data is hard. Even worse, statistics is taught as a series of arcane formulas and a series of rules. In this session we'll demystify statistics with hands on simulations in Python. You'll leave with a common sense understanding of how to work with samples, build confidence intervals, and conduct hypothesis tests. No worries if you're a data novice! We'll explain everything as we go.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T11:15:00",
+        "endsAt": "2019-09-28T12:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -618,7 +618,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8461,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "common-sense-stats-bootstrapping"
@@ -627,8 +627,8 @@
         "id": "137732",
         "title": "AI – The rise of the machine learning",
         "description": "In 2011, IBM Watson was competing in TV game show Jeopardy! We now have self-driving cars.  What’s next in Artificial Intelligence and machine learning?  Is AI the next disrupter? Who will benefit from it?  Do we need to worry about Skynet?",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T13:15:00",
+        "endsAt": "2019-09-28T13:45:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -642,7 +642,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8461,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
         "slug": "ai-the-rise-of-the-machine-learning"
@@ -651,8 +651,8 @@
         "id": "138443",
         "title": "Standing on the Shoulders of Giants: Dependency Injection in Javascript and Typescript",
         "description": "The communities and libraries surrounding many of the most successful languages of the past few decades, such as Java and C#, provide first class support for leveraging Dependency Injection and Inversion of Control. These are proven patterns for writing complex software through abstraction and composition. But historically, framework support and awareness of these patterns has often been missing in the Javascript/Typescript community.\r\n\r\nThis talk will focus on the Dependency Inversion principal, leveraging the Dependency Injection and Inversion of Control patterns. This results in software that is flexible and resilient to the inevitability of evolving requirements.  We will look at practical examples of how to use these patterns in both frontend and backend Javascript/Typescript codebases.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T09:15:00",
+        "endsAt": "2019-09-28T10:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -670,7 +670,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8460,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "standing-on-the-shoulders-of-giants-dependency-injection-in"
@@ -679,8 +679,8 @@
         "id": "138509",
         "title": "Ensuring Quality The Easy Way",
         "description": "This session will focus on the value of a tool called the “Story Impact Checklist.” SICs can help teams task out stories more thoughtfully, and consider many aspects of quality in a simple, concise format. Learn how to create a Story Impact Checklist and learn approaches for getting your team to adopt using it. ",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T13:15:00",
+        "endsAt": "2019-09-28T13:45:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -694,7 +694,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8464,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
         "slug": "ensuring-quality-the-easy-way"
@@ -703,8 +703,8 @@
         "id": "138570",
         "title": "Intro to Deep Learning for Developers",
         "description": "The stakes are high as companies scramble to make use of cutting edge technology to meet their clients needs. Deep Learning is more than buzz words, it's a powerful way to incorporate artificial intelligence and machine learning into your applications. You don't need to be an advanced mathematician to adopt these technologies, but there are some important things you need to know to do it effectively and responsibly. Learn about what deep learning is, what you need to know to adopt it, and the importance of open source in this space.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T10:30:00",
+        "endsAt": "2019-09-28T11:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -718,7 +718,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8461,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
         "slug": "intro-to-deep-learning-for-developers"
@@ -727,18 +727,18 @@
         "id": "138573",
         "title": "Bug Consciousness--What we can learn from bugs to improve our product",
         "description": "If you're new to software or don't have experience with testing, you might wonder about its value. What do QA specialists really contribute to software delivery teams? In this interactive session, participants will learn ways to research a software bug. They'll brainstorm about some of the many things that can go wrong with software, and how what teams learn from studying bugs leads to preventing bugs from happening in the first place.  \r\n\r\nLearning outcomes:\r\n* How testing - and testers/QA specialists - contribute to team/product success\r\n* How to analyze a software bug and discover important insights to the team's process or product\r\n* Think about what can go wrong for a given product capability, and how to prevent those pitfalls\r\n\r\n",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T10:30:00",
+        "endsAt": "2019-09-28T11:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
             {
-                "id": "29d505af-541b-404d-9eb5-f1528a6a5645",
-                "slug": "lisa-crispin"
-            },
-            {
                 "id": "ef7a10de-d257-4a34-934d-a25bb3c61c4c",
                 "slug": "brie-hoblin"
+            },
+            {
+                "id": "257bcd55-5e9d-4b56-9f83-19ee97db1d7d",
+                "slug": "bethany-robinson"
             }
         ],
         "categoryItems": [
@@ -746,7 +746,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8462,
         "format": "30 minutes",
         "level": "100 (absolute beginner)",
         "slug": "bug-consciousnesswhat-we-can-learn-from-bugs-to-improve"
@@ -755,8 +755,8 @@
         "id": "138584",
         "title": "Yes, IPv6 Is Real - How To Make Your Apps Work (And Be As Fast As Possible)",
         "description": "How well do your applications or websites work over IPv6? As the world runs out of IPv4 addresses, new mobile networks are being deployed as “IPv6-only” with IPv6-to-IPv4 gateways at the edge of those networks. The result is that apps and sites that work natively over IPv6 will be faster for users than apps and sites stuck on only IPv4. Many leading services have already made this transition, and Apple now requires IPv6 for all apps in their AppStore. In this session, you’ll learn about tips and tools to successfully migrate your applications and sites to work over both IPv4 and IPv6. Bring your questions and concerns - and sharing of success stories would be welcome, too.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T15:30:00",
+        "endsAt": "2019-09-28T16:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -770,7 +770,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8461,
         "format": "30 minutes",
         "level": "200 (never stop learning)",
         "slug": "yes-ipv6-is-real-how-to-make-your-apps"
@@ -779,8 +779,8 @@
         "id": "138591",
         "title": "JAMming out with Static Site Generators: Web development made awesome",
         "description": "Static Site Generators offer amazing performance in a simplified development workflow that focuses on the basics: HTML, CSS, & JS.  So what exactly are they, what can they do?\r\n\r\nThis talk will start by figuring out where Static Site Generators (SSG) fit in the current and historical context of web development.  And how SSG sites compare to other strategies like traditional server render apps or client-side single page applications and what tradeoffs are inherent to each strategy.\r\n\r\nWe’ll make the case for a simpler, faster, and more resilient set of tools using static hosting and known (somewhat strangely) as the JAMstack.  We'll then walk through every step of creating, building, and deploying a static website with a live demo to show what an excellent developer experience this stack provides. \r\n\r\nThis talk is for you whether you’re building your first website or your fifteenth.  SSG is a strategy, not an opinionated framework, so bring all your old skills and friends to the party if you’d like, but also join us if you’re just getting into a web development for a low cost entry point to building fantastic websites.",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T16:15:00",
+        "endsAt": "2019-09-28T17:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -798,7 +798,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8460,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
         "slug": "jamming-out-with-static-site-generators-web-development-made"
@@ -807,8 +807,8 @@
         "id": "138615",
         "title": "Running Azure Securely - which of these Azure security features are for me?",
         "description": "Azure offers thousands of security features. Some of them are easy to use and others are complicated. Some are free to use and some look really, really expensive. Which ones should I be using for my applications?\r\n \r\nIn this talk we’ll look at some ways to reason about which security controls you might want to apply and why. We’ll consider groups of Azure security features through a pragmatic lens of security best practices and defense-in-depth/breadth, but tempered by the reality that “more security” is not always the answer, but rather “what is the right security” for a situation. By the end of this talk you should have a better idea of the security feature set offered by Azure, why/when they might or might not be needed, and have discussed some ways to reason about how which are relevant you by helping you think about how to assess appropriately for multiple situations. \r\n\r\nDo you have specific questions about the applicability of Azure security features already? Feel free to tweet your questions at Bill in advance to @codingoutloud and he'll try to work answers to any questions into the talk in advance.\r\n",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T16:15:00",
+        "endsAt": "2019-09-28T17:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -822,7 +822,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8463,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "running-azure-securely-which-of-these-azure-security-features"
@@ -831,8 +831,8 @@
         "id": "138623",
         "title": "A Gentle Intro to Akka and the Actor Model",
         "description": "Akka is a set of open-source libraries for designing scalable, resilient systems that span processor cores and networks. Akka allows developers to focus on meeting business needs instead of writing low-level code to provide reliable behavior, fault tolerance, and high performance.  \r\n\r\nAkka’s use of the actor model provides a level of abstraction that makes it easier to write correct concurrent, parallel and distributed systems. The actor model spans the full set of Akka libraries that provides a consistent way of understanding and using them.\r\n\r\nThis presentation introduces the audience to Akka and the Actor Model.  We will be building an IoT example use case that reports data from sensor devices, and will demonstrate Akka as a very powerful choice to build reactive systems that are highly responsive, elastic, and resilient, which also fulfills the principles as outlined in the Reactive Manifesto.\r\n\r\n",
-        "startsAt": null,
-        "endsAt": null,
+        "startsAt": "2019-09-28T09:15:00",
+        "endsAt": "2019-09-28T10:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -850,9 +850,79 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": null,
+        "roomId": 8461,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
         "slug": "a-gentle-intro-to-akka-and-the-actor-model"
+    },
+    "7364f66d-9c65-44e1-8b36-60389645e093": {
+        "id": "7364f66d-9c65-44e1-8b36-60389645e093",
+        "title": "Registration",
+        "description": null,
+        "startsAt": "2019-09-28T08:00:00",
+        "endsAt": "2019-09-28T08:45:00",
+        "isServiceSession": true,
+        "isPlenumSession": true,
+        "speakers": [],
+        "categoryItems": [],
+        "questionAnswers": [],
+        "roomId": 8460,
+        "slug": "registration"
+    },
+    "9c82ba86-c663-4743-8f88-a2ed57907c28": {
+        "id": "9c82ba86-c663-4743-8f88-a2ed57907c28",
+        "title": "Opening Remarks 15 min?",
+        "description": null,
+        "startsAt": "2019-09-28T08:45:00",
+        "endsAt": "2019-09-28T09:00:00",
+        "isServiceSession": true,
+        "isPlenumSession": true,
+        "speakers": [],
+        "categoryItems": [],
+        "questionAnswers": [],
+        "roomId": 8460,
+        "slug": "opening-remarks-15-min"
+    },
+    "92d3edfe-4b8d-4122-b762-89d7a5bd7838": {
+        "id": "92d3edfe-4b8d-4122-b762-89d7a5bd7838",
+        "title": "Lunch",
+        "description": null,
+        "startsAt": "2019-09-28T12:15:00",
+        "endsAt": "2019-09-28T13:15:00",
+        "isServiceSession": true,
+        "isPlenumSession": true,
+        "speakers": [],
+        "categoryItems": [],
+        "questionAnswers": [],
+        "roomId": 8460,
+        "slug": "lunch"
+    },
+    "049f2a79-4fd0-40d5-aaa2-4b2cdb1df80a": {
+        "id": "049f2a79-4fd0-40d5-aaa2-4b2cdb1df80a",
+        "title": "Afternoon Snack Break 30 min",
+        "description": null,
+        "startsAt": "2019-09-28T15:00:00",
+        "endsAt": "2019-09-28T15:30:00",
+        "isServiceSession": true,
+        "isPlenumSession": true,
+        "speakers": [],
+        "categoryItems": [],
+        "questionAnswers": [],
+        "roomId": 8460,
+        "slug": "afternoon-snack-break-30-min"
+    },
+    "ce5f8d41-a064-43f5-b6cd-ed1e0a2445de": {
+        "id": "ce5f8d41-a064-43f5-b6cd-ed1e0a2445de",
+        "title": "Wrap-up about 10 minutes?",
+        "description": null,
+        "startsAt": "2019-09-28T17:30:00",
+        "endsAt": "2019-09-28T17:40:00",
+        "isServiceSession": true,
+        "isPlenumSession": true,
+        "speakers": [],
+        "categoryItems": [],
+        "questionAnswers": [],
+        "roomId": 8460,
+        "slug": "wrapup-about-10-minutes"
     }
 }

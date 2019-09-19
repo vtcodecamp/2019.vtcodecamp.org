@@ -66,6 +66,26 @@
         "questionAnswers": [],
         "slug": "ben-glassman"
     },
+    "257bcd55-5e9d-4b56-9f83-19ee97db1d7d": {
+        "id": "257bcd55-5e9d-4b56-9f83-19ee97db1d7d",
+        "firstName": "Bethany",
+        "lastName": "Robinson",
+        "bio": "Bethany Robinson is a Sr. QA Analyst at Dealer.com. She started testing software in  2007 while earning a B.S. in Software Engineering from Vermont Tech. She is fascinated by the process of developing software and finding all the ways it might break. When Bethany is not busy hunting hunting down edge cases or Monster bugs you can find her knitting extraordinary things in brilliant colors and singing with Bella Voce Women's Chorus.",
+        "tagLine": "Sr. QA Analyst, Dealer.com",
+        "profilePicture": "https://sessionize.com/image?f=a804fe20331045d807c462476eae9d45,400,400,True,False,55-5e9d-4b56-9f83-19ee97db1d7d.7827a1ed-9531-485e-8949-afeaa199a5f2.jpg",
+        "isTopSpeaker": false,
+        "links": [],
+        "sessions": [
+            {
+                "id": 138573,
+                "slug": "bug-consciousnesswhat-we-can-learn-from-bugs-to-improve"
+            }
+        ],
+        "fullName": "Bethany Robinson",
+        "categoryItems": [],
+        "questionAnswers": [],
+        "slug": "bethany-robinson"
+    },
     "09fe8d80-d68f-49a7-a2c3-76c1aa52301a": {
         "id": "09fe8d80-d68f-49a7-a2c3-76c1aa52301a",
         "firstName": "Bill",
@@ -605,33 +625,6 @@
         "questionAnswers": [],
         "slug": "linus-falckytter"
     },
-    "29d505af-541b-404d-9eb5-f1528a6a5645": {
-        "id": "29d505af-541b-404d-9eb5-f1528a6a5645",
-        "firstName": "Lisa",
-        "lastName": "Crispin",
-        "bio": "Lisa Crispin is the co-author, with Janet Gregory, of _Agile Testing Condensed: A Brief Introduction_, _More Agile Testing: Learning Journeys for the Whole Team_,_Agile Testing: A Practical Guide for Testers and Agile Teams_ the LiveLessons Agile Testing Essentials video course, and “Agile Testing for the Whole Team\" 3-day training course offered through the Agile Testing Fellowship. Lisa was voted by her peers as the Most Influential Agile Testing Professional Person at Agile Testing Days in 2012. She is a testing advocate working at mabl. Please visit www.lisacrispin.com and www.agiletester.ca for more.\r\n\r\n",
-        "tagLine": "Co-leader of Agile Testing Fellowship. Testing advocate at mabl.",
-        "profilePicture": "https://sessionize.com/image?f=fbbee1d44ec8c7913996a1b3690c0102,400,400,True,False,dadbecd0-9fc0-4be6-9eba-3fc7f0b7e904.jpg",
-        "isTopSpeaker": false,
-        "links": [
-            {
-                "title": "Twitter",
-                "url": "https://twitter.com/lisacrispin",
-                "linkType": "Twitter",
-                "name": "@lisacrispin"
-            }
-        ],
-        "sessions": [
-            {
-                "id": 138573,
-                "slug": "bug-consciousnesswhat-we-can-learn-from-bugs-to-improve"
-            }
-        ],
-        "fullName": "Lisa Crispin",
-        "categoryItems": [],
-        "questionAnswers": [],
-        "slug": "lisa-crispin"
-    },
     "4870cd32-f9a5-492f-a1d5-6aa41a07b0d7": {
         "id": "4870cd32-f9a5-492f-a1d5-6aa41a07b0d7",
         "firstName": "Malina",
@@ -640,7 +633,14 @@
         "tagLine": "Computer of all the things",
         "profilePicture": "https://sessionize.com/image?f=c4aab8e81c9cbca55229b7db3612ed29,400,400,True,False,32-f9a5-492f-a1d5-6aa41a07b0d7.bf98d752-4b0b-45f7-9005-4e94f92d0738.jpg",
         "isTopSpeaker": false,
-        "links": [],
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/MalinaKirn",
+                "linkType": "Twitter",
+                "name": "@MalinaKirn"
+            }
+        ],
         "sessions": [
             {
                 "id": 127790,
@@ -904,7 +904,7 @@
     "889d5649-f426-4e5f-ac76-af723afd38f1": {
         "id": "889d5649-f426-4e5f-ac76-af723afd38f1",
         "firstName": "Valerie",
-        "lastName": "Sharp",
+        "lastName": "Phoenix ",
         "bio": "Valerie Sharp is a technologist who focuses on create user-centered digital experiences as a full-time UX designer & full stack developer. To help spread the financial wealth offered by the tech industry, Valerie founded Tech By Choice, a nonprofit that is working to increase diversity in the tech industry by providing low to no cost events for individuals in protected groups.",
         "tagLine": "Executive Director of Tech By Choice ",
         "profilePicture": "https://sessionize.com/image?f=29c655e411153e63be35be134ef35cec,400,400,True,False,49-f426-4e5f-ac76-af723afd38f1.00b49142-b033-4650-a86b-3cab710b704b.jpg",
@@ -923,10 +923,10 @@
                 "slug": "sustaining-community-empowerment-as-a-black-woman"
             }
         ],
-        "fullName": "Valerie Sharp",
+        "fullName": "Valerie Phoenix ",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "valerie-sharp"
+        "slug": "valerie-phoenix"
     },
     "3e34cfb3-2012-432a-b944-14a98afd33b8": {
         "id": "3e34cfb3-2012-432a-b944-14a98afd33b8",

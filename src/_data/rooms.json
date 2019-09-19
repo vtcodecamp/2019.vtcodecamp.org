@@ -1,1 +1,27 @@
-[]
+[
+    {
+        "id": 8460,
+        "name": "Room 1 (front-end-y)",
+        "sort": 0
+    },
+    {
+        "id": 8461,
+        "name": "Room 2 big data and random",
+        "sort": 1
+    },
+    {
+        "id": 8462,
+        "name": "Room 3  cerebral :)",
+        "sort": 2
+    },
+    {
+        "id": 8463,
+        "name": "Room 4 security ,some azure, some testing",
+        "sort": 3
+    },
+    {
+        "id": 8464,
+        "name": "Room 5 software quality",
+        "sort": 4
+    }
+]
