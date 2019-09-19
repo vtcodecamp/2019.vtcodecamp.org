@@ -33,8 +33,10 @@ permalink: /2019/sessions/
             {% endfor %}
         </h4>
         {% set levelNum = session.level.split(" ")[0] %}
-        <p class="level level-{{levelNum}}">{{session.level}}</p>
-
+        <div class="session-time-room">{{ session.startsAt | to12hourTime }} - {{ rooms[session.roomId].name }}</div>
+        <div class="level level-{{levelNum}}">{{session.level}}</div>
+    
+        
         {{ session.description | minimalMarkdown | safe }}
 
         {% if session.resources %}

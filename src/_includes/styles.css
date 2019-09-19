@@ -457,10 +457,10 @@ img.profile {
 /* session styles */
 
 .byline {
-    margin-top: .5em;
+    margin: 0.5em 0;
 }
 
-p.level {
+.level, .session-time-room {
     display: inline-block;
     padding: 1px 10px;
     border-radius: 4px;
@@ -472,6 +472,11 @@ p.level {
 .level-200 { background: #efefdc; }
 .level-300 { background: #efe4dc; }
 .level-400 { background: #efdcdc; }
+
+.session-time-room {
+    margin: 0.5em 0;
+    background: #efefef;
+}
 
 /* footer styles */
 footer a svg {

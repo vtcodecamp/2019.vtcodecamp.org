@@ -13,6 +13,7 @@ async function updateData()
     const [levels, formats] = parseCategories(sessionize.categories);
     const speakers = buildSpeakers(sessionize.speakers);
     const sessions = buildSessions(sessionize.sessions, levels, formats);
+    const rooms = flattenArrayToObj(sessionize.rooms);
 
     // update speaker/session slugs
     for (let speakerId in speakers) {
@@ -29,7 +30,7 @@ async function updateData()
 
     writeDataFile('sessions.json', sessions);
     writeDataFile('speakers.json', speakers);
-    writeDataFile('rooms.json', sessionize.rooms);
+    writeDataFile('rooms.json', rooms);
 }
 
 
