@@ -67,14 +67,39 @@ permalink: /2019/schedule/
 </div>
 </section>
 
-<style>
+<style type="text/css">
 table.schedule {
     line-height:1;
     max-width: 100%;
 }
+table.schedule th {
+    background: #c1e1f1;
+}
 .timespan {
     background: #dfebf1;
 }
+.content table.schedule a {
+    border-bottom: none;
+    box-shadow: none;
+    background: none;
+    text-decoration: underline;
+    color: #001b88;
+    transition: color .3s ease;
+}
+.content table.schedule a:hover {
+    border-bottom: none;
+    background: none;
+    box-shadow: none;
+    text-decoration: underline;
+    color: #203eb5;
+}
+.content table.schedule .speaker a {
+    color: #4055a9;
+}
+.content table.schedule .speaker a:hover {
+    color: #1a3cc3;
+}
+
 small.speaker {
     display: block;
     margin-top: 6px;
@@ -85,7 +110,6 @@ small.speaker {
     }
     table.schedule .timespan {
         border-top: 1px solid #cecece;
-        padding: 2px 4px;
         margin-top: 1rem;
     }
     table.schedule thead {
@@ -95,7 +119,7 @@ small.speaker {
     table.schedule th {
         display: block;
         border: none;
-        padding: 5px 6px;
+        padding: 7px 9px;
         border: 1px solid #cecece;
         border-top: none;
     }
@@ -106,7 +130,7 @@ small.speaker {
         font-size: 0.6em;
     }
     .main table td, .main table th {
-        padding: 1px 4px;
+        padding: 2px 4px;
     }
 }
 @media all and (min-width: 600px) and (max-width: 767px) {
@@ -114,7 +138,7 @@ small.speaker {
         font-size: 0.75em;
     }
     .main table td, .main table th {
-        padding: 1px 6px;
+        padding: 3px 6px;
     }
 }
 @media all and (min-width: 768px) and (max-width: 1023px) {
@@ -122,21 +146,7 @@ small.speaker {
         font-size: 0.9em;
     }
     .main table td, .main table th {
-        padding: 1px 8px;
+        padding: 4px 8px;
     }
-}
-.content table.schedule a {
-    border-bottom: none;
-    box-shadow: none;
-    background: none;
-    text-decoration: none;
-    color: #031973;
-}
-.content table.schedule a:hover {
-    border-bottom: none;
-    background: none;
-    box-shadow: none;
-    text-decoration: underline;
-    color: #1331a9;
 }
 </style>

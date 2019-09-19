@@ -325,7 +325,7 @@ nav.header a:focus {
 .main table th,
 .main table td {
     border:  1px solid grey;
-    padding: 1px 13px;
+    padding: 4px 13px;
 }
 
 .content a {
