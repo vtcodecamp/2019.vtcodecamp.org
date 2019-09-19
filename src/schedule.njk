@@ -66,3 +66,57 @@ permalink: /2019/schedule/
 
 </div>
 </section>
+
+<style>
+table.schedule {
+    line-height:1;
+    max-width: 100%;
+}
+@media all and (max-width: 479px) {
+    table.schedule {
+        font-size: 0.4em;        
+        -webkit-text-size-adjust: none;
+    }
+    .main table td, .main table th {
+        padding: 1px 1px;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 599px) {
+    table.schedule {
+        font-size: 0.6em;
+    }
+    .main table td, .main table th {
+        padding: 1px 4px;
+    }
+}
+@media all and (min-width: 600px) and (max-width: 767px) {
+    table.schedule {
+        font-size: 0.75em;
+    }
+    .main table td, .main table th {
+        padding: 1px 6px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    table.schedule {
+        font-size: 0.9em;
+    }
+    .main table td, .main table th {
+        padding: 1px 8px;
+    }
+}
+.content table.schedule a {
+    border-bottom: none;
+    box-shadow: none;
+    background: none;
+    text-decoration: none;
+    color: #031973;
+}
+.content table.schedule a:hover {
+    border-bottom: none;
+    background: none;
+    box-shadow: none;
+    text-decoration: underline;
+    color: #1331a9;
+}
+</style>
