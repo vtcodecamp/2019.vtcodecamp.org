@@ -46,7 +46,7 @@ function buildSchedule()
             } else {
                 type = 'session';
                 title_link = `/2019/sessions/#${session.slug}`;
-                room = rooms.find(r=> r.id === session.roomId)
+                room = rooms[session.roomId]
             }
             tableCell = {
                 type: type,
