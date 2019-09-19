@@ -1,0 +1,68 @@
+---
+layout: default-layout.njk
+title:  "Schedule"
+meta_description: A single lookup for all the day's activities, talks, and timelines
+permalink: /2019/schedule/
+---
+
+
+<section class="main" >
+<div class="section-content section-content-wide">
+
+    <h1> {{ title }}</h1>
+
+    <p> {{description}} </p>
+
+
+    <table class="schedule">
+
+        <thead>
+            <tr>
+            {% for th in schedule.head %}
+                <th scope="col" class="{{th.type}}">
+                    {{ th.title }} 
+                    {% if th.subtitle %}
+                        <small class="room">{{ th.subtitle }}</small>
+                    {% endif %}
+                </th>
+            {% endfor %}
+            </tr>
+        </thead>
+
+        <tbody>
+        {% for row in schedule.body %}
+
+            <tr>
+            {% for cell in row %} 
+                {% if cell.type == "timespan" %}
+                    <td id="{{ cell.timeSlug }}" class="{{ cell.type }}" scope="row">
+                        {{ cell.title }}
+                    </td>
+                {% elif cell.type == "plenumSession" %}
+                    <td colspan="5"> {{ cell.title }} </td>
+                {% elif cell.type == "session" %}
+                    <td> 
+                        <a href="{{ cell.title_link }}">{{ cell.title }}</a>
+                        <small class="speaker">
+                        {% for speaker in cell.speakers %}
+                            <a href="{{ speaker.link }}">{{ speaker.name }}</a>
+                        {% endfor %}
+                        </small>
+                    </td>
+                {% else %}
+                    <td>
+                        {# No session scheduled for this timeslots. Blank cell. #}
+                    </td>
+                {% endif %}
+            {% endfor %} 
+            </tr>
+
+        {% endfor %}
+        </tbody>
+
+    </table>
+
+
+
+</div>
+</section>

@@ -7,12 +7,12 @@ class Test {
     }
   
     render(data) {
-        // need to destructure data properties since we can't dump entire data obj
-        var {config, sessionsSorted, speakers, sponsors} = data
-        var output = {config, sessionsSorted, speakers, sponsors}
-        var stringify = JSON.stringify(output, null, 2)
-        return stringify;
-      }
+      // need to destructure data properties since we can't dump entire data obj
+      var {config, sessionsSorted, speakers, sponsors, schedule} = data
+      var output = {config, sessionsSorted, speakers, sponsors, schedule}
+      var stringify = JSON.stringify(output, null, 2)
+      return stringify;
+    }
   }
   
   module.exports = Test;

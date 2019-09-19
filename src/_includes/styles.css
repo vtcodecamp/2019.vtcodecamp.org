@@ -49,6 +49,7 @@ html, body {
     width: 100%;
     margin: 0;
     font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
     color: hsl(198, 3%, 8%);
 }
 
@@ -67,6 +68,9 @@ header, main, footer {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+h1 { font-size: 2rem }
+h2 { font-size: 1.5rem }
 
 h1, h2 {
     border-bottom: 1px solid #d7d700;
@@ -707,3 +711,48 @@ h2 .direct-link:hover {
 .toc li a {
     border: none;
 }
+
+
+
+@media print {
+    .header, nav.header, .footer {
+        display: none;
+    }
+    body {
+        display: block;
+        font-size: 14px;
+        /* padding: 0 0.5in;
+        margin: 0.5in 0; */
+    }
+    main > section, section .section-content {
+        width: 100%;
+        padding: 0;
+    }
+    article, article.article {
+        break-inside: avoid;
+        padding-top: 0;
+        margin: 2.4rem 0 2.4rem 0;
+    }
+    .byline {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    h1, h2, .content .headline h2 a, .content a {
+        box-shadow: none;
+        border-bottom: none;
+    }
+    h1, h2, .session .headline {
+        display: block;
+    }
+    .speaker-link {
+        display: inline-block;
+    }
+    h1::after, h2::after {
+        display: none;
+    }
+}
+@page {
+    margin: 0.5in;
+}
+@page :footer {color: #fff}
+@page :header {color: #fff}
