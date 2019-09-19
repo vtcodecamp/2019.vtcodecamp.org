@@ -98,9 +98,9 @@ function getTimeSlots()
         if (sessionsByRoom[8460].isPlenumSession) {
             continue; //skip plenum sessions since there are no other sessions scheduled during these times
         }
-        for (let room of rooms) {
-            if (!sessionsByRoom[room.id]) {
-                sessionsByRoom[room.id] = { id: false, title: false, roomId: room.id, startsAt: timeCode, speakers: [] }
+        for (let key of Object.keys(rooms)) {
+            if (!sessionsByRoom[key]) {
+                sessionsByRoom[key] = { id: false, title: false, roomId: key, startsAt: timeCode, speakers: [] }
             }
         }
     }
