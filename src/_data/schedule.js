@@ -31,8 +31,12 @@ function buildSchedule()
             title: startTime + "- " + endTime,
             timeSlug: timeCode,
         })
+
         let rowSessions = timeSlot.sessionsByRoom;
         for (let session of Object.values(rowSessions)) {
+            let type, title_link, room
+
+            // A plenary session is a session of a conference which all members of all parties are to attend
             if (session.isPlenumSession) {
                 type = 'plenumSession';
                 title_link = false;
@@ -42,11 +46,13 @@ function buildSchedule()
             } else {
                 type = 'session';
                 title_link = `/2019/sessions/#${session.slug}`;
+                room = rooms.find(r=> r.id === session.roomId)
             }
             tableCell = {
                 type: type,
                 title: session.title,
                 title_link: title_link,
+                room: room,
                 speakers: [],
             };
             for (let {id: id} of session.speakers) {
