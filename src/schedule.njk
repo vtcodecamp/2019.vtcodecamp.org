@@ -68,8 +68,12 @@ permalink: /2019/schedule/
 </section>
 
 <style type="text/css">
+section .section-content-wide { 
+    width: 1200px;
+}
 table.schedule {
-    line-height:1;
+    font-size: 0.95rem;
+    line-height: initial;
     max-width: 100%;
 }
 table.schedule th {
@@ -103,8 +107,12 @@ table.schedule th {
 small.speaker {
     display: block;
     margin-top: 6px;
+    font-size: 0.85em
 }
-@media all and (max-width: 479px) {
+.main table td, .main table th {
+    padding: 0.9em;
+}
+@media all and (max-width: 599px) {
     table.schedule {
         margin-top: -1rem;
     }
@@ -131,28 +139,25 @@ small.speaker {
         font-size: .9em
     }
 }
-@media all and (min-width: 480px) and (max-width: 599px) {
+@media all and (min-width: 600px) and (max-width: 759px) {
     table.schedule {
-        font-size: 0.6em;
+        font-size: 0.68rem;
     }
-    .main table td, .main table th {
-        padding: 2px 4px;
+    section .section-content-wide { 
+        padding: 0 1rem;
     }
 }
-@media all and (min-width: 600px) and (max-width: 767px) {
+@media all and (min-width: 760px) and (max-width: 899px) {
     table.schedule {
-        font-size: 0.75em;
+        font-size: 0.77rem;
     }
-    .main table td, .main table th {
-        padding: 3px 6px;
+    section .section-content-wide { 
+        padding: 0 1rem;
     }
 }
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 900px) and (max-width: 1023px) {
     table.schedule {
-        font-size: 0.9em;
-    }
-    .main table td, .main table th {
-        padding: 4px 8px;
+        font-size: 0.85rem;
     }
 }
 </style>
