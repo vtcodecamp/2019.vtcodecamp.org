@@ -149,7 +149,10 @@ ul.nav-buttons {
 nav.header a.nav-toggle {
     display: none;
 }
-@media (max-width: 670px) {
+
+/* Media query width depends on number of nav bar elements.  */
+/* Test and change whenever adding/removing elements.        */
+@media (max-width: 740px) {
     ul.nav-buttons {
         padding: 0 2em 0 0;
     }
