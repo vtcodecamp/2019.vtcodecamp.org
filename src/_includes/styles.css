@@ -443,6 +443,7 @@ article.article{
 
 img.profile {
     height: 96px;
+    width: 96px;
     border-radius: 8px;
     float: left;
     margin-right: 11px;
