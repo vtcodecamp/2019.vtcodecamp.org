@@ -857,7 +857,7 @@
     },
     "7364f66d-9c65-44e1-8b36-60389645e093": {
         "id": "7364f66d-9c65-44e1-8b36-60389645e093",
-        "title": "Registration",
+        "title": "Registration and Breakfast",
         "description": null,
         "startsAt": "2019-09-28T08:00:00",
         "endsAt": "2019-09-28T08:45:00",
@@ -867,7 +867,7 @@
         "categoryItems": [],
         "questionAnswers": [],
         "roomId": 8460,
-        "slug": "registration"
+        "slug": "registration and breakfast"
     },
     "9c82ba86-c663-4743-8f88-a2ed57907c28": {
         "id": "9c82ba86-c663-4743-8f88-a2ed57907c28",
