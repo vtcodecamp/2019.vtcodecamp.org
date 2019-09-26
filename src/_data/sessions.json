@@ -27,8 +27,8 @@
         "id": "124040",
         "title": "Uptime 15,379 days - The Computers of Voyager",
         "description": "The Voyager 1 and Voyager 2 space probes, both launched in 1977, each had a primary objective to explore Jupiter and Saturn.  This goal was achieved by 1981.  Yet Voyager, NASA's longest running mission, has continued to this day.  Both Voyager probes are still operating, and returning scientific data from outside our solar system.\r\n\r\nThis talk explores the computing systems of Voyager - the systems which enable remote control of the spacecraft, and provide for the recording and return of data to Earth.  These systems have proved to be both adaptable, durable, and resilient in support of a scientific undertaking now in it's fifth decade.\r\n\r\nWhat can we learn from the engineering of Voyager's computing systems? Why have they survived for so long in the harsh environment of space? What is involved in patching a system from a billion miles away?  And what does the future hold?\r\n",
-        "startsAt": "2019-09-28T14:00:00",
-        "endsAt": "2019-09-28T15:00:00",
+        "startsAt": "2019-09-28T16:15:00",
+        "endsAt": "2019-09-28T17:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -411,8 +411,8 @@
         "id": "136238",
         "title": "Living with your Legacy",
         "description": "While we all want to work on shiny new software with shiny new technology, the reality is that many developers and teams are stuck maintaining legacy systems. While typically these systems continue to work, maintaining them can be painful. Yet the cost of replacing the old systems with new ones is unimaginable and financially untenable for many companies. How do we deal with this situation without abandoning our clients who are not yet candidates for rewrites or even for lift and shift? A long-time software veteran will share some of their own experiences and tips for keeping clients businesses running while slowly helping them evolve to modern times, blending modern software practices into ancient systems.",
-        "startsAt": "2019-09-28T16:15:00",
-        "endsAt": "2019-09-28T17:15:00",
+        "startsAt": "2019-09-28T14:00:00",
+        "endsAt": "2019-09-28T15:00:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -857,7 +857,7 @@
     },
     "7364f66d-9c65-44e1-8b36-60389645e093": {
         "id": "7364f66d-9c65-44e1-8b36-60389645e093",
-        "title": "Registration",
+        "title": "Registration and Light Breakfast",
         "description": null,
         "startsAt": "2019-09-28T08:00:00",
         "endsAt": "2019-09-28T08:45:00",
@@ -867,7 +867,7 @@
         "categoryItems": [],
         "questionAnswers": [],
         "roomId": 8460,
-        "slug": "registration"
+        "slug": "registration-and-light-breakfast"
     },
     "9c82ba86-c663-4743-8f88-a2ed57907c28": {
         "id": "9c82ba86-c663-4743-8f88-a2ed57907c28",
