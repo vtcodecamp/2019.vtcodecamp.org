@@ -146,7 +146,7 @@
     "128161": {
         "id": "128161",
         "title": "Machine Learning in JavaScript with TensorFlow.js",
-        "description": "Machine learning can be used for many tasks including image or audio classification, facial recognition, object recognition, image caption generation, and natural language processing. And with TensorFlow.js developers can embed pre-trained machine learning models or train new models directly in JavaScript.\r\n\r\nTensorFlow.js enables real-time machine learning directly in the browser or edge device, improving data security and removing dependency on slow and unreliable network API calls. We’ll learn how to get started with TensorFlow.js and explore the opportunities and the challenges around deploying machine learning models in JavaScript.",
+        "description": "Machine learning can be used for many tasks including image or audio classification, facial recognition, object recognition, image caption generation, and natural language processing. And with TensorFlow.js developers can embed pre-trained machine learning models or train new models directly in JavaScript.\r\n\r\nTensorFlow.js enables real-time machine learning directly in the browser or edge device, improving data security and removing dependency on slow and unreliable network API calls. We’ll learn how to get started with TensorFlow.js and explore the opportunities and the challenges around deploying machine learning models in JavaScript.\r\n\r\nSlides available at https://bit.ly/2nDbdMA\r\n",
         "startsAt": "2019-09-28T13:15:00",
         "endsAt": "2019-09-28T13:45:00",
         "isServiceSession": false,
@@ -169,8 +169,8 @@
     },
     "129319": {
         "id": "129319",
-        "title": "State Machines for Programmerless UIs",
-        "description": "State Machines are a declarative way to control user interfaces. Once you see a UI as a progression of states, you will see a state machine as the ultimate desk organizer. Don't worry if you are not super well versed in state machines, we will go over what you need to know. For me it's also about how we can visualize the structure of the states in 2 and 3d. Oh and 'Programmerless' well, we will not be replaced 100%, but lets talk.",
+        "title": "State Machines for Programmer-less UIs",
+        "description": "State Machines are a declarative way to control user interfaces. Once you see a UI as a progression of states, you will see a state machine as the ultimate desk organizer. Don't worry if you are not super well versed in state machines, we will go over what you need to know. For me it's also about how we can visualize the structure of the states in 2 and 3d. Oh and 'Programmerless' well, we will not be replaced 100%, but lets talk. \r\n\r\nhttps://slides.com/natemorse/vtcc11-state-of-machines",
         "startsAt": "2019-09-28T11:15:00",
         "endsAt": "2019-09-28T12:15:00",
         "isServiceSession": false,
@@ -702,7 +702,7 @@
     "138570": {
         "id": "138570",
         "title": "Intro to Deep Learning for Developers",
-        "description": "The stakes are high as companies scramble to make use of cutting edge technology to meet their clients needs. Deep Learning is more than buzz words, it's a powerful way to incorporate artificial intelligence and machine learning into your applications. You don't need to be an advanced mathematician to adopt these technologies, but there are some important things you need to know to do it effectively and responsibly. Learn about what deep learning is, what you need to know to adopt it, and the importance of open source in this space.",
+        "description": "The stakes are high as companies scramble to make use of cutting edge technology to meet their clients needs. Deep Learning is more than buzz words, it's a powerful way to incorporate artificial intelligence and machine learning into your applications. You don't need to be an advanced mathematician to adopt these technologies, but there are some important things you need to know to do it effectively and responsibly. Learn about what deep learning is, what you need to know to adopt it, and the importance of open source in this space.\r\nSlides for my talk: http://bit.ly/vtcc11-deep-learning",
         "startsAt": "2019-09-28T10:30:00",
         "endsAt": "2019-09-28T11:00:00",
         "isServiceSession": false,
@@ -754,7 +754,7 @@
     "138584": {
         "id": "138584",
         "title": "Yes, IPv6 Is Real - How To Make Your Apps Work (And Be As Fast As Possible)",
-        "description": "How well do your applications or websites work over IPv6? As the world runs out of IPv4 addresses, new mobile networks are being deployed as “IPv6-only” with IPv6-to-IPv4 gateways at the edge of those networks. The result is that apps and sites that work natively over IPv6 will be faster for users than apps and sites stuck on only IPv4. Many leading services have already made this transition, and Apple now requires IPv6 for all apps in their AppStore. In this session, you’ll learn about tips and tools to successfully migrate your applications and sites to work over both IPv4 and IPv6. Bring your questions and concerns - and sharing of success stories would be welcome, too.",
+        "description": "How well do your applications or websites work over IPv6? As the world runs out of IPv4 addresses, new mobile networks are being deployed as “IPv6-only” with IPv6-to-IPv4 gateways at the edge of those networks. The result is that apps and sites that work natively over IPv6 will be faster for users than apps and sites stuck on only IPv4. Many leading services have already made this transition, and Apple now requires IPv6 for all apps in their AppStore. In this session, you’ll learn about tips and tools to successfully migrate your applications and sites to work over both IPv4 and IPv6. Bring your questions and concerns - and sharing of success stories would be welcome, too.\r\n\r\nSlides available at: https://www.slideshare.net/danyork/yes-ipv6-is-real-how-to-make-your-apps-work-and-be-as-fast-as-possible",
         "startsAt": "2019-09-28T15:30:00",
         "endsAt": "2019-09-28T16:00:00",
         "isServiceSession": false,
@@ -778,7 +778,7 @@
     "138591": {
         "id": "138591",
         "title": "JAMming out with Static Site Generators: Web development made awesome",
-        "description": "Static Site Generators offer amazing performance in a simplified development workflow that focuses on the basics: HTML, CSS, & JS.  So what exactly are they, what can they do?\r\n\r\nThis talk will start by figuring out where Static Site Generators (SSG) fit in the current and historical context of web development.  And how SSG sites compare to other strategies like traditional server render apps or client-side single page applications and what tradeoffs are inherent to each strategy.\r\n\r\nWe’ll make the case for a simpler, faster, and more resilient set of tools using static hosting and known (somewhat strangely) as the JAMstack.  We'll then walk through every step of creating, building, and deploying a static website with a live demo to show what an excellent developer experience this stack provides. \r\n\r\nThis talk is for you whether you’re building your first website or your fifteenth.  SSG is a strategy, not an opinionated framework, so bring all your old skills and friends to the party if you’d like, but also join us if you’re just getting into a web development for a low cost entry point to building fantastic websites.",
+        "description": "Static Site Generators offer amazing performance in a simplified development workflow that focuses on the basics: HTML, CSS, & JS.  So what exactly are they, what can they do?\r\n\r\nThis talk will start by figuring out where Static Site Generators (SSG) fit in the current and historical context of web development.  And how SSG sites compare to other strategies like traditional server render apps or client-side single page applications and what tradeoffs are inherent to each strategy.\r\n\r\nWe’ll make the case for a simpler, faster, and more resilient set of tools using static hosting and known (somewhat strangely) as the JAMstack.  We'll then walk through every step of creating, building, and deploying a static website with a live demo to show what an excellent developer experience this stack provides. \r\n\r\nThis talk is for you whether you’re building your first website or your fifteenth.  SSG is a strategy, not an opinionated framework, so bring all your old skills and friends to the party if you’d like, but also join us if you’re just getting into a web development for a low cost entry point to building fantastic websites.\r\n\r\nSlides: http://bit.ly/vtcc-ssg",
         "startsAt": "2019-09-28T16:15:00",
         "endsAt": "2019-09-28T17:15:00",
         "isServiceSession": false,
@@ -806,9 +806,9 @@
     "138615": {
         "id": "138615",
         "title": "Running Azure Securely - which of these Azure security features are for me?",
-        "description": "Azure offers thousands of security features. Some of them are easy to use and others are complicated. Some are free to use and some look really, really expensive. Which ones should I be using for my applications?\r\n \r\nIn this talk we’ll look at some ways to reason about which security controls you might want to apply and why. We’ll consider groups of Azure security features through a pragmatic lens of security best practices and defense-in-depth/breadth, but tempered by the reality that “more security” is not always the answer, but rather “what is the right security” for a situation. By the end of this talk you should have a better idea of the security feature set offered by Azure, why/when they might or might not be needed, and have discussed some ways to reason about how which are relevant you by helping you think about how to assess appropriately for multiple situations. \r\n\r\nDo you have specific questions about the applicability of Azure security features already? Feel free to tweet your questions at Bill in advance to @codingoutloud and he'll try to work answers to any questions into the talk in advance.\r\n",
-        "startsAt": "2019-09-28T16:15:00",
-        "endsAt": "2019-09-28T17:15:00",
+        "description": "Azure offers thousands of security features. Some of them are easy to use and others are complicated. Some are free to use and some look really, really expensive. Which ones should I be using for my applications?\r\n \r\nIn this talk we’ll look at some ways to reason about which security controls you might want to apply and why. We’ll consider groups of Azure security features through a pragmatic lens of security best practices and defense-in-depth/breadth, but tempered by the reality that “more security” is not always the answer, but rather “what is the right security” for a situation. By the end of this talk you should have a better idea of the security feature set offered by Azure, why/when they might or might not be needed, and have discussed some ways to reason about how which are relevant you by helping you think about how to assess appropriately for multiple situations. \r\n\r\nDo you have specific questions about the applicability of Azure security features already? Feel free to tweet your questions at Bill in advance to @codingoutloud and he'll try to work answers to any questions into the talk in advance.\r\n\r\nTHOUGH MUCH OF THE SESSION WAS INTERACTIVE, the slides used can be found here: https://blog.codingoutloud.com/2019/09/28/talk-running-azure-securely-are-all-these-security-features-for-me/ ",
+        "startsAt": "2019-09-28T09:15:00",
+        "endsAt": "2019-09-28T10:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -822,7 +822,7 @@
             17268
         ],
         "questionAnswers": [],
-        "roomId": 8463,
+        "roomId": 8461,
         "format": "60 minutes",
         "level": "200 (never stop learning)",
         "slug": "running-azure-securely-which-of-these-azure-security-features"
@@ -831,8 +831,8 @@
         "id": "138623",
         "title": "A Gentle Intro to Akka and the Actor Model",
         "description": "Akka is a set of open-source libraries for designing scalable, resilient systems that span processor cores and networks. Akka allows developers to focus on meeting business needs instead of writing low-level code to provide reliable behavior, fault tolerance, and high performance.  \r\n\r\nAkka’s use of the actor model provides a level of abstraction that makes it easier to write correct concurrent, parallel and distributed systems. The actor model spans the full set of Akka libraries that provides a consistent way of understanding and using them.\r\n\r\nThis presentation introduces the audience to Akka and the Actor Model.  We will be building an IoT example use case that reports data from sensor devices, and will demonstrate Akka as a very powerful choice to build reactive systems that are highly responsive, elastic, and resilient, which also fulfills the principles as outlined in the Reactive Manifesto.\r\n\r\n",
-        "startsAt": "2019-09-28T09:15:00",
-        "endsAt": "2019-09-28T10:15:00",
+        "startsAt": "2019-09-28T16:15:00",
+        "endsAt": "2019-09-28T17:15:00",
         "isServiceSession": false,
         "isPlenumSession": false,
         "speakers": [
@@ -850,7 +850,7 @@
             17267
         ],
         "questionAnswers": [],
-        "roomId": 8461,
+        "roomId": 8463,
         "format": "60 minutes",
         "level": "100 (absolute beginner)",
         "slug": "a-gentle-intro-to-akka-and-the-actor-model"
