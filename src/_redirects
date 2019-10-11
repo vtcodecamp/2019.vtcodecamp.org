@@ -1,4 +1,7 @@
 
+# Redirect archive domain alias to primary domain
+https://archive.vtcodecamp.org/* https://www.vtcodecamp.org/:splat 301!
+
 # Redirect past year paths to subdomains
 /2017/*  https://2017.vtcodecamp.org/:splat
 /2016/*  https://2016.vtcodecamp.org/:splat
