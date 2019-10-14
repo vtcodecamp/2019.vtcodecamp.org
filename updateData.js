@@ -14,13 +14,11 @@ async function updateData()
     const response = await fetch('https://sessionize.com/api/v2/rffu883w/view/all');
     const sessionize = await response.json();
 
-    const speakersPromise = buildSpeakers(sessionize.speakers);
-
+    const speakers = buildSpeakers(sessionize.speakers);
     const [levels, formats] = parseCategories(sessionize.categories);
     const sessions = buildSessions(sessionize.sessions, levels, formats);
     const rooms = flattenArrayToObj(sessionize.rooms);
 
-    const speakers = await speakersPromise;
     // update speaker/session slugs
     for (let speakerId in speakers) {
         speakers[speakerId].sessions = speakers[speakerId].sessions.map(sessionId => {
@@ -59,7 +57,7 @@ function parseCategories(categories) {
     return [levels, formats]
 }
 
-async function buildSpeakers(speakersData) {
+function buildSpeakers(speakersData) {
     for (let speaker of speakersData) {
 
         // build full links
