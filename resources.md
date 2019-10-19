@@ -79,6 +79,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [svg omg - svg optimizer](https://jakearchibald.github.io/svgomg/)
 * [svg - use xlink from other image](https://css-tricks.com/svg-use-external-source/)
 * [squoosh - image optimizer](https://squoosh.app/)
+* [sharp - image manipulation library](http://sharp.pixelplumbing.com)
 
 ## Github
 

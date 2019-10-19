@@ -1,7 +1,11 @@
 const path = require('path');
 const fs = require('fs');
 const fetch = require('node-fetch');
+const http = require('http');
+const https = require('https');
+const sharp = require('sharp');
 
+const projectRoot = path.normalize(__dirname);
 
 module.exports = updateData();
 
@@ -10,8 +14,8 @@ async function updateData()
     const response = await fetch('https://sessionize.com/api/v2/rffu883w/view/all');
     const sessionize = await response.json();
 
-    const [levels, formats] = parseCategories(sessionize.categories);
     const speakers = buildSpeakers(sessionize.speakers);
+    const [levels, formats] = parseCategories(sessionize.categories);
     const sessions = buildSessions(sessionize.sessions, levels, formats);
     const rooms = flattenArrayToObj(sessionize.rooms);
 
@@ -75,9 +79,39 @@ function buildSpeakers(speakersData) {
 
         // create slug
         speaker.slug = slugify(speaker.firstName + " " + speaker.lastName)
+
+        // copy and optimize profile picture
+        if (speaker.profilePicture) {
+            let profilePictureFilename = speaker.slug + '.jpg';
+            speaker.localProfilePicture = `/assets/speakers/${profilePictureFilename}`;
+            resizeAndSaveProfilePicture(speaker.profilePicture, profilePictureFilename);
+        }
     }
 
     return flattenArrayToObj(speakersData)
+}
+
+/**
+ * Download profile speaker profile picture from Sessionize
+ * Resize to 192px square and save as optimized jpeg file
+ * Uses the Sharp node module for image manipulation
+ * http://sharp.pixelplumbing.com/en/stable/
+ * @param string sessionizePictureUrl 
+ * @param string filename 
+ */
+function resizeAndSaveProfilePicture(sessionizePictureUrl, filename) {
+    const speakerImageDir =  `${projectRoot}/src/assets/speakers/`
+    const savePath =  speakerImageDir + filename;
+    if (!fs.existsSync(speakerImageDir)) {
+        fs.mkdirSync(speakerImageDir);
+    }
+    https.get(sessionizePictureUrl, function (imageStream) {
+        let resizeTransform = sharp()
+            .resize(192, 192, { fit: 'inside', withoutEnlargement: true })
+            .jpeg();
+        let writeStream = fs.createWriteStream(savePath);
+        imageStream.pipe(resizeTransform).pipe(writeStream);
+    })
 }
 
 
@@ -103,7 +137,6 @@ function buildSessions(sessionsData, levels, formats) {
 
 
 function writeDataFile(filename, object) {
-    let projectRoot = path.normalize(__dirname);
 
     let filePath = `${projectRoot}/src/_data/${filename}`;
     let content = JSON.stringify(object, null, 4);
