@@ -35,6 +35,14 @@ npm run update-and-build  # gets new sessionize data and builds site
 
 ![diagram](src/assets/BuildWorkflowDiagram.png)
 
+## Site Winterization
+
+Leading up to, and for a while after the event, the Netlify build command is set to `npm run update-and-build` in the `netlify.toml` file.  This pulls the latest data from Sessionize at build time since the schedule, session descriptions, and speaker info can change.  We also set up a Zapier job to rebuild the site on a schedule via webhook.  Once the event has been over for a little while there this is no longer necessary, and we stop these scheduled, live rebuilds.  Since code camp is in the fall we call this _winterization_ 😉.  Here are the steps:
+
+1. Run `npm run update-data` and commit all data file changes
+2. Change build command in `netlify.toml` to `npm run build` so Netlify will no longer update data from Sessionize
+3. Disable the Zapier task
+
 ## File Structure
 
 ```bash
