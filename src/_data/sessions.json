@@ -362,7 +362,7 @@
     "135980": {
         "id": "135980",
         "title": "Scale your API quickly using Message Queues on AWS",
-        "description": "APIs are easy enough to build, but making sure they can scale without breaking the bank can be difficult.  While there are ways to auto-scale your API through containers/VMs with load balancers, it might be better to use a message queue.  In this session, you'll learn how to build an API that sends data to a message queue for processing rather just connecting straight to a database.",
+        "description": "APIs are easy enough to build, but making sure they can scale without breaking the bank can be difficult.  While there are ways to auto-scale your API through containers/VMs with load balancers, it might be better to use a message queue.  In this session, you'll learn how to build an API that sends data to a message queue for processing rather just connecting straight to a database.\r\n\r\nSlides and code: https://github.com/nwestfall/ScaleYourAPIWithMessagesQueuesInAWSDemo",
         "startsAt": "2019-09-28T10:30:00",
         "endsAt": "2019-09-28T11:00:00",
         "isServiceSession": false,

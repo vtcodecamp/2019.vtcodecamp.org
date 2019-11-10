@@ -24,7 +24,8 @@
         "fullName": "Aaron Cummings",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "aaron-cummings"
+        "slug": "aaron-cummings",
+        "localProfilePicture": "/assets/speakers/aaron-cummings.jpg"
     },
     "5b87cf23-c8d0-41eb-a0aa-95041bcad8b9": {
         "id": "5b87cf23-c8d0-41eb-a0aa-95041bcad8b9",
@@ -44,7 +45,8 @@
         "fullName": "Allison Lazarz",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "allison-lazarz"
+        "slug": "allison-lazarz",
+        "localProfilePicture": "/assets/speakers/allison-lazarz.jpg"
     },
     "0a5d3f41-6bfc-4fe4-a0ce-d129f7db65dc": {
         "id": "0a5d3f41-6bfc-4fe4-a0ce-d129f7db65dc",
@@ -64,7 +66,8 @@
         "fullName": "Ben Glassman",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "ben-glassman"
+        "slug": "ben-glassman",
+        "localProfilePicture": "/assets/speakers/ben-glassman.jpg"
     },
     "257bcd55-5e9d-4b56-9f83-19ee97db1d7d": {
         "id": "257bcd55-5e9d-4b56-9f83-19ee97db1d7d",
@@ -84,7 +87,8 @@
         "fullName": "Bethany Robinson",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "bethany-robinson"
+        "slug": "bethany-robinson",
+        "localProfilePicture": "/assets/speakers/bethany-robinson.jpg"
     },
     "09fe8d80-d68f-49a7-a2c3-76c1aa52301a": {
         "id": "09fe8d80-d68f-49a7-a2c3-76c1aa52301a",
@@ -111,7 +115,8 @@
         "fullName": "Bill Wilder",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "bill-wilder"
+        "slug": "bill-wilder",
+        "localProfilePicture": "/assets/speakers/bill-wilder.jpg"
     },
     "cb70d1bd-13ab-4a16-abfd-cf48b37ec30d": {
         "id": "cb70d1bd-13ab-4a16-abfd-cf48b37ec30d",
@@ -138,7 +143,8 @@
         "fullName": "Bob Crowley",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "bob-crowley"
+        "slug": "bob-crowley",
+        "localProfilePicture": "/assets/speakers/bob-crowley.jpg"
     },
     "046493b2-5e16-47d6-a9f3-958d3e99bb45": {
         "id": "046493b2-5e16-47d6-a9f3-958d3e99bb45",
@@ -165,7 +171,8 @@
         "fullName": "Bobby Johnson",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "bobby-johnson"
+        "slug": "bobby-johnson",
+        "localProfilePicture": "/assets/speakers/bobby-johnson.jpg"
     },
     "3c3e20d6-e3e1-4ec2-a1cd-326a0dc6b7db": {
         "id": "3c3e20d6-e3e1-4ec2-a1cd-326a0dc6b7db",
@@ -192,7 +199,8 @@
         "fullName": "Brian Lloyd-Newberry",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "brian-lloydnewberry"
+        "slug": "brian-lloydnewberry",
+        "localProfilePicture": "/assets/speakers/brian-lloydnewberry.jpg"
     },
     "ef7a10de-d257-4a34-934d-a25bb3c61c4c": {
         "id": "ef7a10de-d257-4a34-934d-a25bb3c61c4c",
@@ -219,7 +227,8 @@
         "fullName": "Brie Hoblin",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "brie-hoblin"
+        "slug": "brie-hoblin",
+        "localProfilePicture": "/assets/speakers/brie-hoblin.jpg"
     },
     "a78ce4e1-4eff-4d58-86ef-3980f6959556": {
         "id": "a78ce4e1-4eff-4d58-86ef-3980f6959556",
@@ -266,7 +275,8 @@
         "fullName": "Dan York",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "dan-york"
+        "slug": "dan-york",
+        "localProfilePicture": "/assets/speakers/dan-york.jpg"
     },
     "2a3311e1-493c-4e5e-9859-8d5987709e46": {
         "id": "2a3311e1-493c-4e5e-9859-8d5987709e46",
@@ -286,7 +296,8 @@
         "fullName": "Daniel Colón",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "daniel-coln"
+        "slug": "daniel-coln",
+        "localProfilePicture": "/assets/speakers/daniel-coln.jpg"
     },
     "c71411fa-f358-4661-bd03-cfad50052ff2": {
         "id": "c71411fa-f358-4661-bd03-cfad50052ff2",
@@ -313,7 +324,8 @@
         "fullName": "Eric Wright",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "eric-wright"
+        "slug": "eric-wright",
+        "localProfilePicture": "/assets/speakers/eric-wright.jpg"
     },
     "19549c8e-60a2-4da4-9b64-bc751d45930e": {
         "id": "19549c8e-60a2-4da4-9b64-bc751d45930e",
@@ -340,7 +352,8 @@
         "fullName": "Everett McKay",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "everett-mckay"
+        "slug": "everett-mckay",
+        "localProfilePicture": "/assets/speakers/everett-mckay.jpg"
     },
     "9e6e85d8-9546-4a42-90f2-b206ac7f55b8": {
         "id": "9e6e85d8-9546-4a42-90f2-b206ac7f55b8",
@@ -367,7 +380,8 @@
         "fullName": "gleb bahmutov",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "gleb-bahmutov"
+        "slug": "gleb-bahmutov",
+        "localProfilePicture": "/assets/speakers/gleb-bahmutov.jpg"
     },
     "901abc5f-54f6-4b6e-b5cd-100ac28c541c": {
         "id": "901abc5f-54f6-4b6e-b5cd-100ac28c541c",
@@ -394,7 +408,8 @@
         "fullName": "Grant  Steinfeld",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "grant-steinfeld"
+        "slug": "grant-steinfeld",
+        "localProfilePicture": "/assets/speakers/grant-steinfeld.jpg"
     },
     "af0bdeab-5e15-46a9-9a7f-07d56483fd62": {
         "id": "af0bdeab-5e15-46a9-9a7f-07d56483fd62",
@@ -421,7 +436,8 @@
         "fullName": "Haney Hamdy",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "haney-hamdy"
+        "slug": "haney-hamdy",
+        "localProfilePicture": "/assets/speakers/haney-hamdy.jpg"
     },
     "bbb5af00-c8cd-406d-9eb5-7c821e748de3": {
         "id": "bbb5af00-c8cd-406d-9eb5-7c821e748de3",
@@ -441,7 +457,8 @@
         "fullName": "Joe Ng",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "joe-ng"
+        "slug": "joe-ng",
+        "localProfilePicture": "/assets/speakers/joe-ng.jpg"
     },
     "5a111e09-2922-4aff-a0eb-9b6691b6e8b2": {
         "id": "5a111e09-2922-4aff-a0eb-9b6691b6e8b2",
@@ -468,7 +485,8 @@
         "fullName": "Joel Lord",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "joel-lord"
+        "slug": "joel-lord",
+        "localProfilePicture": "/assets/speakers/joel-lord.jpg"
     },
     "4812034b-4e76-459b-bca9-954814199991": {
         "id": "4812034b-4e76-459b-bca9-954814199991",
@@ -495,7 +513,8 @@
         "fullName": "John Need",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "john-need"
+        "slug": "john-need",
+        "localProfilePicture": "/assets/speakers/john-need.jpg"
     },
     "fb1e36de-8ea1-463c-a7d4-1a6a604b85f7": {
         "id": "fb1e36de-8ea1-463c-a7d4-1a6a604b85f7",
@@ -515,7 +534,8 @@
         "fullName": "Jon Hoguet",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "jon-hoguet"
+        "slug": "jon-hoguet",
+        "localProfilePicture": "/assets/speakers/jon-hoguet.jpg"
     },
     "282a4701-f128-4b1d-bd67-da5d1f8b3eb0": {
         "id": "282a4701-f128-4b1d-bd67-da5d1f8b3eb0",
@@ -542,7 +562,8 @@
         "fullName": "Julie Lerman",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "julie-lerman"
+        "slug": "julie-lerman",
+        "localProfilePicture": "/assets/speakers/julie-lerman.jpg"
     },
     "165e172f-0221-4697-937a-4ba2b667d39b": {
         "id": "165e172f-0221-4697-937a-4ba2b667d39b",
@@ -569,7 +590,8 @@
         "fullName": "Kyle Mitofsky",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "kyle-mitofsky"
+        "slug": "kyle-mitofsky",
+        "localProfilePicture": "/assets/speakers/kyle-mitofsky.jpg"
     },
     "46349265-5780-459f-a766-31dbd5dafc85": {
         "id": "46349265-5780-459f-a766-31dbd5dafc85",
@@ -596,7 +618,8 @@
         "fullName": "Lea Ann Smith",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "lea-ann-smith"
+        "slug": "lea-ann-smith",
+        "localProfilePicture": "/assets/speakers/lea-ann-smith.jpg"
     },
     "393c3111-87ea-4314-b007-6edfa8fa0a63": {
         "id": "393c3111-87ea-4314-b007-6edfa8fa0a63",
@@ -623,7 +646,8 @@
         "fullName": "Linus Falck-Ytter",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "linus-falckytter"
+        "slug": "linus-falckytter",
+        "localProfilePicture": "/assets/speakers/linus-falckytter.jpg"
     },
     "4870cd32-f9a5-492f-a1d5-6aa41a07b0d7": {
         "id": "4870cd32-f9a5-492f-a1d5-6aa41a07b0d7",
@@ -650,7 +674,8 @@
         "fullName": "Malina Kirn",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "malina-kirn"
+        "slug": "malina-kirn",
+        "localProfilePicture": "/assets/speakers/malina-kirn.jpg"
     },
     "e2712384-1dff-4eb7-8dbf-77e621e4d274": {
         "id": "e2712384-1dff-4eb7-8dbf-77e621e4d274",
@@ -677,7 +702,8 @@
         "fullName": "Mary Grygleski",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "mary-grygleski"
+        "slug": "mary-grygleski",
+        "localProfilePicture": "/assets/speakers/mary-grygleski.jpg"
     },
     "cf712204-de09-4c66-8aba-045295f97883": {
         "id": "cf712204-de09-4c66-8aba-045295f97883",
@@ -697,7 +723,8 @@
         "fullName": "Mat Gilbert",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "mat-gilbert"
+        "slug": "mat-gilbert",
+        "localProfilePicture": "/assets/speakers/mat-gilbert.jpg"
     },
     "06a58103-991d-4a1d-b2f8-0dc5ae7e36d3": {
         "id": "06a58103-991d-4a1d-b2f8-0dc5ae7e36d3",
@@ -724,7 +751,8 @@
         "fullName": "Maureen McElaney",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "maureen-mcelaney"
+        "slug": "maureen-mcelaney",
+        "localProfilePicture": "/assets/speakers/maureen-mcelaney.jpg"
     },
     "c38b410c-4188-4eed-90e4-754e76b661a4": {
         "id": "c38b410c-4188-4eed-90e4-754e76b661a4",
@@ -751,7 +779,8 @@
         "fullName": "Nate Morse",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "nate-morse"
+        "slug": "nate-morse",
+        "localProfilePicture": "/assets/speakers/nate-morse.jpg"
     },
     "775e5929-a242-4d68-a792-f89d9792b640": {
         "id": "775e5929-a242-4d68-a792-f89d9792b640",
@@ -778,7 +807,8 @@
         "fullName": "Nathan Westfall",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "nathan-westfall"
+        "slug": "nathan-westfall",
+        "localProfilePicture": "/assets/speakers/nathan-westfall.jpg"
     },
     "90a2a984-f105-4679-804a-1aafd432ad23": {
         "id": "90a2a984-f105-4679-804a-1aafd432ad23",
@@ -818,7 +848,8 @@
         "fullName": "Olivia Johnston",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "olivia-johnston"
+        "slug": "olivia-johnston",
+        "localProfilePicture": "/assets/speakers/olivia-johnston.jpg"
     },
     "b47b1b66-9f33-4e4e-83f5-e2840ceb3f6b": {
         "id": "b47b1b66-9f33-4e4e-83f5-e2840ceb3f6b",
@@ -845,7 +876,8 @@
         "fullName": "Ryan Harter",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "ryan-harter"
+        "slug": "ryan-harter",
+        "localProfilePicture": "/assets/speakers/ryan-harter.jpg"
     },
     "e4b4d074-0d40-44b4-8701-c4a8c99097d3": {
         "id": "e4b4d074-0d40-44b4-8701-c4a8c99097d3",
@@ -872,7 +904,8 @@
         "fullName": "Stephen Thomas",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "stephen-thomas"
+        "slug": "stephen-thomas",
+        "localProfilePicture": "/assets/speakers/stephen-thomas.jpg"
     },
     "59296811-e638-45ad-94f1-a9c23606cf21": {
         "id": "59296811-e638-45ad-94f1-a9c23606cf21",
@@ -899,7 +932,8 @@
         "fullName": "va barbosa",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "va-barbosa"
+        "slug": "va-barbosa",
+        "localProfilePicture": "/assets/speakers/va-barbosa.jpg"
     },
     "889d5649-f426-4e5f-ac76-af723afd38f1": {
         "id": "889d5649-f426-4e5f-ac76-af723afd38f1",
@@ -926,7 +960,8 @@
         "fullName": "Valerie Phoenix ",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "valerie-phoenix"
+        "slug": "valerie-phoenix",
+        "localProfilePicture": "/assets/speakers/valerie-phoenix.jpg"
     },
     "3e34cfb3-2012-432a-b944-14a98afd33b8": {
         "id": "3e34cfb3-2012-432a-b944-14a98afd33b8",
@@ -946,7 +981,8 @@
         "fullName": "Zachary Kingston",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "zachary-kingston"
+        "slug": "zachary-kingston",
+        "localProfilePicture": "/assets/speakers/zachary-kingston.jpg"
     },
     "22a5e6d5-c5c4-4e4c-8f82-b088d5d797b7": {
         "id": "22a5e6d5-c5c4-4e4c-8f82-b088d5d797b7",
@@ -973,6 +1009,7 @@
         "fullName": "Zeke Farwell",
         "categoryItems": [],
         "questionAnswers": [],
-        "slug": "zeke-farwell"
+        "slug": "zeke-farwell",
+        "localProfilePicture": "/assets/speakers/zeke-farwell.jpg"
     }
 }
