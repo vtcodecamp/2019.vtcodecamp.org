@@ -45,7 +45,7 @@ function buildSchedule()
                 title_link = false;
             } else {
                 type = 'session';
-                title_link = `/2019/sessions/#${session.slug}`;
+                title_link = `/sessions/#${session.slug}`;
                 room = rooms[session.roomId]
             }
             tableCell = {
@@ -59,7 +59,7 @@ function buildSchedule()
                 let speaker = speakers[id];
                 tableCell.speakers.push({
                     name: speaker.fullName,
-                    link: `/2019/speakers/#${speaker.slug}`,
+                    link: `/speakers/#${speaker.slug}`,
                 });
             }
             tableRow.push(tableCell);

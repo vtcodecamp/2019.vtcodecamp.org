@@ -50,15 +50,11 @@
     
     <nav id="navHeader" class="header">
         <ul id="navButtons" class="nav-buttons">
-            <li><a href="/" class='code home {{ "active" if "/" == page.url }}'>Home</a></li>
+            <li><a href="/" class='code home {{ "active" if "/" == page.url }}'>2019 Home</a></li>
             {# change @media (max-width: 670px) to 740px when we add schedule back #}
-            <li><a href="/2019/schedule/" class='code {{ "active" if "/schedule/" in page.url }}'>Schedule</a></li>
-            <li><a href="/2019/sessions/" class='code {{ "active" if "/sessions/" in page.url }}'>Sessions</a></li>
-            <li><a href="/2019/speakers/" class='code {{ "active" if "/speakers/" in page.url }}'>Speakers</a></li>
-            <li><a href="/parking/" class='code {{ "active" if "/parking/" in page.url }}'>Parking</a></li>
-            <li><a href="/conduct/" class='code {{ "active" if "/conduct/" in page.url }}'>Conduct</a></li>
-            <li><a href="/diversity/" class='code {{ "active" if "/diversity/" in page.url }}'>Diversity</a></li>
-            <li><a href="/sponsor/" class='code {{ "active" if "/sponsor/" in page.url }}'>Sponsor</a></li>
+            <li><a href="/schedule/" class='code {{ "active" if "/schedule/" in page.url }}'>Schedule</a></li>
+            <li><a href="/sessions/" class='code {{ "active" if "/sessions/" in page.url }}'>Sessions</a></li>
+            <li><a href="/speakers/" class='code {{ "active" if "/speakers/" in page.url }}'>Speakers</a></li>
         </ul>
         <a href="#footer-nav" id="navToggle" class='nav-toggle' 
            aria-hidden="true" > </a>
@@ -76,6 +72,14 @@
 
     <main class="content">
         
+        <section class="main">
+            <div class="section-content">
+                <div class="passed-notice">
+                    This event has passed.  <a href="https://www.vtcodecamp.org">Find the latest Vermont Code Camp info here</a>.
+                </div>
+            </div>
+        </section>
+
         {{ content | safe }}
     
     </main>
@@ -86,15 +90,11 @@
         
         <ul id="footer-nav" class="nav-links">
             <li><a href="#header">Back to top</a></li>
-            <li><a href="/">Home</a></li>
-            <li><a href="/conduct/">Conduct</a></li>
-            <li><a href="/diversity/">Diversity</a></li>
-            <li><a href="/sponsor/">Sponsor</a></li>
+            <li><a href="/">2019 Home</a></li>
+            <li><a href="/schedule/">Schedule</a></li>
+            <li><a href="/sessions/">Sessions</a></li>
+            <li><a href="/speakers/">Speakers</a></li>
 
-            {# <li><a href="/2019/schedule/">Schedule</a></li> #}
-            <li><a href="/2019/sessions/">Sessions</a></li>
-            <li><a href="/2019/speakers/">Speakers</a></li>
-            <li><a href="/parking/">Parking</a></li>
         </ul>
 
         <div class="copy-line">
