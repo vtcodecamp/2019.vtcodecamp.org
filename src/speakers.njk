@@ -1,8 +1,7 @@
 ---
 layout: default-layout.njk
-title:  "Speakers"
+title:  "2019 Speakers"
 meta_description: Read more about our amazing VT Code Camp speakers
-permalink: /2019/speakers/
 ---
 
 
@@ -53,7 +52,7 @@ permalink: /2019/speakers/
             <ul> 
             {% for sessionKey in speaker.sessions %}
                 {% set session = sessions[sessionKey.id] %}
-                <li><a href="/2019/sessions#{{ session.slug }}">{{ session.title }}</a></li>
+                <li><a href="/sessions#{{ session.slug }}">{{ session.title }}</a></li>
             {% endfor %}
             </ul>
         {% endif %}

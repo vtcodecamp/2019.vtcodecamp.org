@@ -152,7 +152,7 @@ nav.header a.nav-toggle {
 
 /* Media query width depends on number of nav bar elements.  */
 /* Test and change whenever adding/removing elements.        */
-@media (max-width: 740px) {
+@media (max-width: 401px) {
     ul.nav-buttons {
         padding: 0 2em 0 0;
     }
@@ -245,7 +245,8 @@ section.past-years ul {
 }
 
 section.sponsors,
-section.section-toc + section.main {
+section.section-toc + section.main,
+section.social {
     background: linear-gradient(#f5f5f5 0, #fff 150px, #fff 100%)
 }
 
@@ -503,16 +504,13 @@ footer a svg {
 
 footer .nav-links {
     display: grid;
-    grid-auto-flow: column;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 0.7em;
     max-width: 380px;
 }
 @media (min-width: 500px) {
     footer .nav-links {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
         max-width: 600px;
     }
     .nav-links li:nth-child(3), .nav-links li:nth-child(4) {
@@ -765,3 +763,12 @@ h2 .direct-link:hover {
 }
 @page :footer {color: #fff}
 @page :header {color: #fff}
+
+.passed-notice {
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    background: #ffffdc;
+    border: 1px solid #eaea7c;
+    border-radius: 6px;
+}
