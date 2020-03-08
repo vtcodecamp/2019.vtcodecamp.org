@@ -1,8 +1,10 @@
 # VT Code Camp 2019 Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ef1b18a7-e5fd-4cb6-aa6e-f37a9a87369b/deploy-status)](https://app.netlify.com/sites/vtcodecamp2019/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/60cb74ae-9fc1-46be-8ba9-54ee8c2269c5/deploy-status)](https://app.netlify.com/sites/vtcodecamp2019/deploys)
 
-* **Production site**: `https://www.vtcodecamp.com/`
+This is the repo for the VT Code Camp 2019 archive website.  The main VT Code Camp website repo is here: [vtcodecamp/www.vtcodecamp.org](https://github.com/vtcodecamp/www.vtcodecamp.org)
+
+* **Production site**: `https://2019.vtcodecamp.com/`
 * **Deploy Previews**: `https://deploy-preview-{PR#}--vtcodecamp2019.netlify.com/`
 * **Branch Deploys**: `https://{branch-name}--vtcodecamp2019.netlify.com/`
 
@@ -27,21 +29,7 @@
 ```bash
 npm run build             # runs `npx eleventy` to build the site
 npm run serve             # builds site + serves `_site` directory
-npm run update-data       # gets sessionize data and updates _data directory
-npm run update-and-build  # gets new sessionize data and builds site
 ```
-
-## Build Workflow / Interface Diagram
-
-![diagram](src/assets/BuildWorkflowDiagram.png)
-
-## Site Winterization
-
-Leading up to, and for a while after the event, we set the Netlify build command to `npm run update-and-build` in the `netlify.toml` file.  This pulls the latest data from Sessionize at build time since the schedule, session descriptions, and speaker info can change.  We also set up a Zapier job to rebuild the site on a schedule via webhook.  Sessionize data stops changing once the event has been over for a little while.  At that point we stop the scheduled, live rebuilds.  Since we do this in the fall, we call it _winterization_ 😉.  Here are the steps:
-
-1. Run `npm run update-data` and commit all data file changes
-2. Change build command in `netlify.toml` to `npm run build` so Netlify will no longer update data from Sessionize
-3. Disable the Zapier task
 
 ## File Structure
 
@@ -67,46 +55,9 @@ Leading up to, and for a while after the event, we set the Netlify build command
 ├── .eleventy.js          # config information for 11ty
 ├── .gitignore            # ignored files in git
 ├── netlify.toml          # deploy settings for netlify
-├── resources.md          # helpful links
 └── readme.md             # 🟊 [You Are Here]
 ```
 
-## YAML FrontMatter
-
-Data can be added to the beginning of a page and leveraged in the templating process.  The following fields are commonly used by the layout page:
-
-```yaml
----
-layout: default-layout.njk
-title:  page title and header element
-meta_description: description will show up in meta tags
----
-```
-
-## Sponsor Logo Workflow
-
-* Add sponsor info to `sponsors.json`
-* Start with `scale:100` and run project locally, value can be adjusted (`70...150`) to maintain consistent visual weight in each category
-* Logo should have an transparency channel for non-design elements (background)
-  * If it doesn't, add an alpha channel, and remove background with magic selector using any of the following programs: 
-    * [paint.net](https://www.getpaint.net/)
-    * [gimp](https://www.gimp.org/)
-    * [affinity designer](https://affinity.serif.com/en-us/designer/)
-    * any other tools (lots available)
-* Compress Image
-  * Raster
-    1. Whatever the screen resulting resolution, the logo should be resized down to double that resolution for retina displays
-    2. Use [ImageOptim](https://imageoptim.com/mac), [Compressor.io](https://compressor.io/), or [Squoosh](https://squoosh.app/)
-  * SVG
-    * Use [SVGOmg](https://jakearchibald.github.io/svgomg/)
-  * Note: At some point we may try to bake this into the build process if we can get node based CLIs for each optimization.  Netlify is setup to perform non-lossy [asset optimization](https://www.netlify.com/blog/2019/08/05/control-your-asset-optimization-settings-from-netlify.toml/), but there's still a lot of other more opinionated optimizations.
-
-## Resources
-
-Checkout [resources.md](resources.md) for a bunch of docs, links, google search results that helped get us to the point where we are today.  Often each resource links lives within the same commit where that feature was being worked on, so you can see a real example of how that snippet was actually implemented.
-
 ## Contributing
 
-Thanks for your interest in contributing! There are many ways to contribute to this project.
-
-Get started with [contributing.md](contributing.md)
+Thanks for your interest in contributing! Please see the main repo [for info on contributing](https://github.com/vtcodecamp/www.vtcodecamp.org/blob/master/contributing.md).
